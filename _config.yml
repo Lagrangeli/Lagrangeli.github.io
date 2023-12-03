@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Homepage"
 description              : # "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : # "Lagrangeli/Lagrangeli.github.io"
+repository               : "Lagrangeli/Lagrangeli.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,7 +24,7 @@ author:
   name             : "Zhenyang Li (李镇洋)"
   avatar           : "images/self-icon.png"
   bio              : "23 Fall PhD postgraduate"
-  location         : "Beijing, China [Home] & Hong Kong (China) [Current]"
+  location         : "Hong Kong (China) [Current]"
   employer         : "Yifan (Evan) Peng @ HKU"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=r9f4mLMAAAAJ&hl=en"
