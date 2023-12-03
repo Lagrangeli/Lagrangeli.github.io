@@ -25,7 +25,7 @@ My research interests encompass Computer Vision (3D), Computer Graphics (Renderi
 
 You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+You can also use google scholar badge <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
