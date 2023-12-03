@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Ph.D. student enrolled in the Fall 2023 semester in the Department of Electrical and Electronic Engineering at [The University of Hong Kong (HKU)](https://www.hku.hk/). Prior to joining HKU, I pursued my Master's (MS) degree in the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/), specializing in big data engineering and exploring the field of computer vision for a duration of three years. I also hold a Bachelor's (BS) degree in Electronic and Information Engineering from the School of Electronic and Optical Engineering at [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/).
+I am currently a Ph.D. student enrolled in the Fall 2023 semester in the Department of Electrical and Electronic Engineering at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">. Prior to joining HKU, I pursued my Master's (MS) degree in the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, specializing in big data engineering and exploring the field of computer vision for a duration of three years. I also hold a Bachelor's (BS) degree in Electronic and Information Engineering from the School of Electronic and Optical Engineering at [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
 
-I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University. <img src="images/favicon-32x32.png" style="width: 1em;">
+I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
 
 My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am excited to share my academic achievements from the year 2022, available on [Google Scholar](https://scholar.google.com/citations?user=r9f4mLMAAAAJ&hl=en). Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation.
 
@@ -30,7 +30,7 @@ You can also use google scholar badge <a href='https://scholar.google.com/citati
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 
-# 📝 Publications 
+# 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -46,17 +46,27 @@ You can also use google scholar badge <a href='https://scholar.google.com/citati
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
+- ***NeurIPS 2022*** [Alignment-guided Temporal Attention for Video Action Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf), Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
+- 
+
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2020.04* The high-energy particle collision classification challenge' on Beindata (7/256).
+- *2019.05* American College Student Mathematical Modeling Contest H (Second Prize).
+- *2017.12* TE Connectivity Scholarship (1/600).
+- *2017.11* Beijing SMC Education Foundation Outstanding Scholarship Special Award (1/600).
+- *2017.11* National mathematics competition for college students (Second prize).
+- ** .
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2023.09 - now*, Ph.D., The University of Hong Kong, Hong Kong (China).
+- *2020.09 - 2023.07*, Master, Tsinghua University, Beijing.
+- *2016.09 - 2020.07*, Undergraduate, Nanjing University of Science and Technology, Nanjing, Jiangsu.
+- *2010.09 - 2016.07*, Junior and Senior high school, Beijing National Day School, Beijing.
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2022.07 - 2022.11*, Research Intern, Megvii Technology Limited, Beijing, China. Visual odometer, NeRF, MVS, Feature matching.
+- *2021.11 - 2022.05*, Research Intern, Microsoft Research Asia, Beijing, China. Video-understanding, Learning-based Computer Vision.
+- *2021.03 - 2021.09*, Artificial Intelligence Researcher, Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China. 3D Reconstruction, Visual Localication.
+
+# 💬 Invited Talks
+- *2021.06*, template.
