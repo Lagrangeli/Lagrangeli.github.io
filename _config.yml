@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Homepage"
 description              : # "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "Lagrangeli/lagrangeli.github.io"
+repository               : "Lagrangeli/Lagrangeli.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -27,7 +27,7 @@ author:
   location         : "Hong Kong (China) [Current]"
   employer         : "Yifan (Evan) Peng @ HKU"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=r9f4mLMAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=r9f4mLMAAAAJ"
   email            : "lagrangelzy@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
