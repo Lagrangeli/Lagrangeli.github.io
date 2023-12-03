@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: # "Career and Passion Intersect: Zhenyang Li's Professional Hub"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,14 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am currently a Ph.D. student enrolled in the Fall 2023 semester in the Department of Electrical and Electronic Engineering at [The University of Hong Kong (HKU)](https://www.hku.hk/). Prior to joining HKU, I pursued my Master's (MS) degree in the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/), specializing in big data engineering and exploring the field of computer vision for a duration of three years. I also hold a Bachelor's (BS) degree in Electronic and Information Engineering from the School of Electronic and Optical Engineering at [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University. <img src="images/favicon-32x32.png" style="width: 1em;">
 
+My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am excited to share my academic achievements from the year 2022, available on [Google Scholar](https://scholar.google.com/citations?user=r9f4mLMAAAAJ&hl=en). Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation.
+
+You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests.
+
+My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 
 # 📝 Publications 
 
