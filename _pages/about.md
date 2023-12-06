@@ -33,7 +33,7 @@ My research interests encompass Computer Vision (3D), Computer Graphics (Renderi
 - *2023.05*: I get a chance to give a guest lecture in HKU by Yifan (Evan) Peng.
 
 # 📝 Publications
-- <div class="badge">NeurIPS 2022</div> [Alignment-guided Temporal Attention for Video Action Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf), Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
+- [**NeurIPS 2022**] <div class="badge">NeurIPS 2022</div> [Alignment-guided Temporal Attention for Video Action Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf), Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
 - [**WWW 2023**] [Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856), **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
 - [**ACCV 2022**] [Adaptive Range guided Multi-view Depth Estimation with Normal Ranking Loss](https://openaccess.thecvf.com/content/ACCV2022/papers/Ding_Adaptive_Range_guided_Multi-view_Depth_Estimation_with_Normal_Ranking_Loss_ACCV_2022_paper.pdf), Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Kai Zhang, Zhiheng Li, Wensen Feng.
 - [**ICIP 2022**] [Enhancing multi-view stereo with contrastive matching and weighted focal loss](https://arxiv.org/pdf/2206.10360), Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Zhiheng Li, Kai Zhang.
