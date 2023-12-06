@@ -23,15 +23,15 @@ I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.e
 
 My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am thrilled to share my academic achievements from the year 2022, available on [Google Scholar](https://scholar.google.com/citations?user=r9f4mLMAAAAJ&hl=en). Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation, with the applications in VR/AR/MR.
 
-You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests.
+<!-- You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests.
 
-You can also use google scholar badge <a href='https://scholar.google.com/citations?hl=en&user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+You can also use google scholar badge <a href='https://scholar.google.com/citations?hl=en&user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- *2023.09*: &nbsp;🎉🎉 I join WeLightLab as a Ph.D. researcher in HKU!
+- *2023.05*: I get a chance to give a guest lecture in HKU by Yifan (Evan) Peng.
 
 # 📝 Publications
-
 - [**NeurIPS 2022**] [Alignment-guided Temporal Attention for Video Action Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf), Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
 - [**WWW 2023**] [Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856), **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
 - [**ACCV 2022**] [Adaptive Range guided Multi-view Depth Estimation with Normal Ranking Loss](https://openaccess.thecvf.com/content/ACCV2022/papers/Ding_Adaptive_Range_guided_Multi-view_Depth_Estimation_with_Normal_Ranking_Loss_ACCV_2022_paper.pdf), Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Kai Zhang, Zhiheng Li, Wensen Feng.
@@ -70,4 +70,4 @@ You can also use google scholar badge <a href='https://scholar.google.com/citati
 - *2021.03 - 2021.09*, Artificial Intelligence Researcher, Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China. 3D Reconstruction, Visual Localication.
 
 # 💬 Invited Talks
-- *2021.06*, template.
+- *2023.05*, HKU ELEC4544 AI and Deep Learning Course Guest Speaker.
