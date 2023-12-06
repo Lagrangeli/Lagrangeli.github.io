@@ -56,7 +56,6 @@ You can also use google scholar badge <a href='https://scholar.google.com/citati
 - *2017.12* TE Connectivity Scholarship (1/600).
 - *2017.11* Beijing SMC Education Foundation Outstanding Scholarship Special Award (1/600).
 - *2017.11* National mathematics competition for college students (Second prize).
-- ** .
 
 # 📖 Educations
 - *2023.09 - now*, Ph.D., The University of Hong Kong, Hong Kong (China).
