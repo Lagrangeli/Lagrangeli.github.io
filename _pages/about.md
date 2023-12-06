@@ -61,7 +61,7 @@ You can also use google scholar badge <a href='https://scholar.google.com/citati
 - *2023.09 - now*, Ph.D., The University of Hong Kong, Hong Kong (China).
 - *2020.09 - 2023.07*, Master, Tsinghua University, Beijing.
 - *2016.09 - 2020.07*, Undergraduate, Nanjing University of Science and Technology, Nanjing, Jiangsu.
-- *2010.09 - 2016.07*, Junior and Senior high school, Beijing National Day School, Beijing.
+<!-- - *2010.09 - 2016.07*, Junior and Senior high school, Beijing National Day School, Beijing. -->
 
 # 💻 Internships
 - *2022.07 - 2022.11*, Research Intern, Megvii Technology Limited, Beijing, China. Visual odometer, NeRF, MVS, Feature matching.
