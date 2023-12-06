@@ -21,21 +21,19 @@ I am currently a Ph.D. student enrolled in the Fall 2023 semester in the Departm
 
 I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
 
-My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am thrilled to share my academic achievements from the year 2022, available on [Google Scholar](https://scholar.google.com/citations?user=r9f4mLMAAAAJ). Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation, with the applications in VR/AR/MR.
+My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am thrilled to share my academic achievements from the year 2022, available on <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation, with the applications in VR/AR/MR.
 
-You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests.
+<!-- You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests. -->
 
 <!-- <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><strong><span id='total_cit'>xxx</span></strong></a> -->
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a>. -->
-
-You can also use google scholar badge <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 🔥 News
 - *2023.09*: &nbsp;🎉🎉 I join WeLightLab as a Ph.D. researcher in HKU!
 - *2023.05*: I get a chance to give a guest lecture in HKU by Yifan (Evan) Peng.
 
 # 📝 Publications
-- [**NeurIPS 2022**] [Alignment-guided Temporal Attention for Video Action Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf), Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
+- <code class="language-plaintext highlighter-rouge">"NeurIPS 2022"</code> [Alignment-guided Temporal Attention for Video Action Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf), Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
 - [**WWW 2023**] [Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856), **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
 - [**ACCV 2022**] [Adaptive Range guided Multi-view Depth Estimation with Normal Ranking Loss](https://openaccess.thecvf.com/content/ACCV2022/papers/Ding_Adaptive_Range_guided_Multi-view_Depth_Estimation_with_Normal_Ranking_Loss_ACCV_2022_paper.pdf), Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Kai Zhang, Zhiheng Li, Wensen Feng.
 - [**ICIP 2022**] [Enhancing multi-view stereo with contrastive matching and weighted focal loss](https://arxiv.org/pdf/2206.10360), Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Zhiheng Li, Kai Zhang.
