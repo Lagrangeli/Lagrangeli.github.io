@@ -21,11 +21,11 @@ I am currently a Ph.D. student enrolled in the Fall 2023 semester in the Departm
 
 I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
 
-My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am thrilled to share my academic achievements from the year 2022, available on [Google Scholar](https://scholar.google.com/citations?user=r9f4mLMAAAAJ&hl=en). Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation, with the applications in VR/AR/MR.
+My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am thrilled to share my academic achievements from the year 2022, available on [Google Scholar](https://scholar.google.com/citations?user=r9f4mLMAAAAJ). Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation, with the applications in VR/AR/MR.
 
 You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests.
 
-You can also use google scholar badge <a href='https://scholar.google.com/citations?hl=en&user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+You can also use google scholar badge <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 🔥 News
 - *2023.09*: &nbsp;🎉🎉 I join WeLightLab as a Ph.D. researcher in HKU!
