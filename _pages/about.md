@@ -57,6 +57,7 @@ Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon
 </div> -->
 
 # 🎖 Honors and Awards
+- *2023.12* Guangdong-Hong Kong-Macao Greater Bay Area (Huangpu) International Algorithm Case Competition [Three-dimensional reconstruction of objects using neural implicit representation], Final champion.
 - *2020.04* The high-energy particle collision classification challenge' on Beindata (7/256).
 - *2019.05* American College Student Mathematical Modeling Contest H (Second Prize).
 - *2017.12* TE Connectivity Scholarship (1/600).
