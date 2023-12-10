@@ -79,5 +79,5 @@ Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon
 - *2023.05*, HKU ELEC4544 AI and Deep Learning Course Guest Speaker.
 
 <!-- [](https://komarev.com/ghpvc/?username=Lagrangeli) -->
-![visitors](https://visitor-badge.glitch.me/badge?page_id=lagrangeli.github.io)
+<!-- [visitors](https://visitor-badge.glitch.me/badge?page_id=lagrangeli.github.io) -->
 
