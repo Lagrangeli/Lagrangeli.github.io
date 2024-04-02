@@ -59,7 +59,6 @@ author:
   wikipedia        :
   twitter          : "https://twitter.com/ZhenyangLi12"
 
-
 # Reading Files
 include:
   - .htaccess
