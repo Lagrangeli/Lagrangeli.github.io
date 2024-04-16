@@ -23,7 +23,7 @@ Prior to joining HKU, I pursued my Master's (MS) degree in the Department of Aut
 
 I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
 
-My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am thrilled to share my academic achievements from the year 2022, available on <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. 
+My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. I am thrilled to share my academic achievements from the year 2022, available on <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FLagrangeli%2FLagrangeli.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" /></a>. 
 
 Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation, with the applications in VR/AR/MR.
 
