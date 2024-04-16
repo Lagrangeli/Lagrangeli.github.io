@@ -35,7 +35,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/profile.php?id=100092909247294&mibextid=LQQJ4d"
+  facebook         : "profile.php?id=100092909247294&mibextid=LQQJ4d"
   foursquare       :
   github           : "Lagrangeli" # e.g., "github username"
   google_plus      :
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "www.linkedin.com/in/zhenyang-li-875a69181" # e.g., "linkedin username"
+  linkedin         : "zhenyang-li-875a69181" # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/0000-0002-4688-8354" # e.g., "https://orcid.org/xxxx"
   pinterest        :
@@ -57,7 +57,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  twitter          : "https://twitter.com/ZhenyangLi12"
+  twitter          : "ZhenyangLi12"
 
 # Reading Files
 include:
