@@ -39,6 +39,7 @@ Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon
 
 # 📝 Publications
 <!-- - <img alt="Static Badge" src="https://img.shields.io/badge/NeurIPS_2022-blue"> -->
+- [**Arxiv 2024**] [Point Resampling and Ray Transformation Aid to Editable NeRF Models](https://arxiv.org/abs/2405.07306), **Zhenyang Li\***, Zilong Chen*, Feifan Qu, Mingqing Wang, Yizhou Zhao, Kai Zhang, Yifan Peng.
 - [**WWW 2023**] [Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856), **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
 - [**ICIP 2023**] [Unsupervised Anomaly Detection with Local-Sensitive VQVAE and Global-Sensitive Transformers](https://arxiv.org/pdf/2303.17505), Mingqing Wang, Jiawei Li, **Zhenyang Li**, Chengxiao Luo, Bin Chen, Shu-Tao Xia, Zhi Wang.
 - [**NeurIPS 2022**] [Alignment-guided Temporal Attention for Video Action Recognition](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf), Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
