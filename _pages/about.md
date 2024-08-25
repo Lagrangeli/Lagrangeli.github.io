@@ -39,6 +39,7 @@ Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon
 
 # 📝 Publications
 <!-- - <img alt="Static Badge" src="https://img.shields.io/badge/NeurIPS_2022-blue"> -->
+- [**MICCAI 2024**] [CryoSAM: Training-free CryoET Tomogram Segmentation with Foundation Models](https://www.arxiv.org/abs/2407.06833), Yizhou Zhao, Hengwei Bian, Michael Mu, Mostofa R. Uddin, **Zhenyang Li**, Xiang Li, Tianyang Wang, Min Xu.
 - [**Arxiv 2024**] [Point Resampling and Ray Transformation Aid to Editable NeRF Models](https://arxiv.org/abs/2405.07306), **Zhenyang Li\***, Zilong Chen*, Feifan Qu, Mingqing Wang, Yizhou Zhao, Kai Zhang, Yifan Peng.
 - [**WWW 2023**] [Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856), **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
 - [**ICIP 2023**] [Unsupervised Anomaly Detection with Local-Sensitive VQVAE and Global-Sensitive Transformers](https://arxiv.org/pdf/2303.17505), Mingqing Wang, Jiawei Li, **Zhenyang Li**, Chengxiao Luo, Bin Chen, Shu-Tao Xia, Zhi Wang.
@@ -76,6 +77,11 @@ Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon
 - *2022.07 - 2022.11*, Research Intern, Megvii Technology Limited, Beijing, China. Visual odometer, NeRF, MVS, Feature matching.
 - *2021.11 - 2022.05*, Research Intern, Microsoft Research Asia, Beijing, China. Video-understanding, Learning-based Computer Vision.
 - *2021.03 - 2021.09*, Artificial Intelligence Researcher, Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China. 3D Reconstruction, Visual Localication.
+
+# 🧑‍⚖️ Official Reviewer
+- *2024.08*, ICLR 2025 Reviewer.
+- *2024.08*, 3DV 2025, Reviewer.
+- *2024.05*, NeurIPS 2024 Reviewer.
 
 # 💬 Invited Talks
 - *2023.05*, HKU ELEC4544 AI and Deep Learning Course Guest Speaker.
