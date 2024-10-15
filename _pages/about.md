@@ -23,10 +23,12 @@ Prior to joining HKU, I pursued my Master's (MS) degree in the Department of Aut
 
 I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
 
-My research interests encompass Computer Vision (3D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. 
+My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display. 
 <!-- I am thrilled to share my academic achievements from the year 2022, available on <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FLagrangeli%2FLagrangeli.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" /></a>. -->
 
-Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation, with the applications in VR/AR/MR.
+Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation, with the applications in VR/AR/MR.
+
+<!-- Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation,  -->
 
 <!-- You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests. -->
 
@@ -79,8 +81,10 @@ Currently, my work focuses on Neural Radiance Fields (NeRFs), AI generation upon
 - *2021.03 - 2021.09*, Artificial Intelligence Researcher, Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China. 3D Reconstruction, Visual Localication.
 
 # 🧑‍⚖️ Official Reviewer
+- *2024.09*, AISTATS 2025 Reviewer.
+  
 - *2024.08*, ICLR 2025 Reviewer.
-- *2024.08*, 3DV 2025, Reviewer.
+- *2024.08*, 3DV 2025 Reviewer.
 - *2024.05*, NeurIPS 2024 Reviewer.
 
 # 💬 Invited Talks
