@@ -82,7 +82,6 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 
 # 🧑‍⚖️ Official Reviewer
 - *2024.09*, AISTATS 2025 Reviewer.
-  
 - *2024.08*, ICLR 2025 Reviewer.
 - *2024.08*, 3DV 2025 Reviewer.
 - *2024.05*, NeurIPS 2024 Reviewer.
