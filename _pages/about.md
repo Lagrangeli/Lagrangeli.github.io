@@ -81,6 +81,7 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - *2021.03 - 2021.09*, Artificial Intelligence Researcher, Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China. 3D Reconstruction, Visual Localication.
 
 # 🧑‍⚖️ Official Reviewer
+- *2024.12*, ICML 2025 Reviewer.
 - *2024.09*, AISTATS 2025 Reviewer.
 - *2024.08*, ICLR 2025 Reviewer.
 - *2024.08*, 3DV 2025 Reviewer.
