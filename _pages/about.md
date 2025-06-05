@@ -41,10 +41,10 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 
 # 📝 Publications
 <!-- - <img alt="Static Badge" src="https://img.shields.io/badge/NeurIPS_2022-blue"> -->
-- [**Under review**] [ORBIT: Overlapping Region-Based Image Feature Matching Technique](xxx) Qi Luo*, **Zhenyang Li***, Linsong Xue, Haojie Wu, Yifan Peng, Kai Zhang.
+- [**Under review**] [ORBIT: Overlapping Region-Based Image Feature Matching Technique](xxx) Qi Luo*, **Zhenyang Li\***, Linsong Xue, Haojie Wu, Yifan Peng, Kai Zhang.
 - [**Under review**] [Toward Material-Agnostic System Identification from Videos](xxx) Yizhou Zhao, Haoyu Chen, Chunjiang Liu, **Zhenyang Li**, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, Min Xu.
-- [**Under review**] [Enhanced Velocity Field Modeling for Gaussian Video Reconstruction] **Zhenyang Li***, Xiaoyang Bai*, Tongchen Zhang, Weiwei Xu, Yifan Peng.
-- [**Under review**] [Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians](xxx) Xiaoyang Bai*, Zhenyang Li*, Weiwei Xu, Edmund Y. Lam, Yifan Peng.
+- [**Under review**] [Enhanced Velocity Field Modeling for Gaussian Video Reconstruction](xxx) **Zhenyang Li\***, Xiaoyang Bai*, Tongchen Zhang, Weiwei Xu, Yifan Peng.
+- [**Under review**] [Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians](xxx) Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.
 - [**Optics Letter**] [3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning](https://opg-optica-org.eproxy.lib.hku.hk/ol/viewmedia.cfm?uri=ol-50-4-1188&html=true) Wenbin Zhou, Feifan Qu, Xiangyu Meng, **Zhenyang Li**, Yifan Peng
 - [**MICCAI 2024**] [CryoSAM: Training-free CryoET Tomogram Segmentation with Foundation Models](https://www.arxiv.org/abs/2407.06833), Yizhou Zhao, Hengwei Bian, Michael Mu, Mostofa R. Uddin, **Zhenyang Li**, Xiang Li, Tianyang Wang, Min Xu.
 - [**Arxiv 2024**] [Point Resampling and Ray Transformation Aid to Editable NeRF Models](https://arxiv.org/abs/2405.07306), **Zhenyang Li\***, Zilong Chen*, Feifan Qu, Mingqing Wang, Yizhou Zhao, Kai Zhang, Yifan Peng.
