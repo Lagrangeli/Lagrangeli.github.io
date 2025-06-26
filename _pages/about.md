@@ -43,7 +43,7 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 <!-- - <img alt="Static Badge" src="https://img.shields.io/badge/NeurIPS_2022-blue"> -->
 - [**Under review**] [EventTracer: Fast Path Tracing-based Event Stream Rendering](xxx) **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.
 - [**Under review**] [ORBIT: Overlapping Region-Based Image Feature Matching Technique](xxx) Qi Luo*, **Zhenyang Li\***, Linsong Xue, Haojie Wu, Yifan Peng, Kai Zhang.
-- [**Under review**] [Toward Material-Agnostic System Identification from Videos](xxx) Yizhou Zhao, Haoyu Chen, Chunjiang Liu, **Zhenyang Li**, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, Min Xu.
+- [**ICCV 2025**] [Toward Material-Agnostic System Identification from Videos](xxx) Yizhou Zhao, Haoyu Chen, Chunjiang Liu, **Zhenyang Li**, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, Min Xu.
 - [**Under review**] [Enhanced Velocity Field Modeling for Gaussian Video Reconstruction](xxx) **Zhenyang Li\***, Xiaoyang Bai*, Tongchen Zhang, Weiwei Xu, Yifan Peng.
 - [**Under review**] [Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians](xxx) Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.
 - [**Optics Letter**] [3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning](https://opg-optica-org.eproxy.lib.hku.hk/ol/viewmedia.cfm?uri=ol-50-4-1188&html=true) Wenbin Zhou, Feifan Qu, Xiangyu Meng, **Zhenyang Li**, Yifan Peng
