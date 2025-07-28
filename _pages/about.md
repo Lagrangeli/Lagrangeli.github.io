@@ -44,7 +44,7 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 <!-- - [**Under review**] [EventTracer: Fast Path Tracing-based Event Stream Rendering](xxx) **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng. -->
 - [**Under review**] [ORBIT: Overlapping Region-Based Image Feature Matching Technique](xxx) Qi Luo*, **Zhenyang Li\***, Linsong Xue, Haojie Wu, Yifan Peng, Kai Zhang.
 - [**ICCV 2025**] [Toward Material-Agnostic System Identification from Videos](xxx) Yizhou Zhao, Haoyu Chen, Chunjiang Liu, **Zhenyang Li**, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, Min Xu.
-- [**Under review**] [Enhanced Velocity Field Modeling for Gaussian Video Reconstruction](xxx) **Zhenyang Li\***, Xiaoyang Bai*, Tongchen Zhang, Weiwei Xu, Yifan Peng.
+- [**ISMAR 2025**] [Enhanced Velocity Field Modeling for Gaussian Video Reconstruction](xxx) **Zhenyang Li\***, Xiaoyang Bai*, Tongchen Zhang, Pengfei Shen, Weiwei Xu, Yifan Peng.
 - [**Under review**] [Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians](xxx) Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.
 - [**Optics Letter**] [3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning](https://opg-optica-org.eproxy.lib.hku.hk/ol/viewmedia.cfm?uri=ol-50-4-1188&html=true) Wenbin Zhou, Feifan Qu, Xiangyu Meng, **Zhenyang Li**, Yifan Peng
 - [**MICCAI 2024**] [CryoSAM: Training-free CryoET Tomogram Segmentation with Foundation Models](https://www.arxiv.org/abs/2407.06833), Yizhou Zhao, Hengwei Bian, Michael Mu, Mostofa R. Uddin, **Zhenyang Li**, Xiang Li, Tianyang Wang, Min Xu.
@@ -87,7 +87,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - *2021.03 - 2021.09*, Artificial Intelligence Researcher, Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China. 3D Reconstruction, Visual Localication.
 
 # 🧑‍⚖️ Official Reviewer
-- *2025.06* ACML 2025, NeurIPS 2025 Datasets and Benchmarks Track
+- *2025.07*, SIGGRAPH Asia 2025 (Hong Kong) XR Tertiary
+- *2025.06*, ACML 2025, NeurIPS 2025 Datasets and Benchmarks Track
 - *2025.04*, ICCV 2025, ISMAR 2025 
 - *2025.02*, ACM MM 2025, NeurIPS 2025.
 - *2024.12*, ICML 2025.
