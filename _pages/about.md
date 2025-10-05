@@ -39,12 +39,12 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - *2025.08*: &nbsp;� One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
 - *2025.07*: &nbsp;🏆 One paper on **4D Gaussian Splatting** is accepted to **ISMAR 2025**! This work focuses on enhanced velocity field modeling for video reconstruction.
 - *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
-- *2024.07*: &nbsp;🏆 One paper on **CryoET Segmentation** with Foundation Models is accepted to **MICCAI 2024**.
+<!-- - *2024.07*: &nbsp;🏆 One paper on **CryoET Segmentation** with Foundation Models is accepted to **MICCAI 2024**.
 - *2024.05*: &nbsp;� Preprint on **Editable NeRF** (Point Resampling and Ray Transformation) is released on arXiv.
 - *2023.09*: &nbsp;🎉🎉 I join WeLightLab@HKU as a Ph.D. researcher!
 - *2023.05*: &nbsp;🎓 I get a chance to give a guest lecture in HKU by Yifan (Evan) Peng.
 - *2023.03*: &nbsp;🏆 One paper on **Controllable Recommender System** is accepted to **WWW 2023**.
-- *2022.09*: &nbsp;🏆 One paper on **Video Action Recognition** is accepted to **NeurIPS 2022**!
+- *2022.09*: &nbsp;🏆 One paper on **Video Action Recognition** is accepted to **NeurIPS 2022**! -->
 
 # 📝 Publications
 
