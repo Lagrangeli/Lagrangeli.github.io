@@ -1,6 +1,8 @@
 ---
 permalink: /
-title: # "Career and Passion Intersect: Zhenyang Li's Professional Hub"
+title: # "Career and Pa- *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
+
+# 📝 Publicationsersect: Zhenyang Li's Professional Hub"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
