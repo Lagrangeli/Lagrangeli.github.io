@@ -25,9 +25,67 @@ I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.e
 
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
 
-Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation, with applications in VR/AR/MR. I am also leading projects related to Visual-Language-(Action)-Models and exploring physically correct video generation.
-
 **📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-89%20citations-4285F4?logo=googlescholar&logoColor=white&style=flat"></a>
+
+<!-- <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 25px 0; color: white; box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);">
+  <h3 style="color: white; margin-top: 0; text-align: center; font-size: 1.5em;">🎯 Research at a Glance</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; text-align: center; margin-top: 20px;">
+    <div>
+      <div style="font-size: 2.5em; font-weight: bold; margin-bottom: 5px;">13+</div>
+      <div style="opacity: 0.95; font-size: 1.1em;">Publications</div>
+    </div>
+    <div>
+      <div style="font-size: 2.5em; font-weight: bold; margin-bottom: 5px;">89</div>
+      <div style="opacity: 0.95; font-size: 1.1em;">Citations</div>
+    </div>
+    <div>
+      <div style="font-size: 2.5em; font-weight: bold; margin-bottom: 5px;">5</div>
+      <div style="opacity: 0.95; font-size: 1.1em;">H-index</div>
+    </div>
+    <div>
+      <div style="font-size: 2.5em; font-weight: bold; margin-bottom: 5px;">12+</div>
+      <div style="opacity: 0.95; font-size: 1.1em;">Conferences Reviewed</div>
+    </div>
+  </div>
+</div> -->
+
+## 🔬 Research Focus
+
+My research interests lie at the intersection of **Computer Vision**, **Computer Graphics**, and **Artificial Intelligence**. I focus on enabling machines to perceive, understand, and generate photorealistic 3D/4D visual content. Specifically, my work concentrates on the following areas:
+
+<div style="margin: 25px 0;">
+
+<div style="border-left: 4px solid #667eea; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #f8f9ff, #ffffff);">
+  <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D Reconstruction & Generation</h3>
+  <ul style="margin-bottom: 0;">
+    <li><strong>Neural Representations:</strong> Neural Radiance Fields (NeRF) and 3D Gaussian Splatting for high-fidelity scene modeling</li>
+    <li><strong>Dynamic Scenes:</strong> 4D reconstruction with enhanced velocity field modeling for video sequences</li>
+    <li><strong>Physics-based Generation:</strong> Material-agnostic system identification and physically correct video synthesis</li>
+    <li><strong>Event-based Vision:</strong> Event camera rendering and dynamic scene reconstruction using event streams</li>
+  </ul>
+</div>
+
+<div style="border-left: 4px solid #e91e63; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fff5f8, #ffffff);">
+  <h3 style="margin-top: 0; color: #e91e63;">🤖 Vision-Language & Multimodal AI</h3>
+  <ul style="margin-bottom: 0;">
+    <li><strong>Visual-Language-Action Models:</strong> Embodied AI for robotics and interactive systems</li>
+    <li><strong>Video Understanding:</strong> Temporal modeling and action recognition in dynamic scenes</li>
+    <li><strong>Cross-modal Learning:</strong> Bridging vision, language, and action spaces</li>
+  </ul>
+</div>
+
+<div style="border-left: 4px solid #764ba2; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fcf8ff, #ffffff);">
+  <h3 style="margin-top: 0; color: #764ba2;">🖼️ Computational Imaging & Holography</h3>
+  <ul style="margin-bottom: 0;">
+    <li><strong>Holographic Display:</strong> Computer-generated holography with camera-calibrated neural networks</li>
+    <li><strong>3D Imaging:</strong> Multi-view stereo, depth estimation, and 3D scene understanding</li>
+    <li><strong>Feature Matching:</strong> Overlapping region-based techniques for robust image correspondence</li>
+  </ul>
+</div>
+
+</div>
+
+---
 
 <span class='anchor' id='-news'></span>
 
