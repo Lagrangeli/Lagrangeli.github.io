@@ -221,7 +221,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 # 💻 Internships
 
-- 🏢 **Game AI Research Intern** | *Dec 2024 - Present*  
+- 🏢 **Game AI Research Intern** | *Dec 2025 - Present*  
   [**Tencent LIGHTSPEED STUDIOS**](https://www.lightspeed-studios.com/), Shenzhen, Guangdong, China  
   *Research Focus: Multimodal & 3D Content Generation and Simulation*
 
