@@ -1,0 +1,40 @@
+name: Update Google Scholar Stats
+
+on:
+  schedule:
+    # 每天 UTC 0点（北京时间早上8点）更新一次
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          cd google_scholar_crawler
+          pip install -r requirements.txt
+
+      - name: Update Google Scholar stats
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: |
+          cd google_scholar_crawler
+          python main.py
+          python update_badge.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Google Scholar stats" && git push)
+

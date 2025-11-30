@@ -27,6 +27,8 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation, with applications in VR/AR/MR. I am also leading projects related to Visual-Language-(Action)-Models and exploring physically correct video generation.
 
+**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-89%20citations-4285F4?logo=googlescholar&logoColor=white&style=flat"></a>
+
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
@@ -88,7 +90,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2024-b31b1b"> [**Point Resampling and Ray Transformation Aid to Editable NeRF Models**](https://arxiv.org/abs/2405.07306)  
   <div style="text-align: center; margin: 10px 0;">
-    <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/editable-nerf.jpg" alt="Editable NeRF Models" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+    <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/editable-nerf.jpg" 
+    alt="Editable NeRF Models" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
   **Zhenyang Li\***, Zilong Chen*, Feifan Qu, Mingqing Wang, Yizhou Zhao, Kai Zhang, Yifan Peng.
 
