@@ -1,9 +1,7 @@
 ---
 permalink: /
-title: # "Career and Pa- *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
-
-# 📝 Publicationsersect: Zhenyang Li's Professional Hub"
-excerpt: "About me"
+title: "Zhenyang Li's Academic Homepage"
+excerpt: "Ph.D. Student in Computer Vision and Graphics"
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,26 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Ph.D. student enrolled in the Fall 2023 semester in the Department of Electrical and Electronic Engineering at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">. 
+I am currently a Ph.D. student (since Fall 2023) in the Department of Electrical and Electronic Engineering at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">. 
 
-Prior to joining HKU, I pursued my Master's (MS) degree in the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, specializing in big data engineering and exploring the field of computer vision for a duration of three years. I also hold a Bachelor's (BS) degree in Electronic and Information Engineering from the School of Electronic and Optical Engineering at [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
+Prior to joining HKU, I received my M.S. degree in Big Data Engineering from the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, and my B.S. degree in Electronic and Information Engineering from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
 
-I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
+I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Prof. Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
 
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
-<!-- I am thrilled to share my academic achievements from the year 2022, available on <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FLagrangeli%2FLagrangeli.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" /></a>. -->
 
-Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation, with the applications in VR/AR/MR. I am also leading projects related to Visual-Language-(Action)-Models and exploring physically correct video generation.
-
-<!-- Neural Radiance Fields (NeRFs), AI generation upon Diffusion, and 3D Gaussian representation,  -->
-
-<!-- You can access my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). For more detailed information, refer to the sidebar links, and feel free to contact me if you have any inquiries or interests. -->
-
-<!-- <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><strong><span id='total_cit'>xxx</span></strong></a> -->
-<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a>. -->
+Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation, with applications in VR/AR/MR. I am also leading projects related to Visual-Language-(Action)-Models and exploring physically correct video generation.
 
 # 🔥 News
-- *2025.08*: &nbsp;� One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
+- *2025.08*: &nbsp;📄 One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
 - *2025.07*: &nbsp;🏆 One paper on **4D Gaussian Splatting** is accepted to **ISMAR 2025**! This work focuses on enhanced velocity field modeling for video reconstruction.
 - *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
 
@@ -56,10 +46,10 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://arxiv.org/abs/2508.18071)  
   **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.
 
-- <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> [**ORBIT: Overlapping Region-Based Image Feature Matching Technique**](xxx)  
+- <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> **ORBIT: Overlapping Region-Based Image Feature Matching Technique** *(Preprint Coming Soon)*  
   Qi Luo*, **Zhenyang Li\***, Linsong Xue, Haojie Wu, Yifan Peng, Kai Zhang.
 
-- <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> [**Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians**](xxx)  
+- <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> **Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians** *(Preprint Coming Soon)*  
   Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.
 
 ### 2024
@@ -89,18 +79,6 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - <img alt="ICIP" src="https://img.shields.io/badge/ICIP-2022-lightblue"> [**Enhancing multi-view stereo with contrastive matching and weighted focal loss**](https://arxiv.org/pdf/2206.10360)  
   Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Zhiheng Li, Kai Zhang.
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> -->
-
 # 🎖 Honors and Awards
 
 ### 🏆 Competitions
@@ -111,13 +89,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 
 - *2019.05* **Second Prize** 🥉, American College Student Mathematical Modeling Contest (MCM)
 
-### 💰 Scholarships
-- *2017.12* **TE Connectivity Scholarship** (Top 1/600)
-
-- *2017.11* **Beijing SMC Education Foundation Outstanding Scholarship Special Award** (Top 1/600)
-
-### 🏅 Academic Competitions
-- *2017.11* **Second Prize**, National Mathematics Competition for College Students
+### 💰 Scholarships & Academic Honors
+- *2017* **TE Connectivity Scholarship** (Top 1/600), **Beijing SMC Education Foundation Outstanding Scholarship Special Award** (Top 1/600), **Second Prize** in National Mathematics Competition for College Students
 
 # 📖 Educations
 
@@ -133,7 +106,6 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - 🎓 **B.S. in Electronic and Information Engineering** | *2016.09 - 2020.07*  
   [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/) <img src="images/njust-32x32.png" style="width: 1em;">  
   *School of Electronic and Optical Engineering*
-<!-- - *2010.09 - 2016.07*, Junior and Senior high school, Beijing National Day School, Beijing. -->
 
 # 💻 Internships
 
@@ -153,28 +125,19 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 
 ## Conference Reviewer
 
-### 2025 - 2026
-- 📋 **3DV 2026** - International Conference on 3D Vision
-- 📋 **SIGGRAPH Asia 2025** (Hong Kong) - XR Tertiary Track
-- 📋 **ICCV 2025** - International Conference on Computer Vision
-- 📋 **ISMAR 2025** - International Symposium on Mixed and Augmented Reality
-- 📋 **NeurIPS 2025** - Neural Information Processing Systems (Main + Datasets and Benchmarks Track)
-- 📋 **ACM MM 2025** - ACM International Conference on Multimedia
-- 📋 **ICML 2025** - International Conference on Machine Learning
-- 📋 **ICLR 2025** - International Conference on Learning Representations
-- 📋 **AISTATS 2025** - Artificial Intelligence and Statistics
-- 📋 **ACML 2025** - Asian Conference on Machine Learning
-- 📋 **3DV 2025** - International Conference on 3D Vision
+### 2026
+- CVPR 2026, 3DV 2026
+
+### 2025
+- SIGGRAPH Asia 2025 (XR Track), ICCV 2025, ISMAR 2025
+- NeurIPS 2025 (Main + Datasets and Benchmarks), ICML 2025, ICLR 2025
+- ACM MM 2025, AISTATS 2025, ACML 2025, 3DV 2025
 
 ### 2024
-- 📋 **NeurIPS 2024** - Neural Information Processing Systems
+- NeurIPS 2024
 
 # 💬 Invited Talks & Teaching
 
 - 🎤 **Guest Lecturer** | *May 2023*  
   **ELEC4544: AI and Deep Learning**, The University of Hong Kong  
   *Invited by Dr. Yifan (Evan) Peng*
-
-<!-- [](https://komarev.com/ghpvc/?username=Lagrangeli) -->
-<!-- [visitors](https://visitor-badge.glitch.me/badge?page_id=lagrangeli.github.io) -->
-
