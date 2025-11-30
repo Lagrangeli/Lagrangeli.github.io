@@ -95,7 +95,7 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 ### 2023
 - <img alt="WWW" src="https://img.shields.io/badge/WWW-2023-purple"> [**Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System**](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856)  
   <div style="text-align: center; margin: 10px 0;">
-    <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/filter-bubble.jpg" alt="Breaking Filter Bubble" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+    <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/filter-bubble.jpg" alt="Breaking Filter Bubble" style="width: 60%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
   **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
 
