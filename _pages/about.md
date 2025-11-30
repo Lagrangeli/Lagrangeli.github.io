@@ -27,10 +27,14 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation, with applications in VR/AR/MR. I am also leading projects related to Visual-Language-(Action)-Models and exploring physically correct video generation.
 
+<span class='anchor' id='-news'></span>
+
 # 🔥 News
 - *2025.08*: &nbsp;📄 One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
 - *2025.07*: &nbsp;🏆 One paper on **4D Gaussian Splatting** is accepted to **ISMAR 2025**! This work focuses on enhanced velocity field modeling for video reconstruction.
 - *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
+
+<span class='anchor' id='-publications'></span>
 
 # 📝 Publications
 
@@ -79,6 +83,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - <img alt="ICIP" src="https://img.shields.io/badge/ICIP-2022-lightblue"> [**Enhancing multi-view stereo with contrastive matching and weighted focal loss**](https://arxiv.org/pdf/2206.10360)  
   Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Zhiheng Li, Kai Zhang.
 
+<span class='anchor' id='-honors-and-awards'></span>
+
 # 🎖 Honors and Awards
 
 ### 🏆 Competitions
@@ -91,6 +97,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 
 ### 💰 Scholarships & Academic Honors
 - *2017* **TE Connectivity Scholarship** (Top 1/600), **Beijing SMC Education Foundation Outstanding Scholarship Special Award** (Top 1/600), **Second Prize** in National Mathematics Competition for College Students
+
+<span class='anchor' id='-educations'></span>
 
 # 📖 Educations
 
@@ -107,6 +115,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
   [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/) <img src="images/njust-32x32.png" style="width: 1em;">  
   *School of Electronic and Optical Engineering*
 
+<span class='anchor' id='-internships'></span>
+
 # 💻 Internships
 
 - 🏢 **Research Intern** | *Jul 2022 - Nov 2022*  
@@ -120,6 +130,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 - 🏢 **Artificial Intelligence Researcher** | *Mar 2021 - Sep 2021*  
   **Huawei Technologies Co., Ltd.**, Shenzhen, Guangdong, China  
   *Research Focus: 3D Reconstruction, Visual Localization*
+
+<span class='anchor' id='-academic-services'></span>
 
 # 🧑‍⚖️ Academic Services
 
@@ -135,6 +147,8 @@ Currently, my work focuses on 3D/4D Scenes & Objects Reconstruction / Generation
 
 ### 2024
 - NeurIPS 2024
+
+<span class='anchor' id='-invited-talks'></span>
 
 # 💬 Invited Talks & Teaching
 
