@@ -221,16 +221,20 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 # 💻 Internships
 
+- 🏢 **Game AI Research Intern** | *Dec 2024 - Present*  
+  [**Tencent LIGHTSPEED STUDIOS**](https://www.lightspeed-studios.com/), Shenzhen, Guangdong, China  
+  *Research Focus: Multimodal & 3D Content Generation and Simulation*
+
 - 🏢 **Research Intern** | *Jul 2022 - Nov 2022*  
-  **Megvii Technology Limited (Face++)**, Beijing, China  
+  [**Megvii Technology Limited (Face++)**](https://www.megvii.com/), Beijing, China  
   *Research Focus: Visual Odometry, NeRF, Multi-View Stereo (MVS), Feature Matching*
   
 - 🏢 **Research Intern** | *Nov 2021 - May 2022*  
-  **Microsoft Research Asia (MSRA)**, Beijing, China  
+  [**Microsoft Research Asia (MSRA)**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), Beijing, China  
   *Research Focus: Video Understanding, Learning-based Computer Vision*
   
 - 🏢 **Artificial Intelligence Researcher** | *Mar 2021 - Sep 2021*  
-  **Huawei Technologies Co., Ltd.**, Shenzhen, Guangdong, China  
+  [**Huawei Technologies Co., Ltd.**](https://www.huawei.com/), Shenzhen, Guangdong, China  
   *Research Focus: 3D Reconstruction, Visual Localization*
 
 <span class='anchor' id='-academic-services'></span>
