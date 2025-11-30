@@ -1,72 +1,324 @@
+# 🎓 Zhenyang Li's Academic Homepage
 
-<h1 align="center">
-AcadHomepage
-</h1>
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Flagrangeli.github.io)](https://lagrangeli.github.io)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-89%20citations-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=r9f4mLMAAAAJ)
+[![GitHub stars](https://img.shields.io/github/stars/Lagrangeli/Lagrangeli.github.io)](https://github.com/Lagrangeli/Lagrangeli.github.io)
+[![License](https://img.shields.io/github/license/Lagrangeli/Lagrangeli.github.io)](./LICENSE)
+
+> **Live Website:** [https://lagrangeli.github.io/](https://lagrangeli.github.io/)
+
+A modern, responsive academic personal homepage showcasing my research in Computer Vision, Computer Graphics, and AI.
+
+<div align="center">
+  <img src="docs/screenshot.png" width="90%" alt="Homepage Preview"/>
+</div>
+
+---
+
+## 👤 About Me
+
+I'm a Ph.D. student at **The University of Hong Kong (HKU)** 🇭🇰, working on:
+- 🎨 3D/4D Scene Reconstruction & Generation
+- 🖼️ Computational Imaging & Holography
+- 🤖 Vision-Language & Multimodal AI
+
+**Research Impact:**
+- 📚 **13+ Publications** at top-tier conferences (ICCV, NeurIPS, ISMAR, etc.)
+- 📊 **89 Citations** on Google Scholar
+- 🏆 **H-index: 5** | **i10-index: 2**
+
+---
+
+## ✨ Key Features
+
+### 🤖 **Automated Google Scholar Updates**
+- Daily automatic crawling of citation statistics
+- Auto-update of homepage badges
+- Powered by GitHub Actions
+
+### 📱 **Responsive Design**
+- Mobile-friendly layout
+- Smooth scroll navigation
+- Fast loading with CDN acceleration
+
+### 🎨 **Modern UI/UX**
+- Research statistics visualization
+- Publication preview images
+- Color-coded research areas
+- Clean and professional design
+
+### 🚀 **Performance Optimized**
+- Tencent Cloud COS global CDN for images
+- Optimized image formats (JPEG for large files)
+- Lazy loading and caching
+
+### 📊 **Rich Content**
+- Interactive research focus cards
+- Publication images with links
+- Google Scholar integration
+- Detailed CV sections
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Static Site Generator** | Jekyll 4.x |
+| **Frontend** | HTML5, CSS3 (SCSS), JavaScript |
+| **Styling** | Custom SCSS + Minimal Mistakes Theme |
+| **Automation** | GitHub Actions + Python |
+| **CDN** | Tencent Cloud COS (Global Accelerate) |
+| **Analytics** | Google Analytics (optional) |
+| **Citation Crawler** | scholarly Python library |
+
+---
+
+## 📂 Project Structure
+
+```
+Lagrangeli.github.io/
+├── _config.yml                 # Jekyll configuration
+├── _pages/
+│   └── about.md               # Main homepage content
+├── _includes/                 # HTML partials
+├── _layouts/                  # Page layouts
+├── _sass/                     # Stylesheets
+├── images/
+│   ├── publications/          # Publication preview images
+│   └── *.png                  # Favicon and icons
+├── google_scholar_crawler/    # Auto-update scripts
+│   ├── main.py               # Scholar data crawler
+│   ├── update_badge.py       # Badge updater
+│   └── results/              # Citation data
+├── .github/workflows/
+│   └── update-google-scholar.yml  # Auto-update workflow
+└── assets/                    # CSS, JS, fonts
+```
+
+---
+
+## 🚀 Quick Start
+
+### For Visitors
+
+Just visit **[https://lagrangeli.github.io/](https://lagrangeli.github.io/)** 🌐
+
+### For Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/Lagrangeli/Lagrangeli.github.io.git
+cd Lagrangeli.github.io
+
+# Install dependencies (requires Ruby)
+bundle install
+
+# Run local server with live reload
+./run_server.sh
+# or
+bundle exec jekyll serve --livereload
+
+# Open http://localhost:4000 in your browser
+```
+
+---
+
+## 🔄 Automatic Updates
+
+### Google Scholar Citations
+
+The homepage automatically updates citation counts daily at **08:00 UTC** (16:00 Beijing Time).
+
+**Manual Update:**
+```bash
+./update_citations.sh
+```
+
+**How it works:**
+1. GitHub Actions triggers daily
+2. Python crawler fetches latest data from Google Scholar
+3. Updates JSON files and badges
+4. Commits changes automatically
+5. GitHub Pages redeploys
+
+**Configuration:**
+- Set `GOOGLE_SCHOLAR_ID` in GitHub Secrets
+- See [QUICK_START.md](./QUICK_START.md) for details
+
+---
+
+## 📝 Content Management
+
+### Update Publications
+
+1. Add publication details in `_pages/about.md`
+2. Add preview image to `images/publications/`
+3. Supported formats: PNG, JPG (optimized for web)
+
+**Image Requirements:**
+- **Size:** 1200px width recommended
+- **Format:** PNG or JPEG
+- **Aspect Ratio:** 2:1 or similar
+- **Location:** `images/publications/paper-name.jpg`
+
+### Update News
+
+Edit the `# 🔥 News` section in `_pages/about.md`:
+
+```markdown
+- *2025.XX*: 🎉 Your news item here!
+```
+
+### Update Research Areas
+
+Modify the `## 🔬 Research Focus` section in `_pages/about.md`.
+
+---
+
+## 🖼️ CDN Configuration
+
+Publication images are hosted on **Tencent Cloud COS** with global acceleration:
+
+```
+https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/
+```
+
+**Benefits:**
+- ⚡ 7x faster loading speed
+- 🌍 Global CDN acceleration
+- 💾 Reduced GitHub Pages bandwidth
+
+**Note:** Images in `images/publications/` are synced to COS manually.
+
+---
+
+## 🎨 Customization
+
+### Update Personal Info
+
+Edit `_config.yml`:
+
+```yaml
+title: "Your Name's Homepage"
+author:
+  name: "Your Name"
+  bio: "Your Title/Position"
+  location: "Your City, Country"
+  employer: "Your Institution"
+  email: "your.email@example.com"
+```
+
+### Modify Theme Colors
+
+Edit `_sass/_variables.scss` to change colors, fonts, and spacing.
+
+### Add New Sections
+
+Add anchor tags and update `_data/navigation.yml`:
+
+```yaml
+- title: "New Section"
+  url: "/#-new-section"
+```
+
+Then add the section in `_pages/about.md`:
+
+```markdown
+<span class='anchor' id='-new-section'></span>
+
+# 🎯 New Section
+Content here...
+```
+
+---
+
+## 📊 Analytics & SEO
+
+### Google Analytics (Optional)
+
+1. Get your GA tracking ID
+2. Set `google_analytics_id` in `_config.yml`
+3. Rebuild and deploy
+
+### SEO Optimization
+
+- ✅ Semantic HTML structure
+- ✅ Meta descriptions
+- ✅ Open Graph tags
+- ✅ Sitemap.xml auto-generated
+- ✅ robots.txt configured
+
+---
+
+## 🛡️ Maintenance
+
+### Update Dependencies
+
+```bash
+# Update Ruby gems
+bundle update
+
+# Commit lockfile
+git add Gemfile.lock
+git commit -m "Update dependencies"
+git push
+```
+
+### Monitor GitHub Actions
+
+Check workflow status: **Actions** tab → **Update Google Scholar Stats**
+
+### Troubleshooting
+
+See detailed guides:
+- [SETUP_AUTO_UPDATE.md](./SETUP_AUTO_UPDATE.md) - Auto-update configuration
+- [UPDATE_CITATIONS.md](./UPDATE_CITATIONS.md) - Citation update guide
+- [QUICK_START.md](./QUICK_START.md) - Quick setup instructions
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+This homepage is built upon:
+- [**Minimal Mistakes**](https://github.com/mmistakes/minimal-mistakes) - Jekyll theme
+- [**Academic Pages**](https://github.com/academicpages/academicpages.github.io) - Academic template inspiration
+- [**AcadHomepage**](https://github.com/RayeRen/acad-homepage.github.io) - Original template
+- [**scholarly**](https://github.com/scholarly-python-package/scholarly) - Google Scholar crawler
+- [**Font Awesome**](https://fontawesome.com/) - Icon library
+- **Tencent Cloud COS** - CDN service
+
+Special thanks to all open-source contributors! 🌟
+
+---
+
+## 📧 Contact
+
+- **Email:** lagrangelzy@gmail.com
+- **Google Scholar:** [r9f4mLMAAAAJ](https://scholar.google.com/citations?user=r9f4mLMAAAAJ)
+- **GitHub:** [@Lagrangeli](https://github.com/Lagrangeli)
+- **Homepage:** [https://lagrangeli.github.io/](https://lagrangeli.github.io/)
+
+---
+
+## 📈 Stats
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Lagrangeli/Lagrangeli.github.io)
+![GitHub repo size](https://img.shields.io/github/repo-size/Lagrangeli/Lagrangeli.github.io)
+![GitHub language count](https://img.shields.io/github/languages/count/Lagrangeli/Lagrangeli.github.io)
+
+---
 
 <div align="center">
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
+**⭐ If you find this homepage template useful, please consider giving it a star!**
+
+Made with ❤️ by Zhenyang Li
+
 </div>
-
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
-
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
-
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
-
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
-
-## Quick Start
-
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
-
-## Debug Locally
-
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
-
-# Acknowledges
-
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
