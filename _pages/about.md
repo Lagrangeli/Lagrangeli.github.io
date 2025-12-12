@@ -258,6 +258,10 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 # 💬 Invited Talks & Teaching
 
+- 🎤 **Workshop Organizer & Speaker** | *Dec. 2025*  
+  [**WeLight Workshop**](https://hku.welight.fun/events/workshop_25Dec/), The University of Hong Kong  
+  *Organized by WeLightLab@HKU*
+
 - 🎤 **Guest Lecturer** | *May 2023*  
   **ELEC4544: AI and Deep Learning**, The University of Hong Kong  
   *Invited by Dr. Yifan (Evan) Peng*
