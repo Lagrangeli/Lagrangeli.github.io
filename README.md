@@ -128,7 +128,7 @@ bundle exec jekyll serve --livereload
 
 ### Google Scholar Citations
 
-The homepage automatically updates citation counts daily at **08:00 UTC** (16:00 Beijing Time).
+The homepage automatically updates citation counts daily at **00:00 UTC** (08:00 Beijing Time).
 
 **Manual Update:**
 ```bash
