@@ -128,7 +128,7 @@ bundle exec jekyll serve --livereload
 
 ### Google Scholar Citations
 
-The homepage automatically updates citation counts daily at **00:00 UTC** (08:00 Beijing Time).
+The homepage automatically updates citation counts every 6 hours at **00:00 / 06:00 / 12:00 / 18:00 UTC** (08:00 / 14:00 / 20:00 / 02:00 Beijing Time).
 
 **Manual Update:**
 ```bash
@@ -136,7 +136,7 @@ The homepage automatically updates citation counts daily at **00:00 UTC** (08:00
 ```
 
 **How it works:**
-1. GitHub Actions triggers daily
+1. GitHub Actions triggers every 6 hours
 2. Python crawler fetches latest data from Google Scholar
 3. Updates JSON files and badges
 4. Commits changes automatically
