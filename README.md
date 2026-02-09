@@ -1,7 +1,7 @@
 # 🎓 Zhenyang Li's Academic Homepage
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Flagrangeli.github.io)](https://lagrangeli.github.io)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-89%20citations-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=r9f4mLMAAAAJ)
+[![Google Scholar](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLagrangeli%2FLagrangeli.github.io%2Fmaster%2Fresults%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=4285F4&style=flat&label=citations)](https://scholar.google.com/citations?user=r9f4mLMAAAAJ)
 [![GitHub stars](https://img.shields.io/github/stars/Lagrangeli/Lagrangeli.github.io)](https://github.com/Lagrangeli/Lagrangeli.github.io)
 [![License](https://img.shields.io/github/license/Lagrangeli/Lagrangeli.github.io)](./LICENSE)
 

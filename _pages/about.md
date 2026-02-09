@@ -25,7 +25,7 @@ I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.e
 
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
 
-**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-96%20citations-4285F4?logo=googlescholar&logoColor=white&style=flat"></a>
+**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLagrangeli%2FLagrangeli.github.io%2Fmaster%2Fresults%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=4285F4&style=flat&label=citations"></a>
 
 <!-- <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 25px 0; color: white; box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);">
   <h3 style="color: white; margin-top: 0; text-align: center; font-size: 1.5em;">🎯 Research at a Glance</h3>
