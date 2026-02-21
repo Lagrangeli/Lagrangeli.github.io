@@ -244,7 +244,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 ## Conference Reviewer
 
 ### 2026
-- CVPR 2026, 3DV 2026
+- CVPR 2026, ECCV 2026, 3DV 2026
 
 ### 2025
 - SIGGRAPH Asia 2025 (XR Track), ICCV 2025, ISMAR 2025
@@ -253,6 +253,10 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 ### 2024
 - NeurIPS 2024
+
+## Journal Reviewer
+
+- IEEE Journal of Selected Topics in Signal Processing (J-STSP)
 
 <span class='anchor' id='-invited-talks'></span>
 
