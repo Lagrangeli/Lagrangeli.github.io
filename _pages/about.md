@@ -62,6 +62,8 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
     <li><strong>Dynamic Scenes:</strong> 4D reconstruction with enhanced velocity field modeling for video sequences</li>
     <li><strong>Physics-based Generation:</strong> Material-agnostic system identification and physically correct video synthesis</li>
     <li><strong>Event-based Vision:</strong> Event camera rendering and dynamic scene reconstruction using event streams</li>
+    <li><strong>Visual Odometry:</strong> Multi-view stereo, depth estimation, and 3D scene understanding</li>
+    <li><strong>Feature Matching:</strong> Overlapping region-based techniques for robust image correspondence</li>
   </ul>
 </div>
 
@@ -78,8 +80,6 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
   <h3 style="margin-top: 0; color: #764ba2;">🖼️ Computational Imaging & Holography</h3>
   <ul style="margin-bottom: 0;">
     <li><strong>Holographic Display:</strong> Computer-generated holography with camera-calibrated neural networks</li>
-    <li><strong>3D Imaging:</strong> Multi-view stereo, depth estimation, and 3D scene understanding</li>
-    <li><strong>Feature Matching:</strong> Overlapping region-based techniques for robust image correspondence</li>
   </ul>
 </div>
 
