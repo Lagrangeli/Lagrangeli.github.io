@@ -92,8 +92,8 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
-- *2026.03*: &nbsp;� One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
-- *2026.03*: &nbsp;�🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
+- *2026.03*: &nbsp;🏆 One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
+- *2026.03*: &nbsp;🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
 - *2025.08*: &nbsp;📄 One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
 - *2025.07*: &nbsp;🏆 One paper on **4D Gaussian Splatting** is accepted to **ISMAR 2025**! This work focuses on enhanced velocity field modeling for video reconstruction.
 - *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
