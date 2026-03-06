@@ -243,6 +243,10 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 # 🧑‍⚖️ Academic Services
 
+## Program Committee Member
+
+- 34th ACM Multimedia (ACMMM) 2026
+
 ## Conference Reviewer
 
 ### 2026
