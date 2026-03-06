@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Ph.D. student (since Fall 2023) in the Department of Electrical and Electronic Engineering at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">. 
+I am currently a Ph.D. student (since Fall 2023) in the Department of Electrical and Computer Engineering (ECE, formerly EEE) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">. 
 
 Prior to joining HKU, I received my M.S. degree in Big Data Engineering from the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, and my B.S. degree in Electronic and Information Engineering from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
 
-I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the EEE&CS department at HKU and advised by [Prof. Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
+I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the ECE (formerly EEE) & CS department at HKU and advised by [Prof. Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
 
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
 
@@ -92,7 +92,8 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
-- *2026.03*: &nbsp;🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
+- *2026.03*: &nbsp;� One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
+- *2026.03*: &nbsp;�🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
 - *2025.08*: &nbsp;📄 One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
 - *2025.07*: &nbsp;🏆 One paper on **4D Gaussian Splatting** is accepted to **ISMAR 2025**! This work focuses on enhanced velocity field modeling for video reconstruction.
 - *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
@@ -102,6 +103,21 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 # 📝 Publications
 
 ## 🎯 Selected Publications (* indicates equal contribution)
+
+### 2026
+- <img alt="3DV" src="https://img.shields.io/badge/3DV-2026-blue"> [**Structure-grounded Training Strategies Aid Generalization in Stereo Matching**](https://openreview.net/forum?id=rIeputhlON)  
+  <div style="text-align: center; margin: 10px 0;">
+    <div style="display: inline-flex; gap: 8px; width: 90%; max-width: 700px; align-items: center;">
+      <div style="flex: 3; min-width: 0; display: flex; flex-direction: column; gap: 8px;">
+        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-aux_task.png" alt="Auxiliary Task" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-pipeline.png" alt="Pipeline" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+      </div>
+      <div style="flex: 2; min-width: 0;">
+        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-geom_aug_1.png" alt="Geometric Augmentation" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+      </div>
+    </div>
+  </div>
+  Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
 
 ### 2025
 - <img alt="ICCV" src="https://img.shields.io/badge/ICCV-2025-blue"> [**Toward Material-Agnostic System Identification from Videos**](https://arxiv.org/pdf/2508.01112?)  
@@ -122,7 +138,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
   </div>
   **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.
 
-- <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> **Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians** *(Preprint Coming Soon)*  
+- <img alt="CVMJ" src="https://img.shields.io/badge/Status-Under_Review-yellow"> **Learning Fast Real-world Dynamics with Event-RGB Fused Gaussians** *(Preprint Coming Soon)*  
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/event-rgb-gaussians.jpg" alt="Event-RGB Fused Gaussians" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
@@ -207,7 +223,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 # 📖 Educations
 
-- 🎓 **Ph.D. in Electrical and Electronic Engineering** | *2023.09 - Present*  
+- 🎓 **Ph.D. in Electrical and Computer Engineering (formerly EEE)** | *2023.09 - Present*  
   [The University of Hong Kong (HKU)](https://www.hku.hk/) <img src="images/hku-32x32.png" style="width: 1em;">  
   *Advisor: Dr. Yifan (Evan) Peng*
   
