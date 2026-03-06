@@ -92,6 +92,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
+- *2026.03*: &nbsp;🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
 - *2025.08*: &nbsp;📄 One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
 - *2025.07*: &nbsp;🏆 One paper on **4D Gaussian Splatting** is accepted to **ISMAR 2025**! This work focuses on enhanced velocity field modeling for video reconstruction.
 - *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
@@ -136,7 +137,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 
 ### 2024
-- <img alt="Optics Letters" src="https://img.shields.io/badge/Optics_Letters-2024-green"> [**3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning**](https://opg-optica-org.eproxy.lib.hku.hk/ol/viewmedia.cfm?uri=ol-50-4-1188&html=true)  
+- <img alt="Optics Letters" src="https://img.shields.io/badge/Optics_Letters-2024-green"> [**3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning**](https://opg.optica.org/ol/abstract.cfm?uri=ol-50-4-1188)  
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/3d-holonet.png" alt="3D-HoloNet" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
@@ -224,7 +225,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 # 💻 Internships
 
 - 🏢 **Research Intern** | *Oct. 2025 - Present*  
-  [**Tencent LIGHTSPEED STUDIOS)**](https://www.lightspeed-studios.com/), Shenzhen, Guangdong, China  
+  [**Tencent LIGHTSPEED STUDIOS**](https://www.lightspeed-studios.com/), Shenzhen, Guangdong, China  
   *Research Focus: Multimodal & 3D Content Generation and Simulation*
 
 - 🏢 **Research Intern** | *Jul. 2022 - Nov. 2022*  
