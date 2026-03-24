@@ -92,6 +92,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
+- *2026.03*: &nbsp;📄 One paper on **Panoramic Instance Segmentation** (SAP) is released on **arXiv**! Segment Any 4K Panorama for high-resolution 360° scenes.
 - *2026.03*: &nbsp;🏆 One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
 - *2026.03*: &nbsp;🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
 - *2025.08*: &nbsp;📄 One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
@@ -105,6 +106,12 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 ## 🎯 Selected Publications (* indicates equal contribution)
 
 ### 2026
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**SAP: Segment Any 4K Panorama**](https://arxiv.org/abs/2603.12759)  
+  <div style="text-align: center; margin: 10px 0;">
+    <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/sap-teaser.jpg" alt="SAP teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
+  Lutao Jiang, Zidong Cao, Weikai Chen, Xu Zheng, Yuanhuiyi Lyu, **Zhenyang Li**, Zeyu Hu, Yingda Yin, Keyang Luo, Runze Zhang, Kai Yan, Shengju Qian, Haidi Fan, Yifan Peng, Xin Wang, Hui Xiong, Ying-Cong Chen.
+
 - <img alt="3DV" src="https://img.shields.io/badge/3DV-2026-blue"> [**Structure-grounded Training Strategies Aid Generalization in Stereo Matching**](https://openreview.net/forum?id=rIeputhlON)  
   <div style="text-align: center; margin: 10px 0;">
     <div style="display: inline-flex; gap: 8px; width: 90%; max-width: 700px; align-items: center;">
