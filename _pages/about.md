@@ -274,7 +274,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 ## Conference Reviewer
 
 ### 2026
-- CVPR 2026, ECCV 2026, BMVC 2026, 3DV 2026, ISMAR 2026
+- CVPR 2026, ECCV 2026, NeurIPS 2026, BMVC 2026, 3DV 2026, ISMAR 2026
 
 ### 2025
 - SIGGRAPH Asia 2025 (XR Track), ICCV 2025, ISMAR 2025
