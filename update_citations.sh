@@ -16,7 +16,7 @@ else
     echo "⚠️  虚拟环境不存在，正在创建..."
     python3 -m venv venv
     source venv/bin/activate
-    pip install -q scholarly jsonpickle
+    pip install -q -r requirements.txt
     echo "✅ 虚拟环境创建完成"
     echo ""
 fi
@@ -36,13 +36,8 @@ echo "   🏆 H-index: $HINDEX"
 echo "   ⭐ i10-index: $I10INDEX"
 echo ""
 
-# 更新徽章
-echo "🔄 正在更新主页徽章..."
-python3 update_badge.py
-
 cd ..
 echo ""
 echo "🎉 更新完成！"
 echo "💡 运行 ./run_server.sh 查看效果"
 echo ""
-

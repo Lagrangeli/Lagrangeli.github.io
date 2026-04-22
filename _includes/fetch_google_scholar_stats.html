@@ -8,9 +8,11 @@
         {% endif %}
 
         function applyScholarData(data) {
-            var totalCitationEl = document.getElementById('total_cit');
-            if (totalCitationEl && data && typeof data['citedby'] !== 'undefined') {
-                totalCitationEl.innerHTML = data['citedby'];
+            var totalCitationTargets = document.querySelectorAll('[data-total-cit]');
+            if (data && typeof data['citedby'] !== 'undefined') {
+                Array.prototype.forEach.call(totalCitationTargets, function(element) {
+                    element.innerHTML = data['citedby'];
+                });
             }
 
             var publications = data && data['publications'] ? data['publications'] : {};

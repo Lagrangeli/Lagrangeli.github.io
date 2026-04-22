@@ -4,7 +4,12 @@ on:
   schedule:
     # 每6小时更新一次（UTC: 00:00/06:00/12:00/18:00）
     - cron: '0 */6 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      citation_floor:
+        description: "Optional manual citation floor"
+        required: false
+        default: ""
 
 jobs:
   update-stats:
@@ -26,10 +31,10 @@ jobs:
       - name: Update Google Scholar stats
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID || 'r9f4mLMAAAAJ' }}
+          SCHOLAR_CITATION_FLOOR: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.citation_floor || '' }}
         run: |
           cd google_scholar_crawler
           python main.py
-          python update_badge.py
 
       - name: Commit and push if changed
         run: |

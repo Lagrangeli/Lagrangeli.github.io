@@ -39,7 +39,7 @@ I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.e
 
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
 
-**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLagrangeli%2FLagrangeli.github.io%2Fmaster%2Fresults%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=4285F4&style=flat&label=citations&cacheSeconds=300&v=20260209b"></a>
+**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__label">Google Scholar</span><span class="scholar-stat-badge__value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span><span class="scholar-stat-badge__suffix">citations</span></a>
 
 **📄 Curriculum Vitae:** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf" target="_blank" rel="noopener">Open PDF in Browser</a>
 </div>
@@ -53,7 +53,7 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 我的研究兴趣包括计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示。
 
-**📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLagrangeli%2FLagrangeli.github.io%2Fmaster%2Fresults%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=4285F4&style=flat&label=citations&cacheSeconds=300&v=20260209b"></a>
+**📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__label">Google Scholar</span><span class="scholar-stat-badge__value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span><span class="scholar-stat-badge__suffix">citations</span></a>
 
 **📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf" target="_blank" rel="noopener">在浏览器中打开 PDF</a>
 </div>
