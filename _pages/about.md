@@ -31,7 +31,7 @@ redirect_from:
 </div>
 
 <div class="lang-en lang-block" markdown="1">
-I am currently a Ph.D. student (since Fall 2023) in the Department of Electrical and Computer Engineering (ECE, formerly EEE) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">.
+I am currently a Ph.D. student (since Fall 2023) in the [Department of Electrical and Computer Engineering (ECE, formerly EEE)](https://ece.hku.hk/) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">.
 
 Prior to joining HKU, I received my M.S. degree in Big Data Engineering from the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, and my B.S. degree in Electronic and Information Engineering from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
 
@@ -45,7 +45,7 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
-我目前是[香港大学（HKU）](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">电机电子工程系（ECE，原 EEE）博士研究生，于 2023 年秋季入学。
+我目前是[香港大学（HKU）](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">[电机与计算机工程系（ECE，原 EEE）](https://ece.hku.hk/)博士研究生，于 2023 年秋季入学。
 
 在加入港大之前，我于[清华大学（THU）](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">自动化系与深圳国际研究生院获得大数据工程硕士学位，并于[南京理工大学（NJUST）](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">获得电子信息工程学士学位。
 
@@ -55,7 +55,7 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 **📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-**📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">在浏览器中打开 PDF</a>
+**📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd%20-%20zh.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">在浏览器中打开 PDF</a>
 </div>
 
 <!-- <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 25px 0; color: white; box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);">
@@ -181,6 +181,12 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 ## <span class="lang-en lang-inline">🎯 Selected Publications (* indicates equal contribution)</span><span class="lang-zh lang-inline">🎯 代表性论文（* 表示共同一作）</span>
 
 ### 2026
+- <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> **PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments**  
+  <div style="text-align: center; margin: 10px 0;">
+    <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/garment_teaser.png" alt="PatternGSL teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
+  **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Ying-Cong Chen, Xin Wang, Weikai Chen, Yifan Peng.
+
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**SAP: Segment Any 4K Panorama**](https://arxiv.org/abs/2603.12759)  
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/sap-teaser.jpg" alt="SAP teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
