@@ -39,9 +39,9 @@ I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.e
 
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
 
-**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__label">Google Scholar</span><span class="scholar-stat-badge__value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span><span class="scholar-stat-badge__suffix">citations</span></a>
+**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__label">Google Scholar</span> <span class="scholar-stat-badge__value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span> <span class="scholar-stat-badge__suffix">citations</span></a>
 
-**📄 Curriculum Vitae:** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf" target="_blank" rel="noopener">Open PDF in Browser</a>
+**📄 Curriculum Vitae:** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">Open PDF in Browser</a>
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
@@ -53,9 +53,9 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 我的研究兴趣包括计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示。
 
-**📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__label">Google Scholar</span><span class="scholar-stat-badge__value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span><span class="scholar-stat-badge__suffix">citations</span></a>
+**📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__label">Google Scholar</span> <span class="scholar-stat-badge__value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span> <span class="scholar-stat-badge__suffix">citations</span></a>
 
-**📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf" target="_blank" rel="noopener">在浏览器中打开 PDF</a>
+**📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">在浏览器中打开 PDF</a>
 </div>
 
 <!-- <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 25px 0; color: white; box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);">
