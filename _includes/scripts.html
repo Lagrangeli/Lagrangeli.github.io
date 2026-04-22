@@ -1,4 +1,80 @@
 <script src="assets/js/main.min.js"></script>
 
+<script>
+  (function() {
+    var storageKey = "preferred-language";
+    var supported = { en: true, zh: true };
+    var root = document.documentElement;
+
+    function getPreferredLanguage() {
+      var params = new URLSearchParams(window.location.search);
+      var fromQuery = params.get("lang");
+      if (supported[fromQuery]) {
+        return fromQuery;
+      }
+
+      try {
+        var saved = localStorage.getItem(storageKey);
+        if (supported[saved]) {
+          return saved;
+        }
+      } catch (error) {}
+
+      var browserLang = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+      return browserLang.indexOf("zh") === 0 ? "zh" : "en";
+    }
+
+    function applyNavTranslations(language) {
+      var navItems = document.querySelectorAll("[data-nav-title-en][data-nav-title-zh]");
+      navItems.forEach(function(item) {
+        item.textContent = item.getAttribute("data-nav-title-" + language);
+      });
+    }
+
+    function applyDocumentTitle(language) {
+      var pageMeta = document.querySelector("[data-page-title-en][data-page-title-zh]");
+      if (!pageMeta) {
+        return;
+      }
+      document.title = pageMeta.getAttribute("data-page-title-" + language);
+    }
+
+    function updateSwitcherState(language) {
+      var buttons = document.querySelectorAll("[data-lang-switcher] [data-set-lang]");
+      buttons.forEach(function(button) {
+        var isActive = button.getAttribute("data-set-lang") === language;
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+        button.classList.toggle("is-active", isActive);
+      });
+    }
+
+    function setLanguage(language) {
+      if (!supported[language]) {
+        return;
+      }
+
+      root.setAttribute("data-site-lang", language);
+      root.setAttribute("lang", language === "zh" ? "zh-CN" : "en");
+      applyNavTranslations(language);
+      applyDocumentTitle(language);
+      updateSwitcherState(language);
+
+      try {
+        localStorage.setItem(storageKey, language);
+      } catch (error) {}
+    }
+
+    document.addEventListener("click", function(event) {
+      var button = event.target.closest("[data-set-lang]");
+      if (!button) {
+        return;
+      }
+      setLanguage(button.getAttribute("data-set-lang"));
+    });
+
+    setLanguage(getPreferredLanguage());
+  })();
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

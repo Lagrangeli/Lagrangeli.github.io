@@ -107,3 +107,94 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.lang-switcher {
+    position: sticky;
+    top: 4.5rem;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid rgba(0, 54, 159, 0.12);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    backdrop-filter: blur(12px);
+}
+
+.lang-switcher__label {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #00369f;
+}
+
+.lang-switcher__buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem;
+    border-radius: 999px;
+    background: rgba(0, 54, 159, 0.08);
+}
+
+.lang-switcher__button {
+    border: 0;
+    border-radius: 999px;
+    padding: 0.45rem 0.9rem;
+    background: transparent;
+    color: #35507d;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.lang-switcher__button:hover {
+    background: rgba(0, 54, 159, 0.1);
+    color: #00369f;
+}
+
+.lang-switcher__button.is-active,
+.lang-switcher__button[aria-pressed="true"] {
+    background: #00369f;
+    color: #fff;
+    box-shadow: 0 8px 18px rgba(0, 54, 159, 0.22);
+}
+
+.lang-block,
+.lang-inline {
+    display: none;
+}
+
+html:not([data-site-lang]) .lang-en.lang-block,
+html[data-site-lang="en"] .lang-en.lang-block {
+    display: block;
+}
+
+html:not([data-site-lang]) .lang-en.lang-inline,
+html[data-site-lang="en"] .lang-en.lang-inline {
+    display: inline;
+}
+
+html[data-site-lang="zh"] .lang-zh.lang-block {
+    display: block;
+}
+
+html[data-site-lang="zh"] .lang-zh.lang-inline {
+    display: inline;
+}
+
+@include breakpoint(max-width $small) {
+    .lang-switcher {
+        top: 4rem;
+        justify-content: space-between;
+        padding: 0.8rem 0.9rem;
+    }
+
+    .lang-switcher__label {
+        font-size: 0.86rem;
+    }
+}

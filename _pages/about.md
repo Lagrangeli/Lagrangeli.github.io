@@ -17,7 +17,21 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Ph.D. student (since Fall 2023) in the Department of Electrical and Computer Engineering (ECE, formerly EEE) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">. 
+<div hidden data-page-title-en="Zhenyang Li's Academic Homepage" data-page-title-zh="李镇洋学术主页"></div>
+
+<div class="lang-switcher" data-lang-switcher aria-label="Language switcher">
+  <span class="lang-switcher__label">
+    <span class="lang-en lang-inline">Language</span>
+    <span class="lang-zh lang-inline">语言</span>
+  </span>
+  <div class="lang-switcher__buttons">
+    <button class="lang-switcher__button is-active" type="button" data-set-lang="en" aria-pressed="true">EN</button>
+    <button class="lang-switcher__button" type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+  </div>
+</div>
+
+<div class="lang-en lang-block" markdown="1">
+I am currently a Ph.D. student (since Fall 2023) in the Department of Electrical and Computer Engineering (ECE, formerly EEE) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">.
 
 Prior to joining HKU, I received my M.S. degree in Big Data Engineering from the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, and my B.S. degree in Electronic and Information Engineering from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
 
@@ -28,6 +42,21 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 **📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLagrangeli%2FLagrangeli.github.io%2Fmaster%2Fresults%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=4285F4&style=flat&label=citations&cacheSeconds=300&v=20260209b"></a>
 
 **📄 Curriculum Vitae:** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf" target="_blank" rel="noopener">Open PDF in Browser</a>
+</div>
+
+<div class="lang-zh lang-block" markdown="1">
+我目前是[香港大学（HKU）](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">电机电子工程系（ECE，原 EEE）博士研究生，于 2023 年秋季入学。
+
+在加入港大之前，我于[清华大学（THU）](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">自动化系与深圳国际研究生院获得大数据工程硕士学位，并于[南京理工大学（NJUST）](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">获得电子信息工程学士学位。
+
+目前我在港大 ECE（原 EEE）与计算机科学相关团队的 WeLightLab@HKU，师从[Yifan（Evan）Peng 博士](https://www.eee.hku.hk/~evanpeng/#opennewwindow)，同时也接受清华大学智能交通联合实验室[Kai Zhang 教授](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm)的指导。
+
+我的研究兴趣包括计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示。
+
+**📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLagrangeli%2FLagrangeli.github.io%2Fmaster%2Fresults%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=4285F4&style=flat&label=citations&cacheSeconds=300&v=20260209b"></a>
+
+**📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf" target="_blank" rel="noopener">在浏览器中打开 PDF</a>
+</div>
 
 <!-- <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 25px 0; color: white; box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);">
   <h3 style="color: white; margin-top: 0; text-align: center; font-size: 1.5em;">🎯 Research at a Glance</h3>
@@ -51,59 +80,105 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
   </div>
 </div> -->
 
-## 🔬 Research Focus
+## <span class="lang-en lang-inline">🔬 Research Focus</span><span class="lang-zh lang-inline">🔬 研究方向</span>
 
+<div class="lang-en lang-block" markdown="1">
 My research interests lie at the intersection of **Computer Vision**, **Computer Graphics**, and **Artificial Intelligence**. I focus on enabling machines to perceive, understand, and generate photorealistic 3D/4D visual content. Specifically, my work concentrates on the following areas:
-
-<div style="margin: 25px 0;">
-
-<div style="border-left: 4px solid #667eea; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #f8f9ff, #ffffff);">
-  <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D Reconstruction & Generation</h3>
-  <ul style="margin-bottom: 0;">
-    <li><strong>Neural Representations:</strong> Neural Radiance Fields (NeRF) and 3D Gaussian Splatting for high-fidelity scene modeling</li>
-    <li><strong>Dynamic Scenes:</strong> 4D reconstruction with enhanced velocity field modeling for video sequences</li>
-    <li><strong>Physics-based Generation:</strong> Material-agnostic system identification and physically correct video synthesis</li>
-    <li><strong>Event-based Vision:</strong> Event camera rendering and dynamic scene reconstruction using event streams</li>
-    <li><strong>Visual Odometry:</strong> Multi-view stereo, depth estimation, and 3D scene understanding</li>
-    <li><strong>Feature Matching:</strong> Overlapping region-based techniques for robust image correspondence</li>
-  </ul>
 </div>
 
-<div style="border-left: 4px solid #e91e63; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fff5f8, #ffffff);">
-  <h3 style="margin-top: 0; color: #e91e63;">🤖 Vision-Language & Multimodal AI</h3>
-  <ul style="margin-bottom: 0;">
-    <li><strong>Visual-Language-Action Models:</strong> Embodied AI for robotics and interactive systems</li>
-    <li><strong>Video Understanding:</strong> Temporal modeling and action recognition in dynamic scenes</li>
-    <li><strong>Cross-modal Learning:</strong> Bridging vision, language, and action spaces</li>
-  </ul>
+<div class="lang-zh lang-block" markdown="1">
+我的研究位于**计算机视觉**、**计算机图形学**与**人工智能**的交叉领域，关注如何让机器感知、理解并生成高保真的 3D/4D 视觉内容。当前主要聚焦以下几个方向：
 </div>
 
-<div style="border-left: 4px solid #764ba2; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fcf8ff, #ffffff);">
-  <h3 style="margin-top: 0; color: #764ba2;">🖼️ Computational Imaging & Holography</h3>
-  <ul style="margin-bottom: 0;">
-    <li><strong>Holographic Display:</strong> Computer-generated holography with camera-calibrated neural networks</li>
-  </ul>
+<div class="lang-en lang-block" style="margin: 25px 0;">
+  <div style="border-left: 4px solid #667eea; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #f8f9ff, #ffffff);">
+    <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D Reconstruction & Generation</h3>
+    <ul style="margin-bottom: 0;">
+      <li><strong>Neural Representations:</strong> Neural Radiance Fields (NeRF) and 3D Gaussian Splatting for high-fidelity scene modeling</li>
+      <li><strong>Dynamic Scenes:</strong> 4D reconstruction with enhanced velocity field modeling for video sequences</li>
+      <li><strong>Physics-based Generation:</strong> Material-agnostic system identification and physically correct video synthesis</li>
+      <li><strong>Event-based Vision:</strong> Event camera rendering and dynamic scene reconstruction using event streams</li>
+      <li><strong>Visual Odometry:</strong> Multi-view stereo, depth estimation, and 3D scene understanding</li>
+      <li><strong>Feature Matching:</strong> Overlapping region-based techniques for robust image correspondence</li>
+    </ul>
+  </div>
+
+  <div style="border-left: 4px solid #e91e63; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fff5f8, #ffffff);">
+    <h3 style="margin-top: 0; color: #e91e63;">🤖 Vision-Language & Multimodal AI</h3>
+    <ul style="margin-bottom: 0;">
+      <li><strong>Visual-Language-Action Models:</strong> Embodied AI for robotics and interactive systems</li>
+      <li><strong>Video Understanding:</strong> Temporal modeling and action recognition in dynamic scenes</li>
+      <li><strong>Cross-modal Learning:</strong> Bridging vision, language, and action spaces</li>
+    </ul>
+  </div>
+
+  <div style="border-left: 4px solid #764ba2; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fcf8ff, #ffffff);">
+    <h3 style="margin-top: 0; color: #764ba2;">🖼️ Computational Imaging & Holography</h3>
+    <ul style="margin-bottom: 0;">
+      <li><strong>Holographic Display:</strong> Computer-generated holography with camera-calibrated neural networks</li>
+    </ul>
+  </div>
 </div>
 
+<div class="lang-zh lang-block" style="margin: 25px 0;">
+  <div style="border-left: 4px solid #667eea; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #f8f9ff, #ffffff);">
+    <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D 重建与生成</h3>
+    <ul style="margin-bottom: 0;">
+      <li><strong>神经表示：</strong>研究 Neural Radiance Fields (NeRF) 与 3D Gaussian Splatting 等高保真场景表示方法</li>
+      <li><strong>动态场景：</strong>面向视频序列的 4D 重建与增强速度场建模</li>
+      <li><strong>物理驱动生成：</strong>从视频中进行材料无关系统辨识与物理正确的视频合成</li>
+      <li><strong>事件视觉：</strong>基于事件相机的渲染与动态场景重建</li>
+      <li><strong>视觉里程计：</strong>多视图立体、深度估计与三维场景理解</li>
+      <li><strong>特征匹配：</strong>面向稳健图像对应的重叠区域特征匹配方法</li>
+    </ul>
+  </div>
+
+  <div style="border-left: 4px solid #e91e63; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fff5f8, #ffffff);">
+    <h3 style="margin-top: 0; color: #e91e63;">🤖 视觉语言与多模态智能</h3>
+    <ul style="margin-bottom: 0;">
+      <li><strong>视觉-语言-动作模型：</strong>面向机器人和交互系统的具身智能</li>
+      <li><strong>视频理解：</strong>动态场景中的时序建模与动作识别</li>
+      <li><strong>跨模态学习：</strong>连接视觉、语言与动作空间的统一建模</li>
+    </ul>
+  </div>
+
+  <div style="border-left: 4px solid #764ba2; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fcf8ff, #ffffff);">
+    <h3 style="margin-top: 0; color: #764ba2;">🖼️ 计算成像与全息</h3>
+    <ul style="margin-bottom: 0;">
+      <li><strong>全息显示：</strong>基于相机标定神经网络的计算全息生成与显示</li>
+    </ul>
+  </div>
 </div>
 
 ---
 
 <span class='anchor' id='-news'></span>
 
-# 🔥 News
+# <span class="lang-en lang-inline">🔥 News</span><span class="lang-zh lang-inline">🔥 新闻动态</span>
+
+<div class="lang-en lang-block" markdown="1">
 - *2026.03*: &nbsp;📄 One paper on **Panoramic Instance Segmentation** (SAP) is released on **arXiv**! Segment Any 4K Panorama for high-resolution 360° scenes.
 - *2026.03*: &nbsp;🏆 One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
 - *2026.03*: &nbsp;🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
 - *2025.08*: &nbsp;📄 One paper on **Event Camera Rendering** (EventTracer) is released on arXiv, exploring path tracing-based event stream rendering!
 - *2025.07*: &nbsp;🏆 One paper on **4D Gaussian Splatting** is accepted to **ISMAR 2025**! This work focuses on enhanced velocity field modeling for video reconstruction.
 - *2025.07*: &nbsp;🏆 One paper on **Physically Correct Video Generation** is accepted to **ICCV 2025**! Material-agnostic system identification from videos.
+</div>
+
+<div class="lang-zh lang-block" markdown="1">
+- *2026.03*: &nbsp;📄 **全景实例分割**论文 **SAP** 已发布于 **arXiv**！工作聚焦高分辨率 360° 场景的 `Segment Any 4K Panorama`。
+- *2026.03*: &nbsp;🏆 一篇关于**立体匹配泛化**的论文被 **3DV 2026** 接收！提出面向稳健立体匹配的结构先验训练策略。
+- *2026.03*: &nbsp;🎓 担任 **第 34 届 ACM Multimedia（ACMMM）2026** 程序委员会成员！
+- *2025.08*: &nbsp;📄 关于**事件相机渲染**的论文 **EventTracer** 发布于 arXiv，探索基于路径追踪的事件流渲染。
+- *2025.07*: &nbsp;🏆 一篇关于 **4D Gaussian Splatting** 的论文被 **ISMAR 2025** 接收！该工作聚焦视频重建中的增强速度场建模。
+- *2025.07*: &nbsp;🏆 一篇关于**物理正确视频生成**的论文被 **ICCV 2025** 接收！研究从视频中进行材料无关系统辨识。
+</div>
 
 <span class='anchor' id='-publications'></span>
 
-# 📝 Publications
+# <span class="lang-en lang-inline">📝 Publications</span><span class="lang-zh lang-inline">📝 论文发表</span>
 
-## 🎯 Selected Publications (* indicates equal contribution)
+## <span class="lang-en lang-inline">🎯 Selected Publications (* indicates equal contribution)</span><span class="lang-zh lang-inline">🎯 代表性论文（* 表示共同一作）</span>
 
 ### 2026
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**SAP: Segment Any 4K Panorama**](https://arxiv.org/abs/2603.12759)  
@@ -213,8 +288,9 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 <span class='anchor' id='-honors-and-awards'></span>
 
-# 🎖 Honors and Awards
+# <span class="lang-en lang-inline">🎖 Honors and Awards</span><span class="lang-zh lang-inline">🎖 荣誉与奖励</span>
 
+<div class="lang-en lang-block" markdown="1">
 ### 🏆 Competitions
 - *2023.12* **Champion** 🥇, Guangdong-Hong Kong-Macao Greater Bay Area (Huangpu) International Algorithm Case Competition  
   *Topic: Three-dimensional reconstruction of objects using neural implicit representation*
@@ -225,11 +301,26 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 ### 💰 Scholarships & Academic Honors
 - *2017* **TE Connectivity Scholarship** (Top 1/600), **Beijing SMC Education Foundation Outstanding Scholarship Special Award** (Top 1/600), **Second Prize** in National Mathematics Competition for College Students
+</div>
+
+<div class="lang-zh lang-block" markdown="1">
+### 🏆 竞赛获奖
+- *2023.12* **冠军** 🥇，粤港澳大湾区（黄埔）国际算法算例大赛  
+  *赛题：基于神经隐式表示的物体三维重建*
+  
+- *2020.04* **前 7 / 256** 🥈，高能粒子碰撞分类挑战赛，Beindata
+
+- *2019.05* **二等奖** 🥉，美国大学生数学建模竞赛（MCM）
+
+### 💰 奖学金与学术荣誉
+- *2017* **TE Connectivity Scholarship**（Top 1/600）、**北京晟铭创科教育基金会优秀学生奖学金特等奖**（Top 1/600）、**全国大学生数学竞赛二等奖**
+</div>
 
 <span class='anchor' id='-educations'></span>
 
-# 📖 Educations
+# <span class="lang-en lang-inline">📖 Educations</span><span class="lang-zh lang-inline">📖 教育经历</span>
 
+<div class="lang-en lang-block" markdown="1">
 - 🎓 **Ph.D. in Electrical and Computer Engineering (formerly EEE)** | *2023.09 - Present*  
   [The University of Hong Kong (HKU)](https://www.hku.hk/) <img src="images/hku-32x32.png" style="width: 1em;">  
   *Advisor: Dr. Yifan (Evan) Peng*
@@ -242,11 +333,28 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 - 🎓 **B.S. in Electronic and Information Engineering** | *2016.09 - 2020.07*  
   [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/) <img src="images/njust-32x32.png" style="width: 1em;">  
   *School of Electronic and Optical Engineering*
+</div>
+
+<div class="lang-zh lang-block" markdown="1">
+- 🎓 **电机与电子工程博士（原 EEE）** | *2023.09 - 至今*  
+  [香港大学（HKU）](https://www.hku.hk/) <img src="images/hku-32x32.png" style="width: 1em;">  
+  *导师：Yifan（Evan）Peng 博士*
+  
+- 🎓 **大数据工程硕士** | *2020.09 - 2023.07*  
+  [清华大学（THU）](https://www.tsinghua.edu.cn/) <img src="images/tsinghua-32x32.png" style="width: 1em;">  
+  *自动化系、深圳国际研究生院*  
+  *导师：Kai Zhang 教授*
+  
+- 🎓 **电子信息工程学士** | *2016.09 - 2020.07*  
+  [南京理工大学（NJUST）](https://eoe.njust.edu.cn/) <img src="images/njust-32x32.png" style="width: 1em;">  
+  *电子与光学工程学院*
+</div>
 
 <span class='anchor' id='-internships'></span>
 
-# 💻 Internships
+# <span class="lang-en lang-inline">💻 Internships</span><span class="lang-zh lang-inline">💻 实习经历</span>
 
+<div class="lang-en lang-block" markdown="1">
 - 🏢 **Research Intern** | *Oct. 2025 - Present*  
   [**Tencent LIGHTSPEED STUDIOS**](https://www.lightspeed-studios.com/), Shenzhen, Guangdong, China  
   *Research Focus: Multimodal & 3D Content Generation and Simulation*
@@ -262,11 +370,31 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 - 🏢 **Artificial Intelligence Researcher** | *Mar. 2021 - Sep. 2021*  
   [**Huawei Technologies Co., Ltd.**](https://www.huawei.com/), Shenzhen, Guangdong, China  
   *Research Focus: 3D Reconstruction, Visual Localization*
+</div>
+
+<div class="lang-zh lang-block" markdown="1">
+- 🏢 **研究实习生** | *2025.10 - 至今*  
+  [**Tencent LIGHTSPEED STUDIOS**](https://www.lightspeed-studios.com/)，中国广东深圳  
+  *研究方向：多模态与 3D 内容生成及仿真*
+
+- 🏢 **研究实习生** | *2022.07 - 2022.11*  
+  [**Megvii Technology Limited (Face++)**](https://www.megvii.com/)，中国北京  
+  *研究方向：视觉里程计、NeRF、多视图立体（MVS）、特征匹配*
+  
+- 🏢 **研究实习生** | *2021.11 - 2022.05*  
+  [**Microsoft Research Asia (MSRA)**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)，中国北京  
+  *研究方向：视频理解、学习式计算机视觉*
+  
+- 🏢 **人工智能研究员** | *2021.03 - 2021.09*  
+  [**Huawei Technologies Co., Ltd.**](https://www.huawei.com/)，中国广东深圳  
+  *研究方向：三维重建、视觉定位*
+</div>
 
 <span class='anchor' id='-academic-services'></span>
 
-# 🧑‍⚖️ Academic Services
+# <span class="lang-en lang-inline">🧑‍⚖️ Academic Services</span><span class="lang-zh lang-inline">🧑‍⚖️ 学术服务</span>
 
+<div class="lang-en lang-block" markdown="1">
 ## Program Committee Member
 
 - 34th ACM Multimedia (ACMMM) 2026
@@ -287,11 +415,36 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 ## Journal Reviewer
 
 - IEEE Journal of Selected Topics in Signal Processing (J-STSP)
+</div>
+
+<div class="lang-zh lang-block" markdown="1">
+## 程序委员会成员
+
+- 第 34 届 ACM Multimedia（ACMMM）2026
+
+## 会议审稿
+
+### 2026
+- CVPR 2026、ECCV 2026、NeurIPS 2026、BMVC 2026、3DV 2026、ISMAR 2026
+
+### 2025
+- SIGGRAPH Asia 2025（XR Track）、ICCV 2025、ISMAR 2025
+- NeurIPS 2025（Main + Datasets and Benchmarks）、ICML 2025、ICLR 2025
+- ACM MM 2025、AISTATS 2025、ACML 2025、3DV 2025
+
+### 2024
+- NeurIPS 2024
+
+## 期刊审稿
+
+- IEEE Journal of Selected Topics in Signal Processing（J-STSP）
+</div>
 
 <span class='anchor' id='-invited-talks'></span>
 
-# 💬 Invited Talks & Teaching
+# <span class="lang-en lang-inline">💬 Invited Talks & Teaching</span><span class="lang-zh lang-inline">💬 报告与教学</span>
 
+<div class="lang-en lang-block" markdown="1">
 - 🎤 **Workshop Organizer & Speaker** | *Dec. 2025*  
   [**WeLight Workshop**](https://hku.welight.fun/events/workshop_25Dec/), The University of Hong Kong  
   *Organized by WeLightLab@HKU*
@@ -299,3 +452,14 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 - 🎤 **Guest Lecturer** | *May 2023*  
   **ELEC4544: AI and Deep Learning**, The University of Hong Kong  
   *Invited by Dr. Yifan (Evan) Peng*
+</div>
+
+<div class="lang-zh lang-block" markdown="1">
+- 🎤 **Workshop 组织者与报告人** | *2025.12*  
+  [**WeLight Workshop**](https://hku.welight.fun/events/workshop_25Dec/)，香港大学  
+  *由 WeLightLab@HKU 组织*
+
+- 🎤 **特邀讲师** | *2023.05*  
+  **ELEC4544: AI and Deep Learning**，香港大学  
+  *由 Yifan（Evan）Peng 博士邀请*
+</div>
