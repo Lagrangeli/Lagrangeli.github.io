@@ -167,14 +167,11 @@ h1:before, .anchor:before {
 .scholar-stat-badge {
     display: inline-flex;
     align-items: center;
-    gap: 0.55rem;
     margin-left: 0.35rem;
-    padding: 0.28rem 0.75rem;
-    border-radius: 999px;
-    background: linear-gradient(90deg, #f6f6f6 0%, #eef4ff 100%);
-    color: #1f3f75;
+    border-radius: 0.32rem;
+    overflow: hidden;
     text-decoration: none;
-    box-shadow: inset 0 0 0 1px rgba(66, 133, 244, 0.14);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 .scholar-stat-badge:hover {
@@ -182,17 +179,34 @@ h1:before, .anchor:before {
     text-decoration: none;
 }
 
-.scholar-stat-badge__label,
-.scholar-stat-badge__suffix {
-    font-size: 0.88rem;
-    font-weight: 600;
+.scholar-stat-badge__segment {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.26rem 0.62rem;
 }
 
-.scholar-stat-badge__value {
-    min-width: 2ch;
-    font-size: 0.92rem;
-    font-weight: 800;
-    color: #0b57d0;
+.scholar-stat-badge__segment--label {
+    background: #f2f2f2;
+    color: #4a4a4a;
+}
+
+.scholar-stat-badge__segment--value {
+    background: #4285f4;
+    color: #fff;
+    min-width: 2.4rem;
+    justify-content: center;
+}
+
+.scholar-stat-badge__segment .ai-google-scholar {
+    color: #4285f4;
+    font-size: 0.95rem;
+}
+
+.scholar-stat-badge__segment--label span,
+.scholar-stat-badge__segment--value {
+    font-size: 0.88rem;
+    font-weight: 700;
 }
 
 .lang-block,
