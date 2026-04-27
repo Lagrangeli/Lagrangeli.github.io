@@ -27,6 +27,7 @@ EDUCATION = [
 ]
 
 PUBLICATIONS = [
+    "Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery. Journal of the Society for Information Display, 2026. 2026.02 - 2026.03. Pui Hang Leung, Feng Wang, Zhenyang Li, Zongqi He, Yifan Peng, Wei-fa Yang.",
     "PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments. SIGGRAPH 2026. 2025.10 - 2026.01. Zhenyang Li*, Lutao Jiang*, Yizhou Zhao, Weikai Chen, Ying-Cong Chen, Xin Wang, Yifan Peng.",
     "E2Pano: Learning Event-to-Panorama Image Reconstruction. 在审. 2025.08 - 2025.11. Zhenyang Li*, Zongqi He*, Xiaoyang Bai, Shijie Lin, Yifan Peng.",
     "Structure-grounded Training Strategies Aid Generalization in Stereo Matching. 3DV 2026. 2025.04 - 2026.08. Liangxun Ou, Yuhui Liu, Zhenyang Li, Xiaoyang Bai, Yifan Peng.",

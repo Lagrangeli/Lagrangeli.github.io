@@ -157,6 +157,8 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 # <span class="lang-en lang-inline">🔥 News</span><span class="lang-zh lang-inline">🔥 新闻动态</span>
 
 <div class="lang-en lang-block" markdown="1">
+- *2026.04*: &nbsp;🏆 One paper on **3D Garment Modeling** (**PatternGSL**) is accepted to **SIGGRAPH 2026**!
+- *2026.04*: &nbsp;📄 One paper on **AR-assisted dental implant surgery** is published in **Journal of the Society for Information Display (JSID) 2026**!
 - *2026.03*: &nbsp;📄 One paper on **Panoramic Instance Segmentation** (SAP) is released on **arXiv**! Segment Any 4K Panorama for high-resolution 360° scenes.
 - *2026.03*: &nbsp;🏆 One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
 - *2026.03*: &nbsp;🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
@@ -166,6 +168,8 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
+- *2026.04*: &nbsp;🏆 一篇关于**三维服装建模**的论文（**PatternGSL**）被 **SIGGRAPH 2026** 接收！
+- *2026.04*: &nbsp;📄 一篇关于**增强现实辅助牙种植导航**的论文发表于 **Journal of the Society for Information Display (JSID) 2026**！
 - *2026.03*: &nbsp;📄 **全景实例分割**论文 **SAP** 已发布于 **arXiv**！工作聚焦高分辨率 360° 场景的 `Segment Any 4K Panorama`。
 - *2026.03*: &nbsp;🏆 一篇关于**立体匹配泛化**的论文被 **3DV 2026** 接收！提出面向稳健立体匹配的结构先验训练策略。
 - *2026.03*: &nbsp;🎓 担任 **第 34 届 ACM Multimedia（ACMMM）2026** 程序委员会成员！
@@ -181,11 +185,14 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 ## <span class="lang-en lang-inline">🎯 Selected Publications (* indicates equal contribution)</span><span class="lang-zh lang-inline">🎯 代表性论文（* 表示共同一作）</span>
 
 ### 2026
+- <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> **Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**  
+  Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
+
 - <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> **PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments**  
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/garment_teaser.png" alt="PatternGSL teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Ying-Cong Chen, Xin Wang, Weikai Chen, Yifan Peng.
+  **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Weikai Chen, Ying-Cong Chen, Xin Wang, Yifan Peng.
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**SAP: Segment Any 4K Panorama**](https://arxiv.org/abs/2603.12759)  
   <div style="text-align: center; margin: 10px 0;">
