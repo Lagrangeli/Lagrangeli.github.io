@@ -157,6 +157,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 # <span class="lang-en lang-inline">🔥 News</span><span class="lang-zh lang-inline">🔥 新闻动态</span>
 
 <div class="lang-en lang-block" markdown="1">
+- *2026.05*: &nbsp;📄 One paper on **Zero-Shot Object Navigation** (**ConsistNav**) is released on **arXiv**! Closing the action consistency gap with semantic executive control.
 - *2026.04*: &nbsp;🏆 One paper on **3D Garment Modeling** (**PatternGSL**) is accepted to **SIGGRAPH 2026**!
 - *2026.04*: &nbsp;📄 One paper on **AR-assisted dental implant surgery** is published in **Journal of the Society for Information Display (JSID) 2026**!
 - *2026.03*: &nbsp;📄 One paper on **Panoramic Instance Segmentation** (SAP) is released on **arXiv**! Segment Any 4K Panorama for high-resolution 360° scenes.
@@ -168,6 +169,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
+- *2026.05*: &nbsp;📄 一篇关于**零样本目标导航**的论文（**ConsistNav**）已发布于 **arXiv**！聚焦通过语义执行控制弥合动作一致性鸿沟。
 - *2026.04*: &nbsp;🏆 一篇关于**三维服装建模**的论文（**PatternGSL**）被 **SIGGRAPH 2026** 接收！
 - *2026.04*: &nbsp;📄 一篇关于**增强现实辅助牙种植导航**的论文发表于 **Journal of the Society for Information Display (JSID) 2026**！
 - *2026.03*: &nbsp;📄 **全景实例分割**论文 **SAP** 已发布于 **arXiv**！工作聚焦高分辨率 360° 场景的 `Segment Any 4K Panorama`。
@@ -185,7 +187,13 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 ## <span class="lang-en lang-inline">🎯 Selected Publications (* indicates equal contribution)</span><span class="lang-zh lang-inline">🎯 代表性论文（* 表示共同一作）</span>
 
 ### 2026
-- <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> **Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**  
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**ConsistNav: Closing the Action Consistency Gap in Zero-Shot Object Navigation with Semantic Executive Control**](https://arxiv.org/abs/2605.09869)  
+  <div style="text-align: center; margin: 10px 0;">
+    <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/consisnav.png" alt="ConsistNav teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
+  Haosen Wang, **Zhenyang Li**, Yinqiang Zhang, Zongqi He, Lutao Jiang, Kai Li, Yizhou Zhao, Liaoyuan Fan, Wenjian Hou, Tingbang Liang, Yibin Wen, Defeng Gu.
+
+- <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://sid.onlinelibrary.wiley.com/doi/pdf/10.1002/jsid.70061)  
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
 
 - <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> **PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments**  
