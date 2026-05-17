@@ -191,7 +191,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/consisnav.png" alt="ConsistNav teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Haosen Wang, **Zhenyang Li**, Yinqiang Zhang, Zongqi He, Lutao Jiang, Kai Li, Yizhou Zhao, Liaoyuan Fan, Wenjian Hou, Tingbang Liang, Yibin Wen, Defeng Gu.
+  Haosen Wang\*, **Zhenyang Li\***, Yinqiang Zhang, Zongqi He, Lutao Jiang, Kai Li, Yizhou Zhao, Liaoyuan Fan, Wenjian Hou, Tingbang Liang, Yibin Wen, Defeng Gu.
 
 - <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://sid.onlinelibrary.wiley.com/doi/pdf/10.1002/jsid.70061)  
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
