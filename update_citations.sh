@@ -16,10 +16,12 @@ else
     echo "⚠️  虚拟环境不存在，正在创建..."
     python3 -m venv venv
     source venv/bin/activate
-    pip install -q -r requirements.txt
     echo "✅ 虚拟环境创建完成"
     echo ""
 fi
+
+# Always sync dependencies so existing virtual environments pick up new packages.
+pip install -q -r requirements.txt
 
 # 运行爬虫
 echo "📊 正在爬取 Google Scholar 数据..."
