@@ -158,7 +158,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 <div class="lang-en lang-block" markdown="1">
 - *2026.05*: &nbsp;📄 One paper on **Zero-Shot Object Navigation** (**ConsistNav**) is released on **arXiv**! Closing the action consistency gap with semantic executive control.
-- *2026.04*: &nbsp;🏆 One paper on **3D Garment Modeling** (**PatternGSL**) is accepted to **SIGGRAPH 2026**!
+- *2026.04*: &nbsp;🏆 One paper on **3D Garment Modeling** ([**PatternGSL**](https://lagrangeli.github.io/PatternGSL/)) is accepted to **SIGGRAPH 2026**!
 - *2026.04*: &nbsp;📄 One paper on **AR-assisted dental implant surgery** is published in **Journal of the Society for Information Display (JSID) 2026**!
 - *2026.03*: &nbsp;📄 One paper on **Panoramic Instance Segmentation** (SAP) is released on **arXiv**! Segment Any 4K Panorama for high-resolution 360° scenes.
 - *2026.03*: &nbsp;🏆 One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
@@ -170,7 +170,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 
 <div class="lang-zh lang-block" markdown="1">
 - *2026.05*: &nbsp;📄 一篇关于**零样本目标导航**的论文（**ConsistNav**）已发布于 **arXiv**！聚焦通过语义执行控制弥合动作一致性鸿沟。
-- *2026.04*: &nbsp;🏆 一篇关于**三维服装建模**的论文（**PatternGSL**）被 **SIGGRAPH 2026** 接收！
+- *2026.04*: &nbsp;🏆 一篇关于**三维服装建模**的论文（[**PatternGSL**](https://lagrangeli.github.io/PatternGSL/)）被 **SIGGRAPH 2026** 接收！
 - *2026.04*: &nbsp;📄 一篇关于**增强现实辅助牙种植导航**的论文发表于 **Journal of the Society for Information Display (JSID) 2026**！
 - *2026.03*: &nbsp;📄 **全景实例分割**论文 **SAP** 已发布于 **arXiv**！工作聚焦高分辨率 360° 场景的 `Segment Any 4K Panorama`。
 - *2026.03*: &nbsp;🏆 一篇关于**立体匹配泛化**的论文被 **3DV 2026** 接收！提出面向稳健立体匹配的结构先验训练策略。
@@ -196,7 +196,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 - <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://sid.onlinelibrary.wiley.com/doi/pdf/10.1002/jsid.70061)  
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
 
-- <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> [**PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments**](https://lagrangeli.github.io/PatternGSL/)  
+- <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a>
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/garment_teaser.png" alt="PatternGSL teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
