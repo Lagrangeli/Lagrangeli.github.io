@@ -196,7 +196,7 @@ My research interests lie at the intersection of **Computer Vision**, **Computer
 - <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://sid.onlinelibrary.wiley.com/doi/pdf/10.1002/jsid.70061)  
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
 
-- <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> **PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments**  
+- <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> [**PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments**](https://lagrangeli.github.io/PatternGSL/)  
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/garment_teaser.png" alt="PatternGSL teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
