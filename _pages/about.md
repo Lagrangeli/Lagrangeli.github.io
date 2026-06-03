@@ -41,7 +41,8 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 **📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-**📄 Curriculum Vitae:** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">Open PDF in Browser</a>
+**📄 Curriculum Vitae:** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">Open English PDF</a>  
+The CV language follows the current homepage language.
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
@@ -55,7 +56,8 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 **📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-**📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd%20-%20zh.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">在浏览器中打开 PDF</a>
+**📄 个人简历：** <a href="/Zhenyang%20LI%20-%20CV%20-%20phd%20-%20zh.pdf?v={{ site.time | date: '%Y%m%d%H%M' }}" target="_blank" rel="noopener">打开中文 PDF</a>  
+简历语言与当前主页语言一致。
 </div>
 
 <!-- <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 25px 0; color: white; box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);">
