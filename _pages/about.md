@@ -41,7 +41,7 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 
 **📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-**📄 Curriculum Vitae:** <a href="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/cv-en.pdf" target="_blank" rel="noopener">Open English PDF</a>  
+**📄 Curriculum Vitae:** <a href="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/cv-en.pdf?response-content-disposition=inline&response-content-type=application/pdf" target="_blank" rel="noopener">Open English PDF</a>  
 The CV language follows the current homepage language.
 </div>
 
@@ -56,7 +56,7 @@ The CV language follows the current homepage language.
 
 **📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-**📄 个人简历：** <a href="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/cv-zh.pdf" target="_blank" rel="noopener">打开中文 PDF</a>  
+**📄 个人简历：** <a href="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/cv-zh.pdf?response-content-disposition=inline&response-content-type=application/pdf" target="_blank" rel="noopener">打开中文 PDF</a>  
 简历语言与当前主页语言一致。
 </div>
 
