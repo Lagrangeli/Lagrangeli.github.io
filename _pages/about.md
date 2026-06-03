@@ -83,69 +83,67 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 ## <span class="lang-en lang-inline">🔬 Research Focus</span><span class="lang-zh lang-inline">🔬 研究方向</span>
 
 <div class="lang-en lang-block" markdown="1">
-My research interests lie at the intersection of **Computer Vision**, **Computer Graphics**, and **Artificial Intelligence**. I focus on enabling machines to perceive, understand, and generate photorealistic 3D/4D visual content. Specifically, my work concentrates on the following areas:
+My research sits at the intersection of **Computer Vision**, **Computer Graphics**, and **Artificial Intelligence**. I focus on reconstructing, rendering, and reasoning about dynamic 3D/4D visual worlds, with an emphasis on physically grounded and multimodal systems.
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
-我的研究位于**计算机视觉**、**计算机图形学**与**人工智能**的交叉领域，关注如何让机器感知、理解并生成高保真的 3D/4D 视觉内容。当前主要聚焦以下几个方向：
+我的研究位于**计算机视觉**、**计算机图形学**与**人工智能**的交叉领域，关注动态 3D/4D 视觉世界的重建、渲染与理解，尤其强调物理一致性与多模态智能系统。
 </div>
 
 <div class="lang-en lang-block" style="margin: 25px 0;">
   <div style="border-left: 4px solid #667eea; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #f8f9ff, #ffffff);">
-    <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D Reconstruction & Generation</h3>
+    <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D Scene Reconstruction & Rendering</h3>
     <ul style="margin-bottom: 0;">
-      <li><strong>Neural Representations:</strong> Neural Radiance Fields (NeRF) and 3D Gaussian Splatting for high-fidelity scene modeling</li>
-      <li><strong>Dynamic Scenes:</strong> 4D reconstruction with enhanced velocity field modeling for video sequences</li>
-      <li><strong>Physics-based Generation:</strong> Material-agnostic system identification and physically correct video synthesis</li>
-      <li><strong>Event-based Vision:</strong> Event camera rendering and dynamic scene reconstruction using event streams</li>
-      <li><strong>Visual Odometry:</strong> Multi-view stereo, depth estimation, and 3D scene understanding</li>
-      <li><strong>Feature Matching:</strong> Overlapping region-based techniques for robust image correspondence</li>
+      <li><strong>Neural scene representations:</strong> NeRF and 3D Gaussian Splatting for high-fidelity geometry, appearance, and view synthesis</li>
+      <li><strong>Dynamic reconstruction:</strong> 4D scene modeling from videos and event streams, including fast motion and velocity-field estimation</li>
+      <li><strong>Geometric perception:</strong> Multi-view stereo, depth estimation, visual odometry, and robust feature correspondence</li>
     </ul>
   </div>
 
   <div style="border-left: 4px solid #e91e63; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fff5f8, #ffffff);">
-    <h3 style="margin-top: 0; color: #e91e63;">🤖 Vision-Language & Multimodal AI</h3>
+    <h3 style="margin-top: 0; color: #e91e63;">🧩 Physics-aware & Generative Visual Modeling</h3>
     <ul style="margin-bottom: 0;">
-      <li><strong>Visual-Language-Action Models:</strong> Embodied AI for robotics and interactive systems</li>
-      <li><strong>Video Understanding:</strong> Temporal modeling and action recognition in dynamic scenes</li>
-      <li><strong>Cross-modal Learning:</strong> Bridging vision, language, and action spaces</li>
+      <li><strong>Physical reasoning:</strong> Inferring material and system properties from visual observations</li>
+      <li><strong>Controllable generation:</strong> Producing physically plausible visual content for videos, garments, and simulated scenes</li>
+      <li><strong>Rendering foundations:</strong> Path tracing, event-camera rendering, and realistic appearance modeling</li>
     </ul>
   </div>
 
   <div style="border-left: 4px solid #764ba2; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fcf8ff, #ffffff);">
-    <h3 style="margin-top: 0; color: #764ba2;">🖼️ Computational Imaging & Holography</h3>
+    <h3 style="margin-top: 0; color: #764ba2;">🤖 Multimodal & Embodied Visual Intelligence</h3>
     <ul style="margin-bottom: 0;">
-      <li><strong>Holographic Display:</strong> Computer-generated holography with camera-calibrated neural networks</li>
+      <li><strong>Vision-language-action models:</strong> Connecting visual perception with language, planning, and action</li>
+      <li><strong>Embodied navigation:</strong> Zero-shot object navigation and semantic executive control for interactive agents</li>
+      <li><strong>Computational imaging:</strong> Holographic display and camera-calibrated neural imaging systems</li>
     </ul>
   </div>
 </div>
 
 <div class="lang-zh lang-block" style="margin: 25px 0;">
   <div style="border-left: 4px solid #667eea; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #f8f9ff, #ffffff);">
-    <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D 重建与生成</h3>
+    <h3 style="margin-top: 0; color: #667eea;">🎨 3D/4D 场景重建与渲染</h3>
     <ul style="margin-bottom: 0;">
-      <li><strong>神经表示：</strong>研究 Neural Radiance Fields (NeRF) 与 3D Gaussian Splatting 等高保真场景表示方法</li>
-      <li><strong>动态场景：</strong>面向视频序列的 4D 重建与增强速度场建模</li>
-      <li><strong>物理驱动生成：</strong>从视频中进行材料无关系统辨识与物理正确的视频合成</li>
-      <li><strong>事件视觉：</strong>基于事件相机的渲染与动态场景重建</li>
-      <li><strong>视觉里程计：</strong>多视图立体、深度估计与三维场景理解</li>
-      <li><strong>特征匹配：</strong>面向稳健图像对应的重叠区域特征匹配方法</li>
+      <li><strong>神经场景表示：</strong>研究 NeRF 与 3D Gaussian Splatting 等方法，用于高保真几何、外观与新视角合成</li>
+      <li><strong>动态场景重建：</strong>从视频与事件流中重建 4D 场景，建模快速运动与速度场</li>
+      <li><strong>几何感知：</strong>多视图立体、深度估计、视觉里程计与稳健图像对应</li>
     </ul>
   </div>
 
   <div style="border-left: 4px solid #e91e63; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fff5f8, #ffffff);">
-    <h3 style="margin-top: 0; color: #e91e63;">🤖 视觉语言与多模态智能</h3>
+    <h3 style="margin-top: 0; color: #e91e63;">🧩 物理感知与生成式视觉建模</h3>
     <ul style="margin-bottom: 0;">
-      <li><strong>视觉-语言-动作模型：</strong>面向机器人和交互系统的具身智能</li>
-      <li><strong>视频理解：</strong>动态场景中的时序建模与动作识别</li>
-      <li><strong>跨模态学习：</strong>连接视觉、语言与动作空间的统一建模</li>
+      <li><strong>物理推理：</strong>从视觉观测中推断材料属性与物理系统参数</li>
+      <li><strong>可控生成：</strong>生成符合物理规律的视频、服装与仿真场景内容</li>
+      <li><strong>真实感渲染：</strong>路径追踪、事件相机渲染与真实外观建模</li>
     </ul>
   </div>
 
   <div style="border-left: 4px solid #764ba2; padding: 15px 20px; margin: 15px 0; background: linear-gradient(to right, #fcf8ff, #ffffff);">
-    <h3 style="margin-top: 0; color: #764ba2;">🖼️ 计算成像与全息</h3>
+    <h3 style="margin-top: 0; color: #764ba2;">🤖 多模态与具身视觉智能</h3>
     <ul style="margin-bottom: 0;">
-      <li><strong>全息显示：</strong>基于相机标定神经网络的计算全息生成与显示</li>
+      <li><strong>视觉-语言-动作模型：</strong>连接视觉感知、语言理解、规划与动作执行</li>
+      <li><strong>具身导航：</strong>面向交互式智能体的零样本目标导航与语义执行控制</li>
+      <li><strong>计算成像：</strong>全息显示与基于相机标定的神经成像系统</li>
     </ul>
   </div>
 </div>
