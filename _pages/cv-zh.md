@@ -42,11 +42,11 @@ author_profile: false
 
 <div class="cv-viewer__bar">
   <h1 class="cv-viewer__title">李镇洋 - 个人简历</h1>
-  <a class="cv-viewer__link" href="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/main-zh.pdf" target="_blank" rel="noopener">打开原始 PDF</a>
+  <a class="cv-viewer__link" href="/Zhenyang%20LI%20-%20CV%20-%20phd%20-%20zh.pdf" target="_blank" rel="noopener">打开原始 PDF</a>
 </div>
 
 <iframe
   class="cv-viewer__frame"
-  src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/main-zh.pdf#toolbar=1&navpanes=0"
+  src="/Zhenyang%20LI%20-%20CV%20-%20phd%20-%20zh.pdf#toolbar=1&navpanes=0"
   title="李镇洋中文简历 PDF"
 ></iframe>

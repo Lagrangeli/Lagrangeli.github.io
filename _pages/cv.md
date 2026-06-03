@@ -42,11 +42,11 @@ author_profile: false
 
 <div class="cv-viewer__bar">
   <h1 class="cv-viewer__title">Zhenyang Li - Curriculum Vitae</h1>
-  <a class="cv-viewer__link" href="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/main.pdf" target="_blank" rel="noopener">Open original PDF</a>
+  <a class="cv-viewer__link" href="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf" target="_blank" rel="noopener">Open original PDF</a>
 </div>
 
 <iframe
   class="cv-viewer__frame"
-  src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/main.pdf#toolbar=1&navpanes=0"
+  src="/Zhenyang%20LI%20-%20CV%20-%20phd.pdf#toolbar=1&navpanes=0"
   title="Zhenyang Li English CV PDF"
 ></iframe>
