@@ -35,7 +35,7 @@ I am currently a Ph.D. student (since Fall 2023) in the [Department of Electrica
 
 Prior to joining HKU, I received my M.S. degree in Big Data Engineering from the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, and my B.S. degree in Electronic and Information Engineering from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
 
-I am fortunate to be under the guidance of [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from the WeLightLab@HKU in the ECE (formerly EEE) & CS department at HKU and advised by [Prof. Kai Zhang](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm) from the Intelligent Transportation Joint Laboratory at Tsinghua University.
+I am fortunate to be advised by [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) from WeLightLab@HKU and [Prof. Jia Pan](https://i.cs.hku.hk/~jpan/) at HKU.
 
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
 
@@ -50,7 +50,7 @@ The CV language follows the current homepage language.
 
 在加入港大之前，我于[清华大学（THU）](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">自动化系与深圳国际研究生院获得大数据工程硕士学位，并于[南京理工大学（NJUST）](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">获得电子信息工程学士学位。
 
-目前我在港大 ECE（原 EEE）与计算机科学相关团队的 WeLightLab@HKU，师从[Yifan（Evan）Peng 博士](https://www.eee.hku.hk/~evanpeng/#opennewwindow)，同时也接受清华大学智能交通联合实验室[Kai Zhang 教授](https://www.sigs.tsinghua.edu.cn/zk_en/main.htm)的指导。
+目前我在港大 WeLightLab@HKU，博士导师为[Yifan（Evan）Peng 博士](https://www.eee.hku.hk/~evanpeng/#opennewwindow)和港大的[Jia Pan（潘佳）教授](https://i.cs.hku.hk/~jpan/)。
 
 我的研究兴趣包括计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示。
 
@@ -348,7 +348,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 <div class="lang-en lang-block" markdown="1">
 - 🎓 **Ph.D. in Electrical and Computer Engineering (formerly EEE)** | *2023.09 - Present*  
   [The University of Hong Kong (HKU)](https://www.hku.hk/) <img src="images/hku-32x32.png" style="width: 1em;">  
-  *Advisor: Dr. Yifan (Evan) Peng*
+  *Advisor: Dr. Yifan (Evan) Peng & Prof. Jia Pan*
   
 - 🎓 **M.S. in Big Data Engineering** | *2020.09 - 2023.07*  
   [Tsinghua University (THU)](https://www.tsinghua.edu.cn/) <img src="images/tsinghua-32x32.png" style="width: 1em;">  
@@ -363,7 +363,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 <div class="lang-zh lang-block" markdown="1">
 - 🎓 **电机与电子工程博士（原 EEE）** | *2023.09 - 至今*  
   [香港大学（HKU）](https://www.hku.hk/) <img src="images/hku-32x32.png" style="width: 1em;">  
-  *导师：Yifan（Evan）Peng 博士*
+  *导师：Yifan（Evan）Peng 博士、Jia Pan（潘佳）教授*
   
 - 🎓 **大数据工程硕士** | *2020.09 - 2023.07*  
   [清华大学（THU）](https://www.tsinghua.edu.cn/) <img src="images/tsinghua-32x32.png" style="width: 1em;">  
