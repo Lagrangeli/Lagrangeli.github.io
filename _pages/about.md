@@ -210,20 +210,6 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   </div>
   Lutao Jiang, Zidong Cao, Weikai Chen, Xu Zheng, Yuanhuiyi Lyu, **Zhenyang Li**, Zeyu Hu, Yingda Yin, Keyang Luo, Runze Zhang, Kai Yan, Shengju Qian, Haidi Fan, Yifan Peng, Xin Wang, Hui Xiong, Ying-Cong Chen.
 
-- <img alt="3DV" src="https://img.shields.io/badge/3DV-2026-blue"> [**Structure-grounded Training Strategies Aid Generalization in Stereo Matching**](https://openreview.net/forum?id=rIeputhlON)  
-  <div style="text-align: center; margin: 10px 0;">
-    <div style="display: inline-flex; gap: 8px; width: 90%; max-width: 700px; align-items: center;">
-      <div style="flex: 3; min-width: 0; display: flex; flex-direction: column; gap: 8px;">
-        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-aux_task.png" alt="Auxiliary Task" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
-        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-pipeline.png" alt="Pipeline" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
-      </div>
-      <div style="flex: 2; min-width: 0;">
-        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-geom_aug_1.png" alt="Geometric Augmentation" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
-      </div>
-    </div>
-  </div>
-  Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
-
 - <img alt="TVCG" src="https://img.shields.io/badge/TVCG-2026-blue"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW)<br>
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
@@ -237,6 +223,20 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   </div>
   Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
   Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>.
+
+- <img alt="3DV" src="https://img.shields.io/badge/3DV-2026-blue"> [**Structure-grounded Training Strategies Aid Generalization in Stereo Matching**](https://openreview.net/forum?id=rIeputhlON)<br>
+  <div style="text-align: center; margin: 10px 0;">
+    <div style="display: inline-flex; gap: 8px; width: 90%; max-width: 700px; align-items: center;">
+      <div style="flex: 3; min-width: 0; display: flex; flex-direction: column; gap: 8px;">
+        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-aux_task.png" alt="Auxiliary Task" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-pipeline.png" alt="Pipeline" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+      </div>
+      <div style="flex: 2; min-width: 0;">
+        <img src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/3dv-geom_aug_1.png" alt="Geometric Augmentation" style="width: 100%; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+      </div>
+    </div>
+  </div>
+  Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
 
 ### 2025
 - <img alt="ICCV" src="https://img.shields.io/badge/ICCV-2025-blue"> [**Toward Material-Agnostic System Identification from Videos**](https://arxiv.org/pdf/2508.01112?)  
