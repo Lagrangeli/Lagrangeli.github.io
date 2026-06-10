@@ -158,7 +158,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 <div class="lang-en lang-block" markdown="1">
 - *2026.06*: &nbsp;🏆 One paper on **Fast Motion Reconstruction** (**ERF-GS**) is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>!
-- *2026.05*: &nbsp;🏆 One paper on **Event Camera Rendering** (**EventTracer**) is accepted to <a href="https://www.computer.org/csdl/journal/tg" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>!
+- *2026.05*: &nbsp;🏆 One paper on **Event Camera Rendering** (**EventTracer**) is accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>!
 - *2026.04*: &nbsp;🏆 One paper on **3D Garment Modeling** (<a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a>) is accepted to **SIGGRAPH 2026**!
 - *2026.05*: &nbsp;📄 One paper on **Zero-Shot Object Navigation** (**ConsistNav**) is released on **arXiv**! Closing the action consistency gap with semantic executive control.
 - *2026.04*: &nbsp;📄 One paper on **AR-assisted dental implant surgery** is published in **Journal of the Society for Information Display (JSID) 2026**!
@@ -171,7 +171,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 <div class="lang-zh lang-block" markdown="1">
 - *2026.06*: &nbsp;🏆 一篇关于**快速运动重建**的论文（**ERF-GS**）被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收！
-- *2026.05*: &nbsp;🏆 一篇关于**事件相机渲染**的论文（**EventTracer**）被 <a href="https://www.computer.org/csdl/journal/tg" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a> 接收！
+- *2026.05*: &nbsp;🏆 一篇关于**事件相机渲染**的论文（**EventTracer**）被 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a> 接收！
 - *2026.04*: &nbsp;🏆 一篇关于**三维服装建模**的论文（<a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a>）被 **SIGGRAPH 2026** 接收！
 - *2026.05*: &nbsp;📄 一篇关于**零样本目标导航**的论文（**ConsistNav**）已发布于 **arXiv**！聚焦通过语义执行控制弥合动作一致性鸿沟。
 - *2026.04*: &nbsp;📄 一篇关于**增强现实辅助牙种植导航**的论文发表于 **Journal of the Society for Information Display (JSID) 2026**！
@@ -224,12 +224,12 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   </div>
   Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
 
-- <img alt="TVCG" src="https://img.shields.io/badge/TVCG-2026-blue"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://arxiv.org/abs/2508.18071)<br>
+- <img alt="TVCG" src="https://img.shields.io/badge/TVCG-2026-blue"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW)<br>
   <div style="text-align: center; margin: 10px 0;">
     <img src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
   **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.<br>
-  Accepted to <a href="https://www.computer.org/csdl/journal/tg" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>.
+  Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [arXiv](https://arxiv.org/abs/2508.18071)
 
 - <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> **ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**<br>
   <div style="text-align: center; margin: 10px 0;">
