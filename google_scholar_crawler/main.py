@@ -1,9 +1,15 @@
 import json
 import os
+import re
+import urllib.request
 from datetime import datetime
-from typing import Optional
+from typing import Any, Optional
 
-from scholarly import ProxyGenerator, scholarly
+try:
+    from scholarly import ProxyGenerator, scholarly
+except ImportError:  # pragma: no cover - local fallback path
+    ProxyGenerator = None
+    scholarly = None
 
 
 def write_json(path: str, payload: dict) -> None:
@@ -22,27 +28,101 @@ def read_json(path: str) -> dict:
 def fetch_author(scholar_id: str) -> dict:
     errors = []
 
-    try:
-        author = scholarly.search_author_id(scholar_id)
-        scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
-        author["fetch_strategy"] = "direct"
-        return author
-    except Exception as exc:  # pragma: no cover - network-dependent
-        errors.append(f"direct: {exc}")
-
-    try:
-        proxy = ProxyGenerator()
-        if proxy.FreeProxies():
-            scholarly.use_proxy(proxy)
+    if scholarly is None or ProxyGenerator is None:
+        errors.append("scholarly: package not installed")
+    elif os.environ.get("SCHOLAR_SKIP_SCHOLARLY") == "1":
+        errors.append("direct/free-proxies: skipped by SCHOLAR_SKIP_SCHOLARLY")
+    else:
+        try:
             author = scholarly.search_author_id(scholar_id)
             scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
-            author["fetch_strategy"] = "free-proxies"
+            author["fetch_strategy"] = "direct"
             return author
-        errors.append("free-proxies: no proxy available")
-    except Exception as exc:  # pragma: no cover - network-dependent
-        errors.append(f"free-proxies: {exc}")
+        except Exception as exc:  # pragma: no cover - network-dependent
+            errors.append(f"direct: {exc}")
+
+        try:
+            proxy = ProxyGenerator()
+            if proxy.FreeProxies():
+                scholarly.use_proxy(proxy)
+                author = scholarly.search_author_id(scholar_id)
+                scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+                author["fetch_strategy"] = "free-proxies"
+                return author
+            errors.append("free-proxies: no proxy available")
+        except Exception as exc:  # pragma: no cover - network-dependent
+            errors.append(f"free-proxies: {exc}")
 
     raise RuntimeError("Failed to fetch Google Scholar profile. " + " | ".join(errors))
+
+
+def fetch_profile_page_counts(scholar_id: str) -> dict:
+    url = f"https://scholar.google.com/citations?hl=en&user={scholar_id}"
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+            ),
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        page = response.read().decode("utf-8", errors="replace")
+
+    row_match = re.search(
+        r">Citations</a>.*?"
+        r'<td[^>]*class="gsc_rsb_std"[^>]*>([\d,]+)</td>.*?'
+        r'<td[^>]*class="gsc_rsb_std"[^>]*>([\d,]+)</td>',
+        page,
+        flags=re.DOTALL,
+    )
+    if row_match:
+        return {
+            "citedby": int(row_match.group(1).replace(",", "")),
+            "citedby5y": int(row_match.group(2).replace(",", "")),
+        }
+
+    meta_match = re.search(r"Cited by\s+([\d,]+)", page)
+    if meta_match:
+        return {"citedby": int(meta_match.group(1).replace(",", ""))}
+
+    raise RuntimeError("Could not parse citation counts from Google Scholar profile page")
+
+
+def build_fallback_author(
+    scholar_id: str,
+    previous_author: dict,
+    fetch_error: str,
+    profile_error: Optional[str] = None,
+) -> dict:
+    author = previous_author.copy() if previous_author else {"scholar_id": scholar_id}
+    author["scholar_id"] = author.get("scholar_id", scholar_id)
+    author["fetch_strategy"] = "previous-cache"
+    errors = [fetch_error]
+    if profile_error:
+        errors.append(profile_error)
+    author["last_fetch_error"] = " | ".join(errors)
+    return author
+
+
+def fetch_author_with_fallback(scholar_id: str, previous_author: dict) -> dict:
+    try:
+        return fetch_author(scholar_id)
+    except Exception as exc:  # pragma: no cover - network-dependent
+        fetch_error = str(exc)
+
+    try:
+        counts = fetch_profile_page_counts(scholar_id)
+        author = previous_author.copy() if previous_author else {"scholar_id": scholar_id}
+        author.update(counts)
+        author["scholar_id"] = author.get("scholar_id", scholar_id)
+        author["fetch_strategy"] = "profile-page"
+        author.pop("last_fetch_error", None)
+        return author
+    except Exception as exc:  # pragma: no cover - network-dependent
+        return build_fallback_author(scholar_id, previous_author, fetch_error, str(exc))
 
 
 def to_int(value) -> Optional[int]:
@@ -62,8 +142,12 @@ def apply_floor(author: dict, previous_author: dict, manual_floor: dict) -> dict
         ("env_floor", to_int(os.environ.get("SCHOLAR_CITATION_FLOOR"))),
     ]
     citedby_candidates = [(source, value) for source, value in citedby_candidates if value is not None]
-    best_source, best_citedby = max(citedby_candidates, key=lambda item: item[1])
-    author["citedby"] = best_citedby
+    if citedby_candidates:
+        best_source, best_citedby = max(citedby_candidates, key=lambda item: item[1])
+        author["citedby"] = best_citedby
+    else:
+        best_source = "missing"
+        author["citedby"] = 0
 
     citedby5y_candidates = [
         ("scraped", to_int(author.get("citedby5y"))),
@@ -80,18 +164,26 @@ def apply_floor(author: dict, previous_author: dict, manual_floor: dict) -> dict
     return author
 
 
+def normalize_publications(publications: Any) -> dict:
+    if isinstance(publications, dict):
+        return publications
+    if not isinstance(publications, list):
+        return {}
+    return {
+        publication["author_pub_id"]: publication
+        for publication in publications
+        if isinstance(publication, dict) and publication.get("author_pub_id")
+    }
+
+
 scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID", "r9f4mLMAAAAJ")
 previous_author = read_json("../results/gs_data.json")
 manual_floor = read_json("manual_citation_floor.json")
-author: dict = fetch_author(scholar_id)
+author: dict = fetch_author_with_fallback(scholar_id, previous_author)
 author = apply_floor(author, previous_author, manual_floor)
 
 author["updated"] = str(datetime.now())
-author["publications"] = {
-    publication["author_pub_id"]: publication
-    for publication in author.get("publications", [])
-    if publication.get("author_pub_id")
-}
+author["publications"] = normalize_publications(author.get("publications", []))
 print(
     json.dumps(
         {
