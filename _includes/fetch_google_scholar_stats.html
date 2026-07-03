@@ -1,11 +1,6 @@
 <script>
     $(document).ready(function () {
         var urls = ['/results/gs_data.json'];
-        {% if site.google_scholar_stats_use_cdn %}
-        urls.push('https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json');
-        {% else %}
-        urls.push('https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json');
-        {% endif %}
 
         function applyScholarData(data) {
             var totalCitationTargets = document.querySelectorAll('[data-total-cit]');

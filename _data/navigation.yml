@@ -16,7 +16,7 @@ main:
     title_zh: "荣誉奖励"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
+  - title: "Education"
     title_zh: "教育经历"
     url: "/#-educations"
 
@@ -24,7 +24,7 @@ main:
     title_zh: "实习经历"
     url: "/#-internships"
 
-  - title: "Academic Services"
+  - title: "Academic Service"
     title_zh: "学术服务"
     url: "/#-academic-services"
 

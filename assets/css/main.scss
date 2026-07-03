@@ -235,6 +235,33 @@ h1:before, .anchor:before {
     letter-spacing: 0.01em;
 }
 
+.research-focus-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin: 1.35rem 0 1.8rem;
+}
+
+.research-focus-item {
+    border-left: 3px solid #4f6f9f;
+    padding: 0.75rem 0.9rem;
+    background: #f8fafc;
+}
+
+.research-focus-item h3 {
+    margin: 0 0 0.45rem;
+    color: #1f3f68;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+.research-focus-item p {
+    margin: 0;
+    color: #334155;
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
 .lang-block,
 .lang-inline {
     display: none;
@@ -267,5 +294,9 @@ html[data-site-lang="zh"] .lang-zh.lang-inline {
 
     .lang-switcher__label {
         font-size: 0.86rem;
+    }
+
+    .research-focus-grid {
+        grid-template-columns: 1fr;
     }
 }
