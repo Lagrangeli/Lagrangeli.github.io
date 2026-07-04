@@ -1,6 +1,7 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% assign wechat_qr = author.wechat_qr | default: "images/wechat-icon.JPG" %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
@@ -30,6 +31,15 @@
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      {% endif %}
+      {% if wechat_qr %}
+        <li class="author__wechat">
+          <a href="{{ wechat_qr | relative_url }}" class="author__wechat-toggle" data-wechat-toggle aria-expanded="false" aria-controls="wechat-qr-sidebar"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</a>
+          <div id="wechat-qr-sidebar" class="author__wechat-panel" hidden>
+            <img src="{{ wechat_qr | relative_url }}" alt="WeChat QR code for {{ author.name }}" loading="lazy" decoding="async">
+            <div class="author__wechat-caption">Scan to add WeChat</div>
+          </div>
+        </li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -126,6 +136,9 @@
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
+      {% if wechat_qr %}
+        <a href="{{ wechat_qr | relative_url }}" class="author__wechat-toggle author__wechat-toggle--icon" data-wechat-toggle aria-expanded="false" aria-controls="wechat-qr-sidebar-sm" aria-label="WeChat QR code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
+      {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
       {% endif %}
@@ -214,5 +227,11 @@
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
     </div>
+    {% if wechat_qr %}
+      <div id="wechat-qr-sidebar-sm" class="author__wechat-panel author__wechat-panel--sm" hidden>
+        <img src="{{ wechat_qr | relative_url }}" alt="WeChat QR code for {{ author.name }}" loading="lazy" decoding="async">
+        <div class="author__wechat-caption">Scan to add WeChat</div>
+      </div>
+    {% endif %}
   </div>
 </div>

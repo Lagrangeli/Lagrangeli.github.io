@@ -76,5 +76,48 @@
   })();
 </script>
 
+<script>
+  (function() {
+    function closeWechatPanels() {
+      var toggles = document.querySelectorAll("[data-wechat-toggle]");
+      toggles.forEach(function(toggle) {
+        toggle.setAttribute("aria-expanded", "false");
+      });
+
+      var panels = document.querySelectorAll(".author__wechat-panel");
+      panels.forEach(function(panel) {
+        panel.hidden = true;
+      });
+    }
+
+    document.addEventListener("click", function(event) {
+      var toggle = event.target.closest("[data-wechat-toggle]");
+      if (!toggle) {
+        if (!event.target.closest(".author__wechat-panel")) {
+          closeWechatPanels();
+        }
+        return;
+      }
+
+      event.preventDefault();
+      var panel = document.getElementById(toggle.getAttribute("aria-controls"));
+      if (!panel) {
+        return;
+      }
+
+      var shouldOpen = toggle.getAttribute("aria-expanded") !== "true";
+      closeWechatPanels();
+      toggle.setAttribute("aria-expanded", shouldOpen ? "true" : "false");
+      panel.hidden = !shouldOpen;
+    });
+
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape") {
+        closeWechatPanels();
+      }
+    });
+  })();
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
