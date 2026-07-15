@@ -2,9 +2,10 @@ name: Update Google Scholar Stats
 
 on:
   schedule:
-    # 每3小时更新一次（北京时间: 00:00/03:00/06:00/09:00/12:00/15:00/18:00/21:00）
-    # GitHub Actions cron uses UTC: 16:00/19:00/22:00/01:00/04:00/07:00/10:00/13:00
-    - cron: '0 1,4,7,10,13,16,19,22 * * *'
+    # 每3小时更新一次，避开 GitHub Actions 整点高峰
+    # 北京时间: 00:17/03:17/06:17/09:17/12:17/15:17/18:17/21:17
+    # GitHub Actions cron uses UTC: 16:17/19:17/22:17/01:17/04:17/07:17/10:17/13:17
+    - cron: '17 1,4,7,10,13,16,19,22 * * *'
   workflow_dispatch:
     inputs:
       citation_floor:
@@ -36,6 +37,7 @@ jobs:
       - name: Update Google Scholar stats
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID || 'r9f4mLMAAAAJ' }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           SCHOLAR_CITATION_FLOOR: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.citation_floor || '' }}
         run: |
           cd google_scholar_crawler
