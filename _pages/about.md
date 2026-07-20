@@ -23,36 +23,42 @@ redirect_from:
   </div>
 </div>
 
-<div class="lang-en lang-block" markdown="1">
-I am currently a Ph.D. student (since Fall 2023) in the [Department of Electrical and Computer Engineering (ECE, formerly EEE)](https://ece.hku.hk/) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">.
+# <span class="lang-en lang-inline">About</span><span class="lang-zh lang-inline">关于我</span>
 
-Prior to joining HKU, I received my M.S. degree in Big Data Engineering from the Department of Automation and Shenzhen International Graduate School at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">, and my B.S. degree in Electronic and Information Engineering from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">.
+<div class="about-summary lang-en lang-block" markdown="1">
+- a Ph.D. student (since Fall 2023) in the [Department of Electrical and Computer Engineering (ECE, formerly EEE)](https://ece.hku.hk/) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">
 
-I am fortunate to be advised by [Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU.
+- previously received an M.S. degree from [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;"> and a B.S. degree from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">
 
-**Previously Worked With:** [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en) and [Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/); [Weikai Chen](https://chenweikai.github.io/) and [Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) at [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/).
+- advised by [Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU
 
-My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
+- previously worked with
+  - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en) and [Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
+  - [Weikai Chen](https://chenweikai.github.io/) and [Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) at [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)
 
-**📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
+- research interests: Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display
 
-**📄 CV:** <a href="/assets/pdf/Zhenyang_Li_CV_20260603_fast.pdf" target="_blank" rel="noopener">English PDF</a>
+- research impact: <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
+
+- CV: <a href="/assets/pdf/Zhenyang_Li_CV_20260603_fast.pdf" target="_blank" rel="noopener">English PDF</a>
 </div>
 
-<div class="lang-zh lang-block" markdown="1">
-我目前是[香港大学（HKU）](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">[电机与计算机工程系（ECE，原 EEE）](https://ece.hku.hk/)博士研究生，于 2023 年秋季入学。
+<div class="about-summary lang-zh lang-block" markdown="1">
+- [香港大学（HKU）](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">[电机与计算机工程系（ECE，原 EEE）](https://ece.hku.hk/)博士研究生，2023 年秋季入学
 
-在加入港大之前，我于[清华大学（THU）](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">自动化系与深圳国际研究生院获得大数据工程硕士学位，并于[南京理工大学（NJUST）](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">获得电子信息工程学士学位。
+- 曾获[清华大学（THU）](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">大数据工程硕士学位，以及[南京理工大学（NJUST）](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">电子信息工程学士学位
 
-目前我在港大，博士导师为 [Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU。
+- 博士导师：[Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU
 
-**曾合作研究者：** 曾在 [Microsoft Research Asia（MSRA）](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) 与 [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en)、[Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) 合作；在 [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/) 与 [Weikai Chen](https://chenweikai.github.io/)、[Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) 合作。
+- 曾合作研究者
+  - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en)、[Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) @ [Microsoft Research Asia（MSRA）](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
+  - [Weikai Chen](https://chenweikai.github.io/)、[Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) @ [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)
 
-我的研究兴趣包括计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示。
+- 研究兴趣：计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示
 
-**📊 学术影响力：** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
+- 学术影响力：<a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-**📄 简历：** <a href="/assets/pdf/Zhenyang_Li_CV_ZH_20260603_fast.pdf" target="_blank" rel="noopener">中文 PDF</a>
+- 简历：<a href="/assets/pdf/Zhenyang_Li_CV_ZH_20260603_fast.pdf" target="_blank" rel="noopener">中文 PDF</a>
 </div>
 
 ## <span class="lang-en lang-inline">🔬 Research Focus</span><span class="lang-zh lang-inline">🔬 研究方向</span>

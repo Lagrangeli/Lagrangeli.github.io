@@ -108,6 +108,28 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+.about-summary {
+    margin-bottom: 1.6rem;
+}
+
+.about-summary > ul {
+    margin-top: 0.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.about-summary li {
+    margin-bottom: 0.45rem;
+    line-height: 1.6;
+}
+
+.about-summary li li {
+    margin-bottom: 0.28rem;
+}
+
+.about-summary img {
+    vertical-align: -0.12em;
+}
+
 .lang-switcher {
     position: sticky;
     top: 4.5rem;
