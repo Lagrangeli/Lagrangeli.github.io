@@ -33,8 +33,8 @@ redirect_from:
 - advised by [Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU
 
 - previously worked with
-  - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en) and [Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
   - [Weikai Chen](https://chenweikai.github.io/) and [Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) at [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)
+  - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en) and [Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
 
 - research interests: Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display
 
@@ -51,8 +51,8 @@ redirect_from:
 - 博士导师：[Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU
 
 - 曾合作研究者
-  - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en)、[Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) @ [Microsoft Research Asia（MSRA）](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
   - [Weikai Chen](https://chenweikai.github.io/)、[Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) @ [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)
+  - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en)、[Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) @ [Microsoft Research Asia（MSRA）](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
 
 - 研究兴趣：计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示
 
