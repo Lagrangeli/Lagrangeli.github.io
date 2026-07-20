@@ -30,6 +30,8 @@ Prior to joining HKU, I received my M.S. degree in Big Data Engineering from the
 
 I am fortunate to be advised by [Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU.
 
+**Previously Worked With:** [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en) and [Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/); [Weikai Chen](https://chenweikai.github.io/) and [Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) at [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/).
+
 My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display.
 
 **📊 Research Impact:** <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
@@ -43,6 +45,8 @@ My research interests encompass Computer Vision (3D/4D), Computer Graphics (Rend
 在加入港大之前，我于[清华大学（THU）](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">自动化系与深圳国际研究生院获得大数据工程硕士学位，并于[南京理工大学（NJUST）](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">获得电子信息工程学士学位。
 
 目前我在港大，博士导师为 [Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/#opennewwindow) & [Jia Pan](https://i.cs.hku.hk/~jpan/) @ HKU。
+
+**曾合作研究者：** 曾在 [Microsoft Research Asia（MSRA）](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) 与 [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en)、[Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) 合作；在 [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/) 与 [Weikai Chen](https://chenweikai.github.io/)、[Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) 合作。
 
 我的研究兴趣包括计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示。
 
