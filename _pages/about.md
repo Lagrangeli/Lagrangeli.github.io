@@ -381,19 +381,21 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 ## Conference Reviewer
 
-- CVPR 2026
-- ICCV 2025
-- ECCV 2026
-- SIGGRAPH Asia 2025 (XR Track)
-- NeurIPS 2026, 2025 (Main + Datasets and Benchmarks), 2024
-- ICML 2025
-- ICLR 2025
-- ACM MM 2025
-- 3DV 2026, 2025
-- ISMAR 2026, 2025
-- BMVC 2026
-- AISTATS 2025
-- ACML 2025
+<div class="service-compact-list">
+  <span>CVPR 2026</span>
+  <span>ICCV 2025</span>
+  <span>ECCV 2026</span>
+  <span>SIGGRAPH Asia 2025 (XR Track)</span>
+  <span>NeurIPS 2026, 2025 (Main + Datasets and Benchmarks), 2024</span>
+  <span>ICML 2025</span>
+  <span>ICLR 2025</span>
+  <span>ACM MM 2025</span>
+  <span>3DV 2026, 2025</span>
+  <span>ISMAR 2026, 2025</span>
+  <span>BMVC 2026</span>
+  <span>AISTATS 2025</span>
+  <span>ACML 2025</span>
+</div>
 
 ## Journal Reviewer
 
@@ -407,19 +409,21 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 ## 会议审稿
 
-- CVPR 2026
-- ICCV 2025
-- ECCV 2026
-- SIGGRAPH Asia 2025（XR Track）
-- NeurIPS 2026、2025（Main + Datasets and Benchmarks）、2024
-- ICML 2025
-- ICLR 2025
-- ACM MM 2025
-- 3DV 2026、2025
-- ISMAR 2026、2025
-- BMVC 2026
-- AISTATS 2025
-- ACML 2025
+<div class="service-compact-list">
+  <span>CVPR 2026</span>
+  <span>ICCV 2025</span>
+  <span>ECCV 2026</span>
+  <span>SIGGRAPH Asia 2025（XR Track）</span>
+  <span>NeurIPS 2026、2025（Main + Datasets and Benchmarks）、2024</span>
+  <span>ICML 2025</span>
+  <span>ICLR 2025</span>
+  <span>ACM MM 2025</span>
+  <span>3DV 2026、2025</span>
+  <span>ISMAR 2026、2025</span>
+  <span>BMVC 2026</span>
+  <span>AISTATS 2025</span>
+  <span>ACML 2025</span>
+</div>
 
 ## 期刊审稿
 
