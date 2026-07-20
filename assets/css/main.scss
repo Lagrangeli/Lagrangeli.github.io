@@ -130,26 +130,6 @@ h1:before, .anchor:before {
     vertical-align: -0.12em;
 }
 
-.service-compact-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.42rem 0.5rem;
-    margin: 0.25rem 0 1.35rem;
-}
-
-.service-compact-list span {
-    display: inline-flex;
-    align-items: center;
-    min-height: 1.75rem;
-    padding: 0.16rem 0.58rem;
-    border: 1px solid rgba(45, 55, 72, 0.16);
-    border-radius: 6px;
-    background: rgba(45, 55, 72, 0.035);
-    color: #3f4854;
-    font-size: 0.9rem;
-    line-height: 1.25;
-}
-
 .lang-switcher {
     position: sticky;
     top: 4.5rem;
