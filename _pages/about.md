@@ -36,7 +36,7 @@ redirect_from:
   - [Weikai Chen](https://chenweikai.github.io/) and [Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) at [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)
   - [Haotian Zhang](https://scholar.google.com/citations?hl=en&user=X1Sa_GYAAAAJ) at [Megvii Technology Limited (Face++)](https://www.megvii.com/)
   - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en) and [Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
-  - [Wensen Feng](https://orcid.org/0000-0002-7315) at [Huawei Technologies Co., Ltd.](https://www.huawei.com/)
+  - Wensen Feng at [Huawei Technologies Co., Ltd.](https://www.huawei.com/)
 
 - research interests: Computer Vision (3D/4D), Computer Graphics (Rendering), VR/AR/MR, and Holographic Imaging/Display
 
@@ -56,7 +56,7 @@ redirect_from:
   - [Weikai Chen](https://chenweikai.github.io/)、[Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) @ [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)
   - [Haotian Zhang](https://scholar.google.com/citations?hl=en&user=X1Sa_GYAAAAJ) @ [Megvii Technology Limited (Face++)](https://www.megvii.com/)
   - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en)、[Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) @ [Microsoft Research Asia（MSRA）](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
-  - [Wensen Feng](https://orcid.org/0000-0002-7315) @ [Huawei Technologies Co., Ltd.](https://www.huawei.com/)
+  - Wensen Feng @ [Huawei Technologies Co., Ltd.](https://www.huawei.com/)
 
 - 研究兴趣：计算机视觉（3D/4D）、计算机图形学（渲染）、VR/AR/MR，以及计算成像与全息显示
 
