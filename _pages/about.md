@@ -144,27 +144,28 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 ## <span class="lang-en lang-inline">🎯 Selected Publications (* indicates equal contribution)</span><span class="lang-zh lang-inline">🎯 代表性论文（* 表示共同一作）</span>
 
 ### 2026
-- <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a>
+- <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a><br>
+  **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Weikai Chen, Ying-Cong Chen, Xin Wang, Yifan Peng.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/garment_teaser.png" alt="PatternGSL teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Weikai Chen, Ying-Cong Chen, Xin Wang, Yifan Peng.
 
 - <img alt="TVCG" src="https://img.shields.io/badge/TVCG-2026-blue"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW)<br>
+  **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.<br>
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.<br>
   Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
 
 - <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> **ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**<br>
+  Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/event-rgb-gaussians.jpg" alt="ERF-GS" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
   Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>.
 
 - <img alt="3DV" src="https://img.shields.io/badge/3DV-2026-blue"> [**Structure-grounded Training Strategies Aid Generalization in Stereo Matching**](https://openreview.net/forum?id=rIeputhlON)<br>
+  Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
   <div style="text-align: center; margin: 10px 0;">
     <div style="display: inline-flex; gap: 8px; width: 90%; max-width: 700px; align-items: center;">
       <div style="flex: 3; min-width: 0; display: flex; flex-direction: column; gap: 8px;">
@@ -176,95 +177,94 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
       </div>
     </div>
   </div>
-  Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
 
-- <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://doi.org/10.1002/jsid.70061)
+- <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://doi.org/10.1002/jsid.70061)<br>
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
 
-- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**ConsistNav: Closing the Action Consistency Gap in Zero-Shot Object Navigation with Semantic Executive Control**](https://arxiv.org/abs/2605.09869)
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**ConsistNav: Closing the Action Consistency Gap in Zero-Shot Object Navigation with Semantic Executive Control**](https://arxiv.org/abs/2605.09869)<br>
+  Haosen Wang\*, **Zhenyang Li\***, Yinqiang Zhang, Zongqi He, Lutao Jiang, Kai Li, Yizhou Zhao, Liaoyuan Fan, Wenjian Hou, Tingbang Liang, Yibin Wen, Defeng Gu.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/consisnav.png" alt="ConsistNav teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Haosen Wang\*, **Zhenyang Li\***, Yinqiang Zhang, Zongqi He, Lutao Jiang, Kai Li, Yizhou Zhao, Liaoyuan Fan, Wenjian Hou, Tingbang Liang, Yibin Wen, Defeng Gu.
 
-- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**SAP: Segment Any 4K Panorama**](https://arxiv.org/abs/2603.12759)
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**SAP: Segment Any 4K Panorama**](https://arxiv.org/abs/2603.12759)<br>
+  Lutao Jiang, Zidong Cao, Weikai Chen, Xu Zheng, Yuanhuiyi Lyu, **Zhenyang Li**, Zeyu Hu, Yingda Yin, Keyang Luo, Runze Zhang, Kai Yan, Shengju Qian, Haidi Fan, Yifan Peng, Xin Wang, Hui Xiong, Ying-Cong Chen.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/sap-teaser.jpg" alt="SAP teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Lutao Jiang, Zidong Cao, Weikai Chen, Xu Zheng, Yuanhuiyi Lyu, **Zhenyang Li**, Zeyu Hu, Yingda Yin, Keyang Luo, Runze Zhang, Kai Yan, Shengju Qian, Haidi Fan, Yifan Peng, Xin Wang, Hui Xiong, Ying-Cong Chen.
 
 ### 2025
-- <img alt="ICCV" src="https://img.shields.io/badge/ICCV-2025-blue"> [**Toward Material-Agnostic System Identification from Videos**](https://arxiv.org/abs/2508.01112)
+- <img alt="ICCV" src="https://img.shields.io/badge/ICCV-2025-blue"> [**Toward Material-Agnostic System Identification from Videos**](https://arxiv.org/abs/2508.01112)<br>
+  Yizhou Zhao, Haoyu Chen, Chunjiang Liu, **Zhenyang Li**, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, Min Xu.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/material-agnostic.jpg" alt="Material-Agnostic System Identification" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Yizhou Zhao, Haoyu Chen, Chunjiang Liu, **Zhenyang Li**, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, Min Xu.
 
-- <img alt="ISMAR" src="https://img.shields.io/badge/ISMAR-2025-orange"> [**Enhanced Velocity Field Modeling for Gaussian Video Reconstruction**](https://arxiv.org/abs/2507.23704)
+- <img alt="ISMAR" src="https://img.shields.io/badge/ISMAR-2025-orange"> [**Enhanced Velocity Field Modeling for Gaussian Video Reconstruction**](https://arxiv.org/abs/2507.23704)<br>
+  **Zhenyang Li\***, Xiaoyang Bai*, Tongchen Zhang, Pengfei Shen, Weiwei Xu, Yifan Peng.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/velocity-field-4dgs.jpg" alt="Enhanced Velocity Field Modeling" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  **Zhenyang Li\***, Xiaoyang Bai*, Tongchen Zhang, Pengfei Shen, Weiwei Xu, Yifan Peng.
 
-- <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> **ORBIT: Overlapping Region-Based Image Feature Matching Technique** *(Preprint Coming Soon)*  
+- <img alt="Under Review" src="https://img.shields.io/badge/Status-Under_Review-yellow"> **ORBIT: Overlapping Region-Based Image Feature Matching Technique** *(Preprint Coming Soon)*<br>
+  Qi Luo*, **Zhenyang Li\***, Linsong Xue, Haojie Wu, Yifan Peng, Kai Zhang.
   <!-- <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/orbit.png" alt="ORBIT Feature Matching" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div> -->
-  Qi Luo*, **Zhenyang Li\***, Linsong Xue, Haojie Wu, Yifan Peng, Kai Zhang.
 
 
 
 ### 2024
-- <img alt="Optics Letters" src="https://img.shields.io/badge/Optics_Letters-2024-green"> [**3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning**](https://opg.optica.org/ol/abstract.cfm?uri=ol-50-4-1188)
+- <img alt="Optics Letters" src="https://img.shields.io/badge/Optics_Letters-2024-green"> [**3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning**](https://opg.optica.org/ol/abstract.cfm?uri=ol-50-4-1188)<br>
+  Wenbin Zhou, Feifan Qu, Xiangyu Meng, **Zhenyang Li**, Yifan Peng
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/3d-holonet.png" alt="3D-HoloNet" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Wenbin Zhou, Feifan Qu, Xiangyu Meng, **Zhenyang Li**, Yifan Peng
 
-- <img alt="MICCAI" src="https://img.shields.io/badge/MICCAI-2024-red"> [**CryoSAM: Training-free CryoET Tomogram Segmentation with Foundation Models**](https://www.arxiv.org/abs/2407.06833)
+- <img alt="MICCAI" src="https://img.shields.io/badge/MICCAI-2024-red"> [**CryoSAM: Training-free CryoET Tomogram Segmentation with Foundation Models**](https://www.arxiv.org/abs/2407.06833)<br>
+  Yizhou Zhao, Hengwei Bian, Michael Mu, Mostofa R. Uddin, **Zhenyang Li**, Xiang Li, Tianyang Wang, Min Xu.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/cryosam.png" alt="CryoSAM" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Yizhou Zhao, Hengwei Bian, Michael Mu, Mostofa R. Uddin, **Zhenyang Li**, Xiang Li, Tianyang Wang, Min Xu.
 
-- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2024-b31b1b"> [**Point Resampling and Ray Transformation Aid to Editable NeRF Models**](https://arxiv.org/abs/2405.07306)
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2024-b31b1b"> [**Point Resampling and Ray Transformation Aid to Editable NeRF Models**](https://arxiv.org/abs/2405.07306)<br>
+  **Zhenyang Li\***, Zilong Chen*, Feifan Qu, Mingqing Wang, Yizhou Zhao, Kai Zhang, Yifan Peng.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/editable-nerf.jpg"
     alt="Editable NeRF Models" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  **Zhenyang Li\***, Zilong Chen*, Feifan Qu, Mingqing Wang, Yizhou Zhao, Kai Zhang, Yifan Peng.
 
 ### 2023
-- <img alt="WWW" src="https://img.shields.io/badge/WWW-2023-purple"> [**Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System**](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856)
+- <img alt="WWW" src="https://img.shields.io/badge/WWW-2023-purple"> [**Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System**](https://dl.acm.org/doi/pdf/10.1145/3543507.3583856)<br>
+  **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/filter-bubble.jpg" alt="Breaking Filter Bubble" style="width: 60%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  **Zhenyang Li\***, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang.
 
-- <img alt="ICIP" src="https://img.shields.io/badge/ICIP-2023-lightblue"> [**Unsupervised Anomaly Detection with Local-Sensitive VQVAE and Global-Sensitive Transformers**](https://arxiv.org/pdf/2303.17505)
+- <img alt="ICIP" src="https://img.shields.io/badge/ICIP-2023-lightblue"> [**Unsupervised Anomaly Detection with Local-Sensitive VQVAE and Global-Sensitive Transformers**](https://arxiv.org/pdf/2303.17505)<br>
+  Mingqing Wang, Jiawei Li, **Zhenyang Li**, Chengxiao Luo, Bin Chen, Shu-Tao Xia, Zhi Wang.
   <!-- <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/anomaly-detection.png" alt="Anomaly Detection" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div> -->
-  Mingqing Wang, Jiawei Li, **Zhenyang Li**, Chengxiao Luo, Bin Chen, Shu-Tao Xia, Zhi Wang.
 
 ### 2022
-- <img alt="NeurIPS" src="https://img.shields.io/badge/NeurIPS-2022-blue"> [**Alignment-guided Temporal Attention for Video Action Recognition**](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf)
+- <img alt="NeurIPS" src="https://img.shields.io/badge/NeurIPS-2022-blue"> [**Alignment-guided Temporal Attention for Video Action Recognition**](https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf)<br>
+  Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/temporal-attention.png" alt="Alignment-guided Temporal Attention" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Yizhou Zhao*, **Zhenyang Li\***, Xun Guo, Yan Lu.
 
-- <img alt="ACCV" src="https://img.shields.io/badge/ACCV-2022-orange"> [**Adaptive Range guided Multi-view Depth Estimation with Normal Ranking Loss**](https://openaccess.thecvf.com/content/ACCV2022/papers/Ding_Adaptive_Range_guided_Multi-view_Depth_Estimation_with_Normal_Ranking_Loss_ACCV_2022_paper.pdf)
+- <img alt="ACCV" src="https://img.shields.io/badge/ACCV-2022-orange"> [**Adaptive Range guided Multi-view Depth Estimation with Normal Ranking Loss**](https://openaccess.thecvf.com/content/ACCV2022/papers/Ding_Adaptive_Range_guided_Multi-view_Depth_Estimation_with_Normal_Ranking_Loss_ACCV_2022_paper.pdf)<br>
+  Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Kai Zhang, Zhiheng Li, Wensen Feng.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/depth-estimation.png" alt="Multi-view Depth Estimation" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Kai Zhang, Zhiheng Li, Wensen Feng.
 
-- <img alt="ICIP" src="https://img.shields.io/badge/ICIP-2022-lightblue"> [**Enhancing multi-view stereo with contrastive matching and weighted focal loss**](https://arxiv.org/pdf/2206.10360)
+- <img alt="ICIP" src="https://img.shields.io/badge/ICIP-2022-lightblue"> [**Enhancing multi-view stereo with contrastive matching and weighted focal loss**](https://arxiv.org/pdf/2206.10360)<br>
+  Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Zhiheng Li, Kai Zhang.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/mvs-contrastive.jpg" alt="Multi-view Stereo" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Yikang Ding*, **Zhenyang Li\***, Dihe Huang, Zhiheng Li, Kai Zhang.
 
 <span class='anchor' id='-honors-and-awards'></span>
 
