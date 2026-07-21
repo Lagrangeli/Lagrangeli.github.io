@@ -164,6 +164,13 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   </div>
   Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>.
 
+- <img alt="ECCV" src="https://img.shields.io/badge/ECCV-2026-blue"> [**O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning**](https://arxiv.org/abs/2607.18142)<br>
+  Mei Yuan, Qi Long, Qifeng Wu, **Zhenyang Li**, Yizhou Zhao, Lei Wang, Yang Liu, Min Xu.<br>
+  <div style="text-align: center; margin: 10px 0;">
+    <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/intro_1.png" alt="O-VAD" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
+  Accepted to <strong>European Conference on Computer Vision (ECCV) 2026</strong>. [arXiv](https://arxiv.org/abs/2607.18142)
+
 - <img alt="3DV" src="https://img.shields.io/badge/3DV-2026-blue"> [**Structure-grounded Training Strategies Aid Generalization in Stereo Matching**](https://openreview.net/forum?id=rIeputhlON)<br>
   Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
   <div style="text-align: center; margin: 10px 0;">
