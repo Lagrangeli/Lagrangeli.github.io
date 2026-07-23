@@ -112,8 +112,6 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 # <span class="lang-en lang-inline">🔥 News</span><span class="lang-zh lang-inline">🔥 新闻动态</span>
 
 <div class="lang-en lang-block" markdown="1">
-- *2026.07*: &nbsp;🎓 Serving as **Program Committee Member** for **AAAI 2027**!
-- *2026.07*: &nbsp;🎓 Serving as **Reviewer** for **ACML 2026**!
 - *2026.07*: &nbsp;🏆 One paper on **Industrial Video Anomaly Detection** (**O-VAD**) is accepted to **ECCV 2026**!
 - *2026.06*: &nbsp;🏆 One paper on **Fast Motion Reconstruction** (**ERF-GS**) is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>!
 - *2026.05*: &nbsp;🏆 One paper on **Event Camera Rendering** (**EventTracer**) is accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>!
@@ -122,12 +120,9 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 - *2026.04*: &nbsp;📄 One paper on **AR-assisted dental implant surgery** is published in **Journal of the Society for Information Display (JSID) 2026**!
 - *2026.03*: &nbsp;🏆 One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
 - *2026.03*: &nbsp;📄 One paper on **Panoramic Instance Segmentation** (SAP) is released on **arXiv**! Segment Any 4K Panorama for high-resolution 360° scenes.
-- *2026.03*: &nbsp;🎓 Serving as **Program Committee Member** for **34th ACM Multimedia (ACMMM) 2026**!
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
-- *2026.07*: &nbsp;🎓 担任 **AAAI 2027** 程序委员会成员！
-- *2026.07*: &nbsp;🎓 担任 **ACML 2026** 审稿人！
 - *2026.07*: &nbsp;🏆 一篇关于**工业视频异常检测**的论文（**O-VAD**）被 **ECCV 2026** 接收！
 - *2026.06*: &nbsp;🏆 一篇关于**快速运动重建**的论文（**ERF-GS**）被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收！
 - *2026.05*: &nbsp;🏆 一篇关于**事件相机渲染**的论文（**EventTracer**）被 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a> 接收！
@@ -136,7 +131,6 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 - *2026.04*: &nbsp;📄 一篇关于**增强现实辅助牙种植导航**的论文发表于 **Journal of the Society for Information Display (JSID) 2026**！
 - *2026.03*: &nbsp;🏆 一篇关于**立体匹配泛化**的论文被 **3DV 2026** 接收！提出面向稳健立体匹配的结构先验训练策略。
 - *2026.03*: &nbsp;📄 **全景实例分割**论文 **SAP** 已发布于 **arXiv**！工作聚焦高分辨率 360° 场景的 `Segment Any 4K Panorama`。
-- *2026.03*: &nbsp;🎓 担任 **第 34 届 ACM Multimedia（ACMMM）2026** 程序委员会成员！
 </div>
 
 <span class='anchor' id='-publications'></span>
