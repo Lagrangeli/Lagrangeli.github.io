@@ -113,6 +113,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 <div class="lang-en lang-block" markdown="1">
 - *2026.07*: &nbsp;🎓 Serving as **Program Committee Member** for **AAAI 2027**!
+- *2026.07*: &nbsp;🎓 Serving as **Reviewer** for **ACML 2026**!
 - *2026.07*: &nbsp;🏆 One paper on **Industrial Video Anomaly Detection** (**O-VAD**) is accepted to **ECCV 2026**!
 - *2026.06*: &nbsp;🏆 One paper on **Fast Motion Reconstruction** (**ERF-GS**) is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>!
 - *2026.05*: &nbsp;🏆 One paper on **Event Camera Rendering** (**EventTracer**) is accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>!
@@ -126,6 +127,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 <div class="lang-zh lang-block" markdown="1">
 - *2026.07*: &nbsp;🎓 担任 **AAAI 2027** 程序委员会成员！
+- *2026.07*: &nbsp;🎓 担任 **ACML 2026** 审稿人！
 - *2026.07*: &nbsp;🏆 一篇关于**工业视频异常检测**的论文（**O-VAD**）被 **ECCV 2026** 接收！
 - *2026.06*: &nbsp;🏆 一篇关于**快速运动重建**的论文（**ERF-GS**）被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收！
 - *2026.05*: &nbsp;🏆 一篇关于**事件相机渲染**的论文（**EventTracer**）被 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a> 接收！
@@ -390,7 +392,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 ## Conference Reviewer
 
 - Vision & Graphics: CVPR 2026; ICCV 2025; ECCV 2026; SIGGRAPH Asia 2025 (XR Track); 3DV 2026, 2025; ISMAR 2026, 2025
-- AI & Machine Learning: NeurIPS 2026, 2025 (Main + Datasets and Benchmarks), 2024; ICML 2025; ICLR 2025; AISTATS 2025; ACML 2025
+- AI & Machine Learning: NeurIPS 2026, 2025 (Main + Datasets and Benchmarks), 2024; ICML 2025; ICLR 2025; AISTATS 2025; ACML 2026, 2025
 - Multimedia & Vision: ACM MM 2025; BMVC 2026
 
 ## Journal Reviewer
@@ -407,7 +409,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 ## 会议审稿
 
 - 视觉与图形：CVPR 2026；ICCV 2025；ECCV 2026；SIGGRAPH Asia 2025（XR Track）；3DV 2026、2025；ISMAR 2026、2025
-- 人工智能与机器学习：NeurIPS 2026、2025（Main + Datasets and Benchmarks）、2024；ICML 2025；ICLR 2025；AISTATS 2025；ACML 2025
+- 人工智能与机器学习：NeurIPS 2026、2025（Main + Datasets and Benchmarks）、2024；ICML 2025；ICLR 2025；AISTATS 2025；ACML 2026、2025
 - 多媒体与视觉：ACM MM 2025；BMVC 2026
 
 ## 期刊审稿
