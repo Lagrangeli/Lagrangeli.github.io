@@ -112,6 +112,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 # <span class="lang-en lang-inline">🔥 News</span><span class="lang-zh lang-inline">🔥 新闻动态</span>
 
 <div class="lang-en lang-block" markdown="1">
+- *2026.08*: &nbsp;📄 Our paper on **Event-to-Panorama Image Reconstruction** (<a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a>) is released on **arXiv**!
 - *2026.07*: &nbsp;🏆 One paper on **Industrial Video Anomaly Detection** (**O-VAD**) is accepted to **ECCV 2026**!
 - *2026.06*: &nbsp;🏆 One paper on **Fast Motion Reconstruction** (**ERF-GS**) is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>!
 - *2026.05*: &nbsp;🏆 One paper on **Event Camera Rendering** (**EventTracer**) is accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>!
@@ -123,6 +124,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
+- *2026.08*: &nbsp;📄 我们关于**事件到全景图像重建**的论文（<a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a>）已发布于 **arXiv**！
 - *2026.07*: &nbsp;🏆 一篇关于**工业视频异常检测**的论文（**O-VAD**）被 **ECCV 2026** 接收！
 - *2026.06*: &nbsp;🏆 一篇关于**快速运动重建**的论文（**ERF-GS**）被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收！
 - *2026.05*: &nbsp;🏆 一篇关于**事件相机渲染**的论文（**EventTracer**）被 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a> 接收！
@@ -183,6 +185,12 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 - <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://doi.org/10.1002/jsid.70061)<br>
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
+
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**E2Pano: Learning Event-to-Panorama Image Reconstruction**](https://arxiv.org/abs/2608.00694)<br>
+  **Zhenyang Li**, Zongqi He, Jia Pan, Shijie Lin, Yifan Peng.
+  <div style="text-align: center; margin: 10px 0;">
+    <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/teaser_v5_1.png" alt="E2Pano teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**ConsistNav: Closing the Action Consistency Gap in Zero-Shot Object Navigation with Semantic Executive Control**](https://arxiv.org/abs/2605.09869)<br>
   Haosen Wang\*, **Zhenyang Li\***, Yinqiang Zhang, Zongqi He, Lutao Jiang, Kai Li, Yizhou Zhao, Liaoyuan Fan, Wenjian Hou, Tingbang Liang, Yibin Wen, Defeng Gu.
