@@ -34,7 +34,7 @@ redirect_from:
 
 - previously worked with
   - [Weikai Chen](https://chenweikai.github.io/) and [Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) at [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)<img src="images/company/lightspeed-64x64.png" alt="LIGHTSPEED STUDIOS" style="width: 1em;">
-  - [Haotian Zhang](https://scholar.google.com/citations?hl=en&user=X1Sa_GYAAAAJ) at [Megvii Technology Limited (Face++)](https://www.megvii.com/)<img src="images/company/megvii-64x64.png" alt="Megvii" style="width: 1em;">
+  - [Haotian Zhang](https://scholar.google.com/citations?hl=en&user=X1Sa_GYAAAAJ) at [Megvii Technology Limited (Face++)](https://www.megvii.com/)<img src="images/company/megvii-wordmark.png" alt="MEGVII 旷视" style="height: 1em; width: auto; margin-left: 0.2em; vertical-align: -0.12em;">
   - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en) and [Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)<img src="images/company/microsoft-64x64.png" alt="Microsoft" style="width: 1em;">
   - [Wensen Feng](https://orcid.org/0000-0002-7315-337X) at [Huawei Central Media Technology Institute (2012 Labs)](https://huaweicanada.recruitee.com/o/co-op-researcher?lang=en)<img src="images/company/huawei-64x64.png" alt="Huawei" style="width: 1em;">
 
@@ -54,7 +54,7 @@ redirect_from:
 
 - 曾合作研究者
   - [Weikai Chen](https://chenweikai.github.io/)、[Xin Wang](https://scholar.google.com/citations?user=2Z1GJ50AAAAJ) @ [Tencent LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/)<img src="images/company/lightspeed-64x64.png" alt="LIGHTSPEED STUDIOS" style="width: 1em;">
-  - [Haotian Zhang](https://scholar.google.com/citations?hl=en&user=X1Sa_GYAAAAJ) @ [Megvii Technology Limited (Face++)](https://www.megvii.com/)<img src="images/company/megvii-64x64.png" alt="Megvii" style="width: 1em;">
+  - [Haotian Zhang](https://scholar.google.com/citations?hl=en&user=X1Sa_GYAAAAJ) @ [Megvii Technology Limited (Face++)](https://www.megvii.com/)<img src="images/company/megvii-wordmark.png" alt="MEGVII 旷视" style="height: 1em; width: auto; margin-left: 0.2em; vertical-align: -0.12em;">
   - [Xun Guo](https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en)、[Yan Lu](https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en) @ [Microsoft Research Asia（MSRA）](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)<img src="images/company/microsoft-64x64.png" alt="Microsoft" style="width: 1em;">
   - [Wensen Feng](https://orcid.org/0000-0002-7315-337X) @ [Huawei Central Media Technology Institute（2012 Labs）](https://huaweicanada.recruitee.com/o/co-op-researcher?lang=en)<img src="images/company/huawei-64x64.png" alt="Huawei" style="width: 1em;">
 
