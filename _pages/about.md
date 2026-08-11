@@ -114,7 +114,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 <div class="lang-en lang-block" markdown="1">
 - *2026.08*: &nbsp;📄 Our paper on **Event-to-Panorama Image Reconstruction** (<a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a>) is released on **arXiv**!
 - *2026.07*: &nbsp;🏆 One paper on **Industrial Video Anomaly Detection** (**O-VAD**) is accepted to **ECCV 2026**!
-- *2026.06*: &nbsp;🏆 One paper on **Fast Motion Reconstruction** (**ERF-GS**) is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>!
+- *2026.06*: &nbsp;🏆 One paper on **Fast Motion Reconstruction** (<a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a>) is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>!
 - *2026.05*: &nbsp;🏆 One paper on **Event Camera Rendering** (**EventTracer**) is accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>!
 - *2026.04*: &nbsp;🏆 One paper on **3D Garment Modeling** (<a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a>) is accepted to **SIGGRAPH 2026**!
 - *2026.05*: &nbsp;📄 One paper on **Zero-Shot Object Navigation** (**ConsistNav**) is released on **arXiv**! Closing the action consistency gap with semantic executive control.
@@ -126,7 +126,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 <div class="lang-zh lang-block" markdown="1">
 - *2026.08*: &nbsp;📄 我们关于**事件到全景图像重建**的论文（<a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a>）已发布于 **arXiv**！
 - *2026.07*: &nbsp;🏆 一篇关于**工业视频异常检测**的论文（**O-VAD**）被 **ECCV 2026** 接收！
-- *2026.06*: &nbsp;🏆 一篇关于**快速运动重建**的论文（**ERF-GS**）被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收！
+- *2026.06*: &nbsp;🏆 一篇关于**快速运动重建**的论文（<a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a>）被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收！
 - *2026.05*: &nbsp;🏆 一篇关于**事件相机渲染**的论文（**EventTracer**）被 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a> 接收！
 - *2026.04*: &nbsp;🏆 一篇关于**三维服装建模**的论文（<a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a>）被 **SIGGRAPH 2026** 接收！
 - *2026.05*: &nbsp;📄 一篇关于**零样本目标导航**的论文（**ConsistNav**）已发布于 **arXiv**！聚焦通过语义执行控制弥合动作一致性鸿沟。
@@ -155,12 +155,12 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   </div>
   Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
 
-- <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> **ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**<br>
+- <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> [**ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**](https://arxiv.org/abs/2608.08531)<br>
   Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/event-rgb-gaussians.jpg" alt="ERF-GS" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>.
+  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [arXiv](https://arxiv.org/abs/2608.08531)
 
 - <img alt="ECCV" src="https://img.shields.io/badge/ECCV-2026-blue"> [**O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning**](https://arxiv.org/abs/2607.18142)<br>
   Mei Yuan, Qi Long, Qifeng Wu, **Zhenyang Li**, Yizhou Zhao, Lei Wang, Yang Liu, Min Xu.<br>
