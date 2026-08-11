@@ -160,7 +160,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/event-rgb-gaussians.jpg" alt="ERF-GS" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [arXiv](https://arxiv.org/abs/2608.08531)
+  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [arXiv](https://arxiv.org/abs/2608.08531) / [Code](https://github.com/andrewbxy/ERF-GS) / Datasets: [Neu3D](https://huggingface.co/datasets/andrewbxy/ERFGS-Neu3D) / [Nvidia](https://huggingface.co/datasets/andrewbxy/ERFGS-Nvidia)
 
 - <img alt="ECCV" src="https://img.shields.io/badge/ECCV-2026-blue"> [**O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning**](https://arxiv.org/abs/2607.18142)<br>
   Mei Yuan, Qi Long, Qifeng Wu, **Zhenyang Li**, Yizhou Zhao, Lei Wang, Yang Liu, Min Xu.<br>
