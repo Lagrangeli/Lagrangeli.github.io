@@ -153,7 +153,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
+  Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Code](https://github.com/andrewbxy/EventTracer) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
 
 - <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> [**ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**](https://arxiv.org/abs/2608.08531)<br>
   Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
