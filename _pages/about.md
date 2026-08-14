@@ -203,6 +203,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/sap-teaser.jpg" alt="SAP teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
+  [Project](https://lutao2021.github.io/SAP_Page/) / [arXiv](https://arxiv.org/abs/2603.12759)
 
 ### 2025
 - <img alt="ICCV" src="https://img.shields.io/badge/ICCV-2025-blue"> [**Toward Material-Agnostic System Identification from Videos**](https://arxiv.org/abs/2508.01112)<br>
