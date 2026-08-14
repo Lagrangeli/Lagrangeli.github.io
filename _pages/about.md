@@ -150,24 +150,24 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 - <img alt="TVCG" src="https://img.shields.io/badge/TVCG-2026-blue"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW)<br>
   **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.<br>
+  Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Code](https://github.com/andrewbxy/EventTracer) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Code](https://github.com/andrewbxy/EventTracer) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
 
 - <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> [**ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**](https://arxiv.org/abs/2608.08531)<br>
   Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
+  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [arXiv](https://arxiv.org/abs/2608.08531) / [Code](https://github.com/andrewbxy/ERF-GS) / Datasets: [Neu3D](https://huggingface.co/datasets/andrewbxy/ERFGS-Neu3D) / [Nvidia](https://huggingface.co/datasets/andrewbxy/ERFGS-Nvidia)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/event-rgb-gaussians.jpg" alt="ERF-GS" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [arXiv](https://arxiv.org/abs/2608.08531) / [Code](https://github.com/andrewbxy/ERF-GS) / Datasets: [Neu3D](https://huggingface.co/datasets/andrewbxy/ERFGS-Neu3D) / [Nvidia](https://huggingface.co/datasets/andrewbxy/ERFGS-Nvidia)
 
 - <img alt="ECCV" src="https://img.shields.io/badge/ECCV-2026-blue"> [**O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning**](https://arxiv.org/abs/2607.18142)<br>
   Mei Yuan, Qi Long, Qifeng Wu, **Zhenyang Li**, Yizhou Zhao, Lei Wang, Yang Liu, Min Xu.<br>
+  Accepted to <strong>European Conference on Computer Vision (ECCV) 2026</strong>. [arXiv](https://arxiv.org/abs/2607.18142)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/intro_1.png" alt="O-VAD" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  Accepted to <strong>European Conference on Computer Vision (ECCV) 2026</strong>. [arXiv](https://arxiv.org/abs/2607.18142)
 
 - <img alt="3DV" src="https://img.shields.io/badge/3DV-2026-blue"> [**Structure-grounded Training Strategies Aid Generalization in Stereo Matching**](https://openreview.net/forum?id=rIeputhlON)<br>
   Liangxun Ou, Yuhui Liu, **Zhenyang Li**, Xiaoyang Bai, Yifan Peng.
@@ -199,11 +199,11 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   </div>
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**SAP: Segment Any 4K Panorama**](https://arxiv.org/abs/2603.12759)<br>
-  Lutao Jiang, Zidong Cao, Weikai Chen, Xu Zheng, Yuanhuiyi Lyu, **Zhenyang Li**, Zeyu Hu, Yingda Yin, Keyang Luo, Runze Zhang, Kai Yan, Shengju Qian, Haidi Fan, Yifan Peng, Xin Wang, Hui Xiong, Ying-Cong Chen.
+  Lutao Jiang, Zidong Cao, Weikai Chen, Xu Zheng, Yuanhuiyi Lyu, **Zhenyang Li**, Zeyu Hu, Yingda Yin, Keyang Luo, Runze Zhang, Kai Yan, Shengju Qian, Haidi Fan, Yifan Peng, Xin Wang, Hui Xiong, Ying-Cong Chen.<br>
+  [Project](https://lutao2021.github.io/SAP_Page/) / [arXiv](https://arxiv.org/abs/2603.12759)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/sap-teaser.jpg" alt="SAP teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
-  [Project](https://lutao2021.github.io/SAP_Page/) / [arXiv](https://arxiv.org/abs/2603.12759)
 
 ### 2025
 - <img alt="ICCV" src="https://img.shields.io/badge/ICCV-2025-blue"> [**Toward Material-Agnostic System Identification from Videos**](https://arxiv.org/abs/2508.01112)<br>
