@@ -1,59 +1,47 @@
-name: Update Google Scholar Stats
+name: Update Google Scholar Citation Total
 
 on:
   schedule:
-    # 每3小时更新一次，避开 GitHub Actions 整点高峰
-    # 北京时间: 00:17/03:17/06:17/09:17/12:17/15:17/18:17/21:17
-    # GitHub Actions cron uses UTC: 16:17/19:17/22:17/01:17/04:17/07:17/10:17/13:17
-    - cron: '17 1,4,7,10,13,16,19,22 * * *'
+    # Daily at 10:17 Beijing time (02:17 UTC).
+    - cron: '17 2 * * *'
   workflow_dispatch:
-    inputs:
-      citation_floor:
-        description: "Optional manual citation floor"
-        required: false
-        default: ""
 
 permissions:
   contents: write
   pages: write
 
 jobs:
-  update-stats:
+  update-total:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Fetch Google Scholar publications
+        uses: sxlllslgh/google-scholar-fetcher@4a30641f7dab085f01f99c38d38069d8aec2496f
         with:
-          python-version: '3.9'
+          google-scholar-id: r9f4mLMAAAAJ
+          record-file: /tmp/scholar-record.json
 
-      - name: Install dependencies
-        run: |
-          cd google_scholar_crawler
-          pip install -r requirements.txt
-
-      - name: Update Google Scholar stats
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID || 'r9f4mLMAAAAJ' }}
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
-          SCHOLAR_CITATION_FLOOR: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.citation_floor || '' }}
-        run: |
-          cd google_scholar_crawler
-          python main.py
+      - name: Update total citation count
+        run: python3 google_scholar_crawler/update_total.py /tmp/scholar-record.json --root .
 
       - name: Commit and push if changed
         id: commit
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add -A
-          if git diff --quiet && git diff --staged --quiet; then
+          git add -- \
+            results/gs_data.json \
+            _data/scholar.json \
+            google_scholar_crawler/results/gs_data.json \
+            results/gs_data_shieldsio.json \
+            google_scholar_crawler/results/gs_data_shieldsio.json
+          if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Auto update Google Scholar stats"
-            git push
+            git commit -m "Auto update Google Scholar citation total"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
