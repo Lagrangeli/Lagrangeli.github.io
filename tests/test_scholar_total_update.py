@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from google_scholar_crawler.update_total import calculate_total, update_total
+from google_scholar_crawler.update_total import parse_serpapi_total, update_total
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -59,9 +59,12 @@ class ScholarTotalUpdateTest(unittest.TestCase):
             for relative_path in ALL_PATHS
         }
 
-    def test_calculates_and_synchronizes_higher_total(self):
-        records = [{"citations": 120}, {"citations": 111}, {}]
-        total = calculate_total(records)
+    def test_parses_and_synchronizes_higher_total(self):
+        response = {
+            "search_metadata": {"status": "Success"},
+            "cited_by": {"table": [{"citations": {"all": 231, "since_2021": 210}}]},
+        }
+        total = parse_serpapi_total(response)
 
         self.assertEqual(231, total)
         self.assertTrue(update_total(self.root, total, now="2026-08-20 12:00:00"))
@@ -84,20 +87,24 @@ class ScholarTotalUpdateTest(unittest.TestCase):
         for relative_path in BADGE_PATHS:
             self.assertEqual("231", self.read_json(relative_path)["message"])
 
-    def test_rejects_empty_or_malformed_publication_records(self):
-        with self.assertRaisesRegex(ValueError, "publication list is empty"):
-            calculate_total([])
-
-        invalid_records = (
-            [{"citations": -1}],
-            [{"citations": "12"}],
-            {"citations": 12},
-            ["not-a-publication"],
+    def test_rejects_failed_or_malformed_serpapi_responses(self):
+        invalid_responses = (
+            {"error": "invalid API key"},
+            {"search_metadata": {"status": "Error"}},
+            {"search_metadata": {"status": "Success"}, "cited_by": {"table": []}},
+            {
+                "search_metadata": {"status": "Success"},
+                "cited_by": {"table": [{"citations": {"all": -1}}]},
+            },
+            {
+                "search_metadata": {"status": "Success"},
+                "cited_by": {"table": [{"citations": {"all": "231"}}]},
+            },
         )
-        for records in invalid_records:
-            with self.subTest(records=records):
+        for response in invalid_responses:
+            with self.subTest(response=response):
                 with self.assertRaises(ValueError):
-                    calculate_total(records)
+                    parse_serpapi_total(response)
 
     def test_rejects_lower_total_without_changing_files(self):
         before = self.snapshot_files()
@@ -114,24 +121,21 @@ class ScholarTotalUpdateTest(unittest.TestCase):
 
         self.assertEqual(before, self.snapshot_files())
 
-    def test_cli_returns_nonzero_for_malformed_record_file(self):
-        record_file = self.root / "records.json"
-        record_file.write_text('[{"citations": "invalid"}]', encoding="utf-8")
-
+    def test_cli_returns_nonzero_without_serpapi_key(self):
         result = subprocess.run(
             [
                 sys.executable,
                 str(ROOT / "google_scholar_crawler" / "update_total.py"),
-                str(record_file),
                 "--root",
                 str(self.root),
             ],
             capture_output=True,
             text=True,
+            env={"PATH": str(Path(sys.executable).parent)},
         )
 
         self.assertNotEqual(0, result.returncode)
-        self.assertIn("citation value must be a non-negative integer", result.stderr)
+        self.assertIn("SERPAPI_API_KEY", result.stderr)
 
 
 if __name__ == "__main__":
