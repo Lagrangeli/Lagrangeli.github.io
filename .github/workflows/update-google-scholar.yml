@@ -17,14 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch Google Scholar publications
-        uses: sxlllslgh/google-scholar-fetcher@4a30641f7dab085f01f99c38d38069d8aec2496f
-        with:
-          google-scholar-id: r9f4mLMAAAAJ
-          record-file: /tmp/scholar-record.json
-
       - name: Update total citation count
-        run: python3 google_scholar_crawler/update_total.py /tmp/scholar-record.json --root .
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: python3 google_scholar_crawler/update_total.py --root .
 
       - name: Commit and push if changed
         id: commit

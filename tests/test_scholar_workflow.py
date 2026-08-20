@@ -19,23 +19,19 @@ class ScholarWorkflowTest(unittest.TestCase):
     def setUpClass(cls):
         cls.workflow = WORKFLOW.read_text(encoding="utf-8")
 
-    def test_uses_daily_pinned_no_secret_fetcher(self):
+    def test_uses_daily_serpapi_total_updater(self):
         self.assertEqual(1, self.workflow.count("cron:"))
         self.assertIn("cron: '17 2 * * *'", self.workflow)
         self.assertIn("uses: actions/checkout@v4", self.workflow)
         self.assertIn(
-            "uses: sxlllslgh/google-scholar-fetcher@"
-            "4a30641f7dab085f01f99c38d38069d8aec2496f",
+            "SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}",
             self.workflow,
         )
-        self.assertIn("google-scholar-id: r9f4mLMAAAAJ", self.workflow)
-        self.assertIn("record-file: /tmp/scholar-record.json", self.workflow)
         self.assertIn(
-            "run: python3 google_scholar_crawler/update_total.py "
-            "/tmp/scholar-record.json --root .",
+            "run: python3 google_scholar_crawler/update_total.py --root .",
             self.workflow,
         )
-        self.assertNotIn("SERPAPI_API_KEY", self.workflow)
+        self.assertNotIn("google-scholar-fetcher@", self.workflow)
         self.assertNotIn("pip install", self.workflow)
 
     def test_commit_step_stages_only_runtime_data_files(self):
