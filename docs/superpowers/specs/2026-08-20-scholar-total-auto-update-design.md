@@ -2,40 +2,29 @@
 
 ## Goal
 
-Automatically keep the homepage's total Google Scholar citation count current without requiring an API key. The change is limited to the homepage data files; it does not regenerate either CV PDF or alter the homepage layout.
+Automatically keep only the homepage's total Google Scholar citation count current. The feature does not regenerate either CV PDF, change the homepage layout, or automatically replace the stored h-index and i10-index.
+
+## Data Source Decision
+
+The initial no-secret design used `sxlllslgh/google-scholar-fetcher`. Both a local probe and GitHub Actions run `32385686195` received Google's HTML anti-bot page instead of JSON, so that route was rejected before deployment.
+
+The implemented route uses the Google Scholar Author API provided by SerpAPI. Its key is stored only as the repository Actions secret `SERPAPI_API_KEY` and is never written to files or logs.
 
 ## Data Flow
 
-1. A scheduled GitHub Actions workflow runs once per day and can also be started manually.
-2. A commit-pinned version of `sxlllslgh/google-scholar-fetcher` retrieves the public publication list for Scholar profile `r9f4mLMAAAAJ` into a temporary JSON file.
-3. A small standard-library Python updater sums the per-publication citation counts.
-4. The updater writes the accepted total to the existing homepage data files:
-   - `results/gs_data.json`
-   - `_data/scholar.json`
-   - `google_scholar_crawler/results/gs_data.json`
-   - the corresponding Shields.io JSON files
-5. The workflow commits only when the accepted total changes. A successful push triggers the existing GitHub Pages rebuild.
+1. A GitHub Actions workflow runs once per day at 02:17 UTC and can also be started manually.
+2. `google_scholar_crawler/update_total.py` requests the SerpAPI author record for Scholar profile `r9f4mLMAAAAJ` using only Python's standard library.
+3. The updater accepts a total only when SerpAPI reports a successful search and returns a non-negative integer in `cited_by.table[].citations.all`.
+4. A total lower than the largest stored total is rejected. An unchanged total produces no file writes.
+5. A higher total is synchronized to the three existing Scholar JSON files and two Shields.io JSON files. Existing publications, h-index, i10-index, and other Scholar data are preserved.
+6. The workflow stages exactly those five runtime files, commits only when they changed, pushes the current branch, and requests a GitHub Pages rebuild.
 
-## Safety Rules
+## Failure Handling
 
-- Reject empty, malformed, non-integer, or negative citation values.
-- Reject an empty publication list.
-- Never replace the stored citation total with a lower value. This protects the homepage from partial Scholar responses and temporary scraper failures.
-- Preserve the existing JSON structure and all metrics other than the total citation count.
-- When fetching or validation fails, fail the workflow and leave the published value unchanged.
-
-## Workflow Simplification
-
-The current multi-source crawler, dependency installation, SerpAPI fallback, manual floor, and timestamp-only commits are removed from the scheduled path. The workflow needs no repository secret and performs no commit when the citation total is unchanged.
+- A missing Secret, HTTP failure, invalid API response, missing total, malformed value, or decreasing total fails the workflow before any commit.
+- Fetch and validation happen before runtime files are written.
+- The previous public value remains available when a scheduled update fails.
 
 ## Verification
 
-Unit tests use local fixtures to verify:
-
-- citation values are summed correctly;
-- a higher total updates every homepage data copy;
-- an unchanged total produces no file changes;
-- a lower, empty, or malformed result is rejected;
-- unrelated Scholar metadata remains unchanged.
-
-After implementation, the workflow is manually dispatched once on the feature branch. Its output, generated JSON, commit scope, and homepage rendering are checked before merging or pushing to the default branch.
+Unit tests cover SerpAPI response parsing, malformed and failed responses, higher totals, unchanged totals, decreasing totals, metadata preservation, missing Secret behavior, and exact workflow staging scope. A manual feature-branch Action run must succeed before the implementation is merged into `master`.
