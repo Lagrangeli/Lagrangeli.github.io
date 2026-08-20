@@ -112,7 +112,7 @@ git diff master...HEAD --check
 
 Restore test-generated PDF byte changes and verify that the feature diff contains no `.pdf` path.
 
-- [ ] **Step 3: Update the remote feature branch and dispatch the workflow**
+- [x] **Step 3: Update the remote feature branch and dispatch the workflow**
 
 Publish the revised feature snapshot without changing `master`, then run:
 
@@ -120,7 +120,7 @@ Publish the revised feature snapshot without changing `master`, then run:
 gh workflow run update-google-scholar.yml --ref codex/scholar-auto-update
 ```
 
-- [ ] **Step 4: Verify the real SerpAPI run**
+- [x] **Step 4: Verify the real SerpAPI run**
 
 Confirm from the Actions log that the updater received a valid non-decreasing total, did not expose the Secret, and either made no commit for an unchanged value or changed only the five runtime data files.
 
