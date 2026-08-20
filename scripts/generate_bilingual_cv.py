@@ -15,7 +15,6 @@ from reportlab.platypus import (
     Flowable,
     Frame,
     KeepTogether,
-    PageBreak,
     PageTemplate,
     Paragraph,
     Spacer,
@@ -417,10 +416,7 @@ def build_pdf(content, output_path):
         SectionHeader(content["sections"]["publications"], section_font),
         Spacer(1, 4),
         Paragraph(content["equal"], styles["note"]),
-        *publication_flowables(styles, PUBLICATIONS[:10]),
-        PageBreak(),
-        Spacer(1, 8 * mm),
-        *publication_flowables(styles, PUBLICATIONS[10:]),
+        *publication_flowables(styles, PUBLICATIONS),
         KeepTogether(
             [
                 Paragraph(
