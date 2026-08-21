@@ -42,7 +42,7 @@ redirect_from:
 
 - research impact: <a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-- CV: <a href="/assets/pdf/Zhenyang_Li_CV_20260603_fast.pdf" target="_blank" rel="noopener">English PDF</a>
+- CV: <a href="/assets/pdf/Zhenyang_Li_CV_202608.pdf" target="_blank" rel="noopener">English PDF</a>
 </div>
 
 <div class="about-summary lang-zh lang-block" markdown="1">
@@ -62,7 +62,7 @@ redirect_from:
 
 - 学术影响力：<a href='https://scholar.google.com/citations?user=r9f4mLMAAAAJ' class="scholar-stat-badge" target="_blank" rel="noopener"><span class="scholar-stat-badge__segment scholar-stat-badge__segment--label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Citations</span></span><span class="scholar-stat-badge__segment scholar-stat-badge__segment--value" data-total-cit>{{ site.data.scholar.citedby | default: "..." }}</span></a>
 
-- 简历：<a href="/assets/pdf/Zhenyang_Li_CV_ZH_20260603_fast.pdf" target="_blank" rel="noopener">中文 PDF</a>
+- 简历：<a href="/assets/pdf/Zhenyang_Li_CV_ZH_202608.pdf" target="_blank" rel="noopener">中文 PDF</a>
 </div>
 
 ## <span class="lang-en lang-inline">🔬 Research Focus</span><span class="lang-zh lang-inline">🔬 研究方向</span>

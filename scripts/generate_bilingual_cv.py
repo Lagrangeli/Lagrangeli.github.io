@@ -120,6 +120,11 @@ PUBLICATIONS = [
         "authors": "Yizhou Zhao, Haoyu Chen, Chunjiang Liu, Zhenyang Li, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, and Min Xu.",
     },
     {
+        "title": "ORBIT: Overlapping Region-Based Image Feature Matching Technique",
+        "venue": "Under review, 2025",
+        "authors": "Qi Luo*, Zhenyang Li*, Linsong Xue, Haojie Wu, Yifan Peng, and Kai Zhang.",
+    },
+    {
         "title": "3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning",
         "venue": "Optics Letters, 2025",
         "authors": "Wenbin Zhou, Feifan Qu, Xiangyu Meng, Zhenyang Li, and Yifan Peng.",
