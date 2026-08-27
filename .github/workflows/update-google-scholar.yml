@@ -2,8 +2,8 @@ name: Update Google Scholar Citation Total
 
 on:
   schedule:
-    # Daily at 10:17 Beijing time (02:17 UTC).
-    - cron: '17 2 * * *'
+    # Twice daily at 10:17 and 22:17 Beijing time (02:17 and 14:17 UTC).
+    - cron: '17 2,14 * * *'
   workflow_dispatch:
 
 permissions:
