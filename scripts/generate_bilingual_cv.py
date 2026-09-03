@@ -247,15 +247,15 @@ EN = {
         ("interdisciplinary", "Interdisciplinary Computing & Engineering Applications"),
     ],
     "education": [
-        ("2023.09 - Present", "<b>The University of Hong Kong (HKU)</b>, Ph.D. in Electrical and Computer Engineering (formerly EEE).<br/>Advisors: Dr. Yifan (Evan) Peng &amp; Prof. Jia Pan. Research areas: computer vision, computer graphics, VR/AR/MR, and computational imaging."),
+        ("2023.09 - Present", "<b>The University of Hong Kong (HKU)</b>, Ph.D. in Electrical and Computer Engineering (formerly EEE).<br/>Advisors: Dr. Yifan (Evan) Peng &amp; Prof. Jia Pan.<br/>Research areas: computer vision, computer graphics, VR/AR/MR, and computational imaging."),
         ("2020.09 - 2023.07", "<b>Tsinghua University (THU)</b>, M.S. in Big Data Engineering.<br/>Department of Automation and Shenzhen International Graduate School. Advisor: Prof. Kai Zhang."),
         ("2016.09 - 2020.07", "<b>Nanjing University of Science and Technology (NJUST)</b>, B.S. in Electronic and Information Engineering.<br/>School of Electronic and Optical Engineering."),
     ],
     "experience": [
-        ("2025.10 - Present", "<b>Research Intern, Tencent LIGHTSPEED STUDIOS</b>, Shenzhen, China.<br/>Research focus: multimodal and 3D content generation and simulation."),
-        ("2022.07 - 2022.11", "<b>Research Intern, Megvii Technology Limited (Face++)</b>, Beijing, China.<br/>Research focus: visual odometry, NeRF, multi-view stereo, and feature matching."),
-        ("2021.11 - 2022.05", "<b>Research Intern, Microsoft Research Asia (MSRA)</b>, Beijing, China.<br/>Research focus: video understanding and learning-based computer vision."),
-        ("2021.03 - 2021.09", "<b>Artificial Intelligence Researcher, Huawei Technologies Co., Ltd.</b>, Shenzhen, China.<br/>Research focus: 3D reconstruction and visual localization."),
+        ("2025.10 - Present", "<b>Research Intern, Tencent LIGHTSPEED STUDIOS</b>, Shenzhen, China.<br/>Research focus: multimodal and 3D content generation and simulation.<br/>Collaborators: Weikai Chen and Xin Wang."),
+        ("2022.07 - 2022.11", "<b>Research Intern, Megvii Technology Limited (Face++)</b>, Beijing, China.<br/>Research focus: visual odometry, NeRF, multi-view stereo, and feature matching.<br/>Collaborator: Haotian Zhang."),
+        ("2021.11 - 2022.05", "<b>Research Intern, Microsoft Research Asia (MSRA)</b>, Beijing, China.<br/>Research focus: video understanding and learning-based computer vision.<br/>Collaborators: Xun Guo and Yan Lu."),
+        ("2021.03 - 2021.09", "<b>Artificial Intelligence Researcher, Huawei Technologies Co., Ltd.</b>, Shenzhen, China.<br/>Research focus: 3D reconstruction and visual localization.<br/>Collaborator: Wensen Feng."),
     ],
     "skills": [
         ("Research Areas", "World models; 3D/4D scene reconstruction and generation; 3D Gaussian Splatting; neural rendering; event-based vision."),
@@ -295,15 +295,15 @@ ZH = {
         ("interdisciplinary", "跨领域计算与工程应用"),
     ],
     "education": [
-        ("2023.09 - 至今", "<b>香港大学（HKU）</b>，电机与计算机工程博士研究生（原电子电气工程）。<br/>导师：Yifan (Evan) Peng 博士 &amp; Jia Pan 教授。研究方向：计算机视觉、计算机图形学、VR/AR/MR、计算成像。"),
+        ("2023.09 - 至今", "<b>香港大学（HKU）</b>，电机与计算机工程博士研究生（原电子电气工程）。<br/>导师：Yifan (Evan) Peng 博士 &amp; Jia Pan 教授。<br/>研究方向：计算机视觉、计算机图形学、VR/AR/MR、计算成像。"),
         ("2020.09 - 2023.07", "<b>清华大学（THU）</b>，大数据工程硕士。<br/>自动化系与深圳国际研究生院。导师：Kai Zhang 教授。"),
         ("2016.09 - 2020.07", "<b>南京理工大学（NJUST）</b>，电子信息工程学士。<br/>电子工程与光电技术学院。"),
     ],
     "experience": [
-        ("2025.10 - 至今", "<b>腾讯光子工作室群，研究实习生</b>，深圳，中国。<br/>研究方向：多模态与三维内容生成及仿真。"),
-        ("2022.07 - 2022.11", "<b>旷视科技（Face++），研究实习生</b>，北京，中国。<br/>研究方向：视觉里程计、NeRF、多视图立体与特征匹配。"),
-        ("2021.11 - 2022.05", "<b>微软亚洲研究院（MSRA），研究实习生</b>，北京，中国。<br/>研究方向：视频理解与学习式计算机视觉。"),
-        ("2021.03 - 2021.09", "<b>华为技术有限公司，人工智能研究员</b>，深圳，中国。<br/>研究方向：三维重建与视觉定位。"),
+        ("2025.10 - 至今", "<b>腾讯光子工作室群，研究实习生</b>，深圳，中国。<br/>研究方向：多模态与三维内容生成及仿真。<br/>合作者：Weikai Chen、Xin Wang。"),
+        ("2022.07 - 2022.11", "<b>旷视科技（Face++），研究实习生</b>，北京，中国。<br/>研究方向：视觉里程计、NeRF、多视图立体与特征匹配。<br/>合作者：Haotian Zhang。"),
+        ("2021.11 - 2022.05", "<b>微软亚洲研究院（MSRA），研究实习生</b>，北京，中国。<br/>研究方向：视频理解与学习式计算机视觉。<br/>合作者：Xun Guo、Yan Lu。"),
+        ("2021.03 - 2021.09", "<b>华为技术有限公司，人工智能研究员</b>，深圳，中国。<br/>研究方向：三维重建与视觉定位。<br/>合作者：Wensen Feng。"),
     ],
     "skills": [
         ("研究方向", "世界模型；3D/4D 场景重建与生成；3D Gaussian Splatting；神经渲染；事件视觉。"),
@@ -504,7 +504,7 @@ def build_pdf(content, output_path):
 
     contact = (
         f'<link href="mailto:lizy23@connect.hku.hk">lizy23@connect.hku.hk</link>  |  '
-        f'<link href="mailto:lagrangelzy@gmail.com">lagrangelzy@gmail.com</link>  |  {content["location"]}<br/>'
+        f'<link href="mailto:lagrangelzy@gmail.com">lagrangelzy@gmail.com</link>  |  +86 139 1071 1766  |  {content["location"]}<br/>'
         '<link href="https://lagrangeli.github.io/">lagrangeli.github.io</link>  |  '
         '<link href="https://github.com/Lagrangeli">github.com/Lagrangeli</link><br/>'
         '<link href="https://scholar.google.com/citations?user=r9f4mLMAAAAJ">Google Scholar</link>  |  '
