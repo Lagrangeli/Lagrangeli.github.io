@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from google_scholar_crawler.update_total import parse_serpapi_total, update_total
+from google_scholar_crawler.update_total import parse_serpapi_metrics, update_metrics
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,8 +29,11 @@ class ScholarTotalUpdateTest(unittest.TestCase):
 
         scholar_payload = {
             "citedby": 229,
+            "citedby5y": 205,
             "hindex": 8,
+            "hindex5y": 8,
             "i10index": 8,
+            "i10index5y": 8,
             "publications": {"paper-id": {"num_citations": 12}},
             "fetch_strategy": "previous-cache",
             "citation_value_source": "manual_floor",
@@ -59,21 +62,42 @@ class ScholarTotalUpdateTest(unittest.TestCase):
             for relative_path in ALL_PATHS
         }
 
-    def test_parses_and_synchronizes_higher_total(self):
+    def test_parses_and_synchronizes_metrics(self):
         response = {
             "search_metadata": {"status": "Success"},
-            "cited_by": {"table": [{"citations": {"all": 231, "since_2021": 210}}]},
+            "cited_by": {
+                "table": [
+                    {"citations": {"all": 231, "since_2021": 210}},
+                    {"h_index": {"all": 10, "since_2021": 10}},
+                    {"i10_index": {"all": 9, "since_2021": 9}},
+                ]
+            },
         }
-        total = parse_serpapi_total(response)
+        metrics = parse_serpapi_metrics(response)
 
-        self.assertEqual(231, total)
-        self.assertTrue(update_total(self.root, total, now="2026-08-20 12:00:00"))
+        self.assertEqual(
+            {
+                "citedby": 231,
+                "citedby5y": 210,
+                "hindex": 10,
+                "hindex5y": 10,
+                "i10index": 9,
+                "i10index5y": 9,
+            },
+            metrics,
+        )
+        self.assertTrue(
+            update_metrics(self.root, metrics, now="2026-08-20 12:00:00")
+        )
 
         for relative_path in DATA_PATHS:
             payload = self.read_json(relative_path)
             self.assertEqual(231, payload["citedby"])
-            self.assertEqual(8, payload["hindex"])
-            self.assertEqual(8, payload["i10index"])
+            self.assertEqual(210, payload["citedby5y"])
+            self.assertEqual(10, payload["hindex"])
+            self.assertEqual(10, payload["hindex5y"])
+            self.assertEqual(9, payload["i10index"])
+            self.assertEqual(9, payload["i10index5y"])
             self.assertEqual(
                 {"paper-id": {"num_citations": 12}}, payload["publications"]
             )
@@ -104,22 +128,58 @@ class ScholarTotalUpdateTest(unittest.TestCase):
         for response in invalid_responses:
             with self.subTest(response=response):
                 with self.assertRaises(ValueError):
-                    parse_serpapi_total(response)
+                    parse_serpapi_metrics(response)
 
     def test_rejects_lower_total_without_changing_files(self):
         before = self.snapshot_files()
 
-        with self.assertRaisesRegex(ValueError, "lower than stored total"):
-            update_total(self.root, 228)
+        with self.assertRaisesRegex(ValueError, "lower than stored value"):
+            update_metrics(
+                self.root,
+                {"citedby": 228, "hindex": 8, "i10index": 8},
+            )
 
         self.assertEqual(before, self.snapshot_files())
 
-    def test_unchanged_total_does_not_rewrite_files(self):
+    def test_unchanged_metrics_do_not_rewrite_files(self):
         before = self.snapshot_files()
 
-        self.assertFalse(update_total(self.root, 229))
+        self.assertFalse(
+            update_metrics(
+                self.root,
+                {
+                    "citedby": 229,
+                    "citedby5y": 205,
+                    "hindex": 8,
+                    "hindex5y": 8,
+                    "i10index": 8,
+                    "i10index5y": 8,
+                },
+            )
+        )
 
         self.assertEqual(before, self.snapshot_files())
+
+    def test_updates_indices_when_total_is_unchanged(self):
+        self.assertTrue(
+            update_metrics(
+                self.root,
+                {
+                    "citedby": 229,
+                    "citedby5y": 205,
+                    "hindex": 10,
+                    "hindex5y": 10,
+                    "i10index": 10,
+                    "i10index5y": 10,
+                },
+                now="2026-08-20 12:00:00",
+            )
+        )
+        for relative_path in DATA_PATHS:
+            payload = self.read_json(relative_path)
+            self.assertEqual(229, payload["citedby"])
+            self.assertEqual(10, payload["hindex"])
+            self.assertEqual(10, payload["i10index"])
 
     def test_cli_returns_nonzero_without_serpapi_key(self):
         result = subprocess.run(

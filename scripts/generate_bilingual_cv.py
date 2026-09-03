@@ -15,6 +15,7 @@ from reportlab.platypus import (
     Flowable,
     Frame,
     KeepTogether,
+    PageBreak,
     PageTemplate,
     Paragraph,
     Spacer,
@@ -26,7 +27,12 @@ from reportlab.platypus import (
 ROOT = Path(__file__).resolve().parents[1]
 PHOTO = ROOT / "assets" / "images" / "cv-profile.jpg"
 SCHOLAR_DATA = ROOT / "_data" / "scholar.json"
-ZH_FONT = Path("/usr/local/texlive/2026/texmf-dist/fonts/truetype/public/lxgw-fonts/LXGWNeoZhiSongScreen.ttf")
+ZH_FONT_CANDIDATES = [
+    Path.home() / "Library/Fonts/LXGWNeoZhiSongScreen.ttf",
+    Path("/usr/local/texlive/2026/texmf-dist/fonts/truetype/public/lxgw-fonts/LXGWNeoZhiSongScreen.ttf"),
+    Path("/usr/local/texlive/2025/texmf-dist/fonts/truetype/public/lxgw-fonts/LXGWNeoZhiSongScreen.ttf"),
+]
+ZH_FONT = next((path for path in ZH_FONT_CANDIDATES if path.exists()), ZH_FONT_CANDIDATES[0])
 SERIF_DIR = Path("/System/Library/Fonts/Supplemental")
 SERIF_FONTS = {
     "CVSerif": SERIF_DIR / "Times New Roman.ttf",
@@ -50,121 +56,170 @@ def scholar_summary():
 
 PUBLICATIONS = [
     {
+        "category": "generation",
+        "lead": False,
         "title": "Scenix: Sparse-View 3D Scene Reconstruction via Executable Scene Programs",
         "venue": "arXiv preprint, 2026",
         "authors": "Kai Li, Lutao Jiang, Zhenyang Li, Jiayu Dong, Jierui Zhang, Yingda Yin, Runze Zhang, Kai Yan, Xiaoyang Huang, Keyang Luo, Xin Wang, Xiangyu Zhao, and Weikai Chen.",
         "url": "https://arxiv.org/abs/2608.07012",
     },
     {
+        "category": "reconstruction",
+        "lead": True,
         "title": "E2Pano: Learning Event-to-Panorama Image Reconstruction",
         "venue": "arXiv preprint, 2026",
         "authors": "Zhenyang Li, Zongqi He, Jia Pan, Shijie Lin, and Yifan Peng.",
         "url": "https://arxiv.org/abs/2608.00694",
     },
     {
+        "category": "embodied",
+        "lead": False,
         "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
         "venue": "European Conference on Computer Vision (ECCV), 2026",
         "authors": "Mei Yuan, Qi Long, Qifeng Wu, Zhenyang Li, Yizhou Zhao, Lei Wang, Yang Liu, and Min Xu.",
         "url": "https://arxiv.org/abs/2607.18142",
     },
     {
+        "category": "reconstruction",
+        "lead": True,
         "title": "ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints",
         "venue": "Computational Visual Media (CVMJ), 2026",
         "authors": "Xiaoyang Bai*, Zhenyang Li*, Weiwei Xu, Edmund Y. Lam, and Yifan Peng.",
         "url": "https://arxiv.org/abs/2608.08531",
     },
     {
+        "category": "generation",
+        "lead": True,
         "title": "PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments",
         "venue": "ACM SIGGRAPH, 2026",
         "authors": "Zhenyang Li*, Lutao Jiang*, Yizhou Zhao, Ying-Cong Chen, Xin Wang, Weikai Chen, and Yifan Peng.",
         "url": "https://dl.acm.org/doi/10.1145/3799902.3811044",
     },
     {
+        "category": "generation",
+        "lead": True,
         "title": "EventTracer: Fast Path Tracing-based Event Stream Rendering",
         "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2026",
         "authors": "Zhenyang Li*, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Edmund Y. Lam, and Yifan Peng.",
         "url": "https://doi.org/10.1109/TVCG.2026.3701141",
     },
     {
+        "category": "embodied",
+        "lead": False,
         "title": "SAP: Segment Any 4K Panorama",
         "venue": "arXiv preprint, 2026",
         "authors": "Lutao Jiang, Zidong Cao, Weikai Chen, Xu Zheng, Yuanhuiyi Lyu, Zhenyang Li, Zeyu Hu, Yingda Yin, Keyang Luo, Runze Zhang, Kai Yan, Shengju Qian, Haidi Fan, Yifan Peng, Xin Wang, Hui Xiong, and Ying-Cong Chen.",
         "url": "https://arxiv.org/abs/2603.12759",
     },
     {
+        "category": "interdisciplinary",
+        "lead": False,
         "title": "Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery",
         "venue": "Journal of the Society for Information Display, 2026",
         "authors": "Pui Hang Leung, Feng Wang, Zhenyang Li, Zongqi He, Yifan Peng, and Wei-fa Yang.",
         "url": "https://doi.org/10.1002/jsid.70061",
     },
     {
+        "category": "reconstruction",
+        "lead": False,
         "title": "Structure-grounded Training Strategies Aid Generalization in Stereo Matching",
         "venue": "International Conference on 3D Vision (3DV), 2026",
         "authors": "Liangxun Ou, Yuhui Liu, Zhenyang Li, Xiaoyang Bai, and Yifan Peng.",
         "url": "https://openreview.net/forum?id=rIeputhlON",
     },
     {
+        "category": "embodied",
+        "lead": True,
         "title": "ConsistNav: Closing the Action Consistency Gap in Zero-Shot Object Navigation with Semantic Executive Control",
         "venue": "arXiv preprint, 2026",
         "authors": "Haosen Wang*, Zhenyang Li*, Yinqiang Zhang, Zongqi He, Lutao Jiang, Kai Li, Yizhou Zhao, Liaoyuan Fan, Wenjian Hou, Tingbang Liang, Yibin Wen, and Defeng Gu.",
         "url": "https://arxiv.org/abs/2605.09869",
     },
     {
+        "category": "reconstruction",
+        "lead": True,
         "title": "Enhanced Velocity Field Modeling for Gaussian Video Reconstruction",
         "venue": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2025",
         "authors": "Zhenyang Li*, Xiaoyang Bai*, Tongchen Zhang, Pengfei Shen, Weiwei Xu, and Yifan Peng.",
     },
     {
+        "category": "generation",
+        "lead": False,
         "title": "Toward Material-Agnostic System Identification from Videos",
         "venue": "IEEE/CVF International Conference on Computer Vision (ICCV), 2025",
         "authors": "Yizhou Zhao, Haoyu Chen, Chunjiang Liu, Zhenyang Li, Charles Herrmann, Junhwa Hur, Yinxiao Li, Ming-Hsuan Yang, Bhiksha Raj, and Min Xu.",
     },
     {
+        "category": "reconstruction",
+        "lead": True,
         "title": "ORBIT: Overlapping Region-Based Image Feature Matching Technique",
         "venue": "Under review, 2025",
         "authors": "Qi Luo*, Zhenyang Li*, Linsong Xue, Haojie Wu, Yifan Peng, and Kai Zhang.",
     },
     {
+        "category": "interdisciplinary",
+        "lead": False,
         "title": "3D-HoloNet: Fast, unfiltered, 3D hologram generation with camera-calibrated network learning",
         "venue": "Optics Letters, 2025",
         "authors": "Wenbin Zhou, Feifan Qu, Xiangyu Meng, Zhenyang Li, and Yifan Peng.",
         "url": "https://doi.org/10.1364/OL.544816",
     },
     {
+        "category": "reconstruction",
+        "lead": True,
         "title": "Point Resampling and Ray Transformation Aid to Editable NeRF Models",
         "venue": "arXiv preprint, 2024",
         "authors": "Zhenyang Li*, Zilong Chen*, Feifan Qu, Mingqing Wang, Yizhou Zhao, Kai Zhang, and Yifan Peng.",
         "url": "https://arxiv.org/abs/2405.07306",
     },
     {
+        "category": "interdisciplinary",
+        "lead": False,
         "title": "CryoSAM: Training-free CryoET Tomogram Segmentation with Foundation Models",
         "venue": "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024",
         "authors": "Yizhou Zhao, Hengwei Bian, Michael Mu, Mostofa R. Uddin, Zhenyang Li, Xiang Li, Tianyang Wang, and Min Xu.",
     },
     {
+        "category": "interdisciplinary",
+        "lead": True,
         "title": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
         "venue": "The ACM Web Conference (WWW), 2023",
         "authors": "Zhenyang Li*, Yancheng Dong*, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, and Zhi Wang.",
     },
     {
+        "category": "embodied",
+        "lead": False,
         "title": "Unsupervised Anomaly Detection with Local-Sensitive VQVAE and Global-Sensitive Transformers",
         "venue": "IEEE International Conference on Image Processing (ICIP), 2023",
         "authors": "Mingqing Wang, Jiawei Li, Zhenyang Li, Chengxiao Luo, Bin Chen, Shu-Tao Xia, and Zhi Wang.",
     },
     {
+        "category": "reconstruction",
+        "lead": True,
         "title": "Enhancing multi-view stereo with contrastive matching and weighted focal loss",
         "venue": "IEEE International Conference on Image Processing (ICIP), 2022",
         "authors": "Yikang Ding*, Zhenyang Li*, Dihe Huang, Zhiheng Li, and Kai Zhang.",
     },
     {
+        "category": "reconstruction",
+        "lead": True,
         "title": "Adaptive Range guided Multi-view Depth Estimation with Normal Ranking Loss",
         "venue": "Asian Conference on Computer Vision (ACCV), 2022",
         "authors": "Yikang Ding*, Zhenyang Li*, Dihe Huang, Kai Zhang, Zhiheng Li, and Wensen Feng.",
     },
     {
+        "category": "embodied",
+        "lead": True,
         "title": "Alignment-guided Temporal Attention for Video Action Recognition",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2022",
         "authors": "Yizhou Zhao*, Zhenyang Li*, Xun Guo, and Yan Lu.",
+    },
+    {
+        "category": "interdisciplinary",
+        "lead": True,
+        "title": "Wireless network maximum safety rate power distribution method based on direction modulation",
+        "venue": "Authorized invention patent CN110635832A, 2019",
+        "authors": "Zhenyang Li, Yumeng Zhang, Jiayu Li, Feng Shu, Haochen Li, Tianyun Wang, Yu Wang, Yuefeng Huang, Linqing Gui, and Yuwen Qian.",
     },
 ]
 
@@ -176,14 +231,23 @@ EN = {
     "sections": {
         "education": "Education",
         "experience": "Research / Industry Experience",
-        "publications": "Selected Publications & Patent",
+        "publications": "Publications & Patent",
         "skills": "Research Focus & Technical Skills",
         "service": "Academic Service, Talks & Honors",
     },
-    "equal": "* indicates equal contribution.",
-    "continued": "Selected Publications & Patent (continued)",
+    "profile": (
+        "Ph.D. candidate specializing in world models, 3D/4D reconstruction, generation, and simulation.<br/>"
+        "Expertise in Gaussian Splatting, neural rendering, event vision, and embodied perception."
+    ),
+    "equal": "* indicates equal contribution. Within each area, first/co-first-author works are listed first.",
+    "publication_groups": [
+        ("reconstruction", "3D/4D Reconstruction & Neural Rendering"),
+        ("generation", "Generation & Simulation"),
+        ("embodied", "Embodied AI & Scene Understanding"),
+        ("interdisciplinary", "Interdisciplinary Computing & Engineering Applications"),
+    ],
     "education": [
-        ("2023.09 - Present", "<b>The University of Hong Kong (HKU)</b>, Ph.D. in Electrical and Computer Engineering (formerly EEE).<br/>Advisors: Dr. Yifan (Evan) Peng and Prof. Jia Pan. Research areas: computer vision, computer graphics, VR/AR/MR, and computational imaging."),
+        ("2023.09 - Present", "<b>The University of Hong Kong (HKU)</b>, Ph.D. in Electrical and Computer Engineering (formerly EEE).<br/>Advisors: Dr. Yifan (Evan) Peng &amp; Prof. Jia Pan. Research areas: computer vision, computer graphics, VR/AR/MR, and computational imaging."),
         ("2020.09 - 2023.07", "<b>Tsinghua University (THU)</b>, M.S. in Big Data Engineering.<br/>Department of Automation and Shenzhen International Graduate School. Advisor: Prof. Kai Zhang."),
         ("2016.09 - 2020.07", "<b>Nanjing University of Science and Technology (NJUST)</b>, B.S. in Electronic and Information Engineering.<br/>School of Electronic and Optical Engineering."),
     ],
@@ -215,14 +279,23 @@ ZH = {
     "sections": {
         "education": "教育背景",
         "experience": "科研与产业经历",
-        "publications": "代表性论文与专利",
+        "publications": "论文与专利",
         "skills": "研究方向与技术能力",
         "service": "学术服务、报告与荣誉",
     },
-    "equal": "* 表示共同一作。",
-    "continued": "代表性论文与专利（续）",
+    "profile": (
+        "香港大学博士研究生，聚焦世界模型、3D/4D 重建、生成与仿真。<br/>"
+        "擅长 Gaussian Splatting、神经渲染、事件视觉与具身感知。"
+    ),
+    "equal": "* 表示共同一作。每个方向内优先排列一作/共同一作成果。",
+    "publication_groups": [
+        ("reconstruction", "3D/4D 重建与神经渲染"),
+        ("generation", "生成与仿真"),
+        ("embodied", "具身智能与场景理解"),
+        ("interdisciplinary", "跨领域计算与工程应用"),
+    ],
     "education": [
-        ("2023.09 - 至今", "<b>香港大学（HKU）</b>，电机与计算机工程博士研究生（原电子电气工程）。<br/>导师：Yifan (Evan) Peng 博士与 Jia Pan 教授。研究方向：计算机视觉、计算机图形学、VR/AR/MR、计算成像。"),
+        ("2023.09 - 至今", "<b>香港大学（HKU）</b>，电机与计算机工程博士研究生（原电子电气工程）。<br/>导师：Yifan (Evan) Peng 博士 &amp; Jia Pan 教授。研究方向：计算机视觉、计算机图形学、VR/AR/MR、计算成像。"),
         ("2020.09 - 2023.07", "<b>清华大学（THU）</b>，大数据工程硕士。<br/>自动化系与深圳国际研究生院。导师：Kai Zhang 教授。"),
         ("2016.09 - 2020.07", "<b>南京理工大学（NJUST）</b>，电子信息工程学士。<br/>电子工程与光电技术学院。"),
     ],
@@ -296,6 +369,15 @@ def make_styles(lang):
     return {
         "name": ParagraphStyle("name", fontName=bold_font, fontSize=18, leading=20, textColor=TEXT, spaceAfter=4),
         "contact": ParagraphStyle("contact", fontName=base_font, fontSize=7.6, leading=10.4, textColor=colors.HexColor("#253A59")),
+        "profile": ParagraphStyle(
+            "profile",
+            fontName=base_font,
+            fontSize=8.35,
+            leading=10.8,
+            textColor=TEXT,
+            spaceBefore=5,
+            spaceAfter=2,
+        ),
         "body": ParagraphStyle("body", fontName=base_font, fontSize=body_size, leading=10.2, textColor=TEXT),
         "date": ParagraphStyle("date", fontName=base_font, fontSize=7.8, leading=10.2, textColor=TEXT),
         "pub_title": ParagraphStyle(
@@ -313,6 +395,15 @@ def make_styles(lang):
             leading=9.95,
             textColor=TEXT,
             spaceAfter=3.2,
+        ),
+        "pub_group": ParagraphStyle(
+            "pub_group",
+            fontName=bold_font,
+            fontSize=8.45,
+            leading=10.2,
+            textColor=BLUE,
+            spaceBefore=2.6,
+            spaceAfter=2.0,
         ),
         "note": ParagraphStyle("note", fontName=base_font, fontSize=7.2, leading=8.5, textColor=colors.HexColor("#333333"), spaceAfter=3),
         "label": ParagraphStyle("label", fontName=base_font, fontSize=8.0, leading=10, textColor=TEXT, alignment=TA_LEFT),
@@ -344,24 +435,38 @@ def dated_rows(rows, styles):
     return story
 
 
-def publication_flowables(styles, publications):
+def publication_paragraphs(styles, publication):
+    title = publication["title"]
+    if publication.get("url"):
+        title = f'<font name="CVSerif-Bold"><link href="{publication["url"]}" color="#111111">{title}</link></font>'
+    else:
+        title = f'<font name="CVSerif-Bold">{title}</font>'
+    title_line = f'{title}, <font name="CVSerif-Italic">{publication["venue"]}</font>.'
+    authors = emphasize_name(publication["authors"])
+    return [
+        Paragraph(title_line, styles["pub_title"]),
+        Paragraph(authors, styles["pub_authors"]),
+    ]
+
+
+def publication_item(styles, publication):
+    return KeepTogether(publication_paragraphs(styles, publication))
+
+
+def publication_flowables(styles, publications, groups):
     items = []
-    for publication in publications:
-        title = publication["title"]
-        if publication.get("url"):
-            title = f'<font name="CVSerif-Bold"><link href="{publication["url"]}" color="#111111">{title}</link></font>'
-        else:
-            title = f'<font name="CVSerif-Bold">{title}</font>'
-        title_line = f'{title}, <font name="CVSerif-Italic">{publication["venue"]}</font>.'
-        authors = emphasize_name(publication["authors"])
+    for category, label in groups:
+        if category == "embodied":
+            items.append(PageBreak())
+        group_publications = [item for item in publications if item["category"] == category]
+        group_publications.sort(key=lambda item: not item["lead"])
+        first, *remaining = group_publications
         items.append(
             KeepTogether(
-                [
-                    Paragraph(title_line, styles["pub_title"]),
-                    Paragraph(authors, styles["pub_authors"]),
-                ]
+                [Paragraph(label, styles["pub_group"]), *publication_paragraphs(styles, first)]
             )
         )
+        items.extend(publication_item(styles, item) for item in remaining)
     return items
 
 
@@ -409,7 +514,8 @@ def build_pdf(content, output_path):
     story = [
         Paragraph(content["name"], styles["name"]),
         Paragraph(contact, styles["contact"]),
-        Spacer(1, 8),
+        Paragraph(content["profile"], styles["profile"]),
+        Spacer(1, 4),
         SectionHeader(content["sections"]["education"], section_font),
         Spacer(1, 5),
         *dated_rows(content["education"], styles),
@@ -421,20 +527,7 @@ def build_pdf(content, output_path):
         SectionHeader(content["sections"]["publications"], section_font),
         Spacer(1, 4),
         Paragraph(content["equal"], styles["note"]),
-        *publication_flowables(styles, PUBLICATIONS),
-        KeepTogether(
-            [
-                Paragraph(
-                    '<font name="CVSerif-Bold">Wireless network maximum safety rate power distribution method based on direction modulation</font>, '
-                    '<font name="CVSerif-Italic">Authorized invention patent CN110635832A, 2019</font>.',
-                    styles["pub_title"],
-                ),
-                Paragraph(
-                    '<u>Zhenyang Li</u>, Yumeng Zhang, Jiayu Li, Feng Shu, Haochen Li, Tianyun Wang, Yu Wang, Yuefeng Huang, Linqing Gui, and Yuwen Qian.',
-                    styles["pub_authors"],
-                ),
-            ]
-        ),
+        *publication_flowables(styles, PUBLICATIONS, content["publication_groups"]),
         Spacer(1, 5),
         SectionHeader(content["sections"]["skills"], section_font),
         Spacer(1, 5),

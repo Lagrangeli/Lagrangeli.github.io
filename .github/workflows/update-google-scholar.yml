@@ -1,4 +1,4 @@
-name: Update Google Scholar Citation Total
+name: Update Google Scholar Metrics
 
 on:
   schedule:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update total citation count
+      - name: Update citation and index metrics
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python3 google_scholar_crawler/update_total.py --root .
@@ -36,7 +36,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Auto update Google Scholar citation total"
+            git commit -m "Auto update Google Scholar metrics"
             git push origin "HEAD:${GITHUB_REF_NAME}"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
