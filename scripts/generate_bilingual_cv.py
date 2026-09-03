@@ -54,6 +54,24 @@ def scholar_summary():
     )
 
 
+PROFILE_URLS = {
+    "Yifan (Evan) Peng": "https://www.eee.hku.hk/~evanpeng/#opennewwindow",
+    "Jia Pan": "https://i.cs.hku.hk/~jpan/",
+    "Kai Zhang": "https://www.sigs.tsinghua.edu.cn/zk/main.htm",
+    "Weikai Chen": "https://chenweikai.github.io/",
+    "Xin Wang": "https://scholar.google.com/citations?user=2Z1GJ50AAAAJ",
+    "Haotian Zhang": "https://scholar.google.com/citations?hl=en&user=X1Sa_GYAAAAJ",
+    "Xun Guo": "https://scholar.google.com/citations?user=Ow4R8-EAAAAJ&hl=en",
+    "Yan Lu": "https://scholar.google.com/citations?user=djk5l-4AAAAJ&hl=en",
+    "Wensen Feng": "https://orcid.org/0000-0002-7315-337X",
+}
+
+
+def profile_link(name):
+    url = PROFILE_URLS[name].replace("&", "&amp;")
+    return f'<link href="{url}" color="#245A7A">{name}</link>'
+
+
 PUBLICATIONS = [
     {
         "category": "generation",
@@ -236,28 +254,28 @@ EN = {
         "service": "Academic Service, Talks & Honors",
     },
     "profile": (
-        "Ph.D. candidate specializing in world models, 3D/4D reconstruction, generation, and simulation.<br/>"
+        "Ph.D. candidate specializing in world models, 3D/4D reconstruction, multimodal generation, and simulation.<br/>"
         "Expertise in Gaussian Splatting, neural rendering, event vision, and embodied perception."
     ),
     "publication_groups": [
         ("reconstruction", "3D/4D Reconstruction & Neural Rendering"),
-        ("generation", "Generation & Simulation"),
+        ("generation", "Multimodal Generation & Simulation"),
         ("embodied", "Embodied AI & Scene Understanding"),
         ("interdisciplinary", "Interdisciplinary Computing & Engineering Applications"),
     ],
     "education": [
-        ("2023.09 - Present", "<b>The University of Hong Kong (HKU)</b>, Ph.D. in Electrical and Computer Engineering (formerly EEE).<br/>Advisors: Dr. Yifan (Evan) Peng &amp; Prof. Jia Pan.<br/>Research areas: computer vision, computer graphics, VR/AR/MR, and computational imaging."),
-        ("2020.09 - 2023.07", "<b>Tsinghua University (THU)</b>, M.S. in Big Data Engineering.<br/>Department of Automation and Shenzhen International Graduate School. Advisor: Prof. Kai Zhang."),
+        ("2023.09 - Present", f"<b>The University of Hong Kong (HKU)</b>, Ph.D. in Electrical and Computer Engineering (formerly EEE).<br/>Advisors: Dr. {profile_link('Yifan (Evan) Peng')} &amp; Prof. {profile_link('Jia Pan')}.<br/>Research areas: computer vision, computer graphics, VR/AR/MR, and computational imaging."),
+        ("2020.09 - 2023.07", f"<b>Tsinghua University (THU)</b>, M.S. in Big Data Engineering.<br/>Department of Automation and Shenzhen International Graduate School. Advisor: Prof. {profile_link('Kai Zhang')}."),
         ("2016.09 - 2020.07", "<b>Nanjing University of Science and Technology (NJUST)</b>, B.S. in Electronic and Information Engineering.<br/>School of Electronic and Optical Engineering."),
     ],
     "experience": [
-        ("2025.10 - Present", "<b>Research Intern, Tencent LIGHTSPEED STUDIOS</b>, Shenzhen, China.<br/>Research focus: multimodal and 3D content generation and simulation.<br/>Collaborators: Weikai Chen and Xin Wang."),
-        ("2022.07 - 2022.11", "<b>Research Intern, Megvii Technology Limited (Face++)</b>, Beijing, China.<br/>Research focus: visual odometry, NeRF, multi-view stereo, and feature matching.<br/>Collaborator: Haotian Zhang."),
-        ("2021.11 - 2022.05", "<b>Research Intern, Microsoft Research Asia (MSRA)</b>, Beijing, China.<br/>Research focus: video understanding and learning-based computer vision.<br/>Collaborators: Xun Guo and Yan Lu."),
-        ("2021.03 - 2021.09", "<b>Artificial Intelligence Researcher, Huawei Technologies Co., Ltd.</b>, Shenzhen, China.<br/>Research focus: 3D reconstruction and visual localization.<br/>Collaborator: Wensen Feng."),
+        ("2025.10 - Present", f"<b>Research Intern, Tencent LIGHTSPEED STUDIOS</b>, Shenzhen, China.<br/>Research focus: multimodal and 3D content generation and simulation.<br/>Collaborators: {profile_link('Weikai Chen')} and {profile_link('Xin Wang')}."),
+        ("2022.07 - 2022.11", f"<b>Research Intern, Megvii Technology Limited (Face++)</b>, Beijing, China.<br/>Research focus: visual odometry, NeRF, multi-view stereo, and feature matching.<br/>Collaborator: {profile_link('Haotian Zhang')}."),
+        ("2021.11 - 2022.05", f"<b>Research Intern, Microsoft Research Asia (MSRA)</b>, Beijing, China.<br/>Research focus: video understanding and learning-based computer vision.<br/>Collaborators: {profile_link('Xun Guo')} and {profile_link('Yan Lu')}."),
+        ("2021.03 - 2021.09", f"<b>Artificial Intelligence Researcher, Huawei Technologies Co., Ltd.</b>, Shenzhen, China.<br/>Research focus: 3D reconstruction and visual localization.<br/>Collaborator: {profile_link('Wensen Feng')}."),
     ],
     "skills": [
-        ("Research Areas", "World models; 3D/4D scene reconstruction and generation; 3D Gaussian Splatting; neural rendering; event-based vision."),
+        ("Research Areas", "World models; 3D/4D scene reconstruction; multimodal generation; 3D Gaussian Splatting; neural rendering; event-based vision."),
         ("Core Methods", "NeRF/3DGS; video and 3D generation; path tracing; multi-view geometry; stereo/depth estimation; vision-language-action models."),
         ("Applications", "Dynamic visual world modeling; fast motion reconstruction; simulation-ready garments; AR/MR navigation; holographic imaging and display."),
     ],
@@ -290,28 +308,28 @@ ZH = {
         "service": "学术服务、报告与荣誉",
     },
     "profile": (
-        "香港大学博士研究生，聚焦世界模型、3D/4D 重建、生成与仿真。<br/>"
+        "香港大学博士研究生，聚焦世界模型、3D/4D 重建、多模态生成与仿真。<br/>"
         "擅长 Gaussian Splatting、神经渲染、事件视觉与具身感知。"
     ),
     "publication_groups": [
         ("reconstruction", "3D/4D 重建与神经渲染"),
-        ("generation", "生成与仿真"),
+        ("generation", "多模态生成与仿真"),
         ("embodied", "具身智能与场景理解"),
         ("interdisciplinary", "跨领域计算与工程应用"),
     ],
     "education": [
-        ("2023.09 - 至今", "<b>香港大学（HKU）</b>，电机与计算机工程博士研究生（原电子电气工程）。<br/>导师：Yifan (Evan) Peng 博士 &amp; Jia Pan 教授。<br/>研究方向：计算机视觉、计算机图形学、VR/AR/MR、计算成像。"),
-        ("2020.09 - 2023.07", "<b>清华大学（THU）</b>，大数据工程硕士。<br/>自动化系与深圳国际研究生院。导师：Kai Zhang 教授。"),
+        ("2023.09 - 至今", f"<b>香港大学（HKU）</b>，电机与计算机工程博士研究生（原电子电气工程）。<br/>导师：{profile_link('Yifan (Evan) Peng')} 博士 &amp; {profile_link('Jia Pan')} 教授。<br/>研究方向：计算机视觉、计算机图形学、VR/AR/MR、计算成像。"),
+        ("2020.09 - 2023.07", f"<b>清华大学（THU）</b>，大数据工程硕士。<br/>自动化系与深圳国际研究生院。导师：{profile_link('Kai Zhang')} 教授。"),
         ("2016.09 - 2020.07", "<b>南京理工大学（NJUST）</b>，电子信息工程学士。<br/>电子工程与光电技术学院。"),
     ],
     "experience": [
-        ("2025.10 - 至今", "<b>腾讯光子工作室群，研究实习生</b>，深圳，中国。<br/>研究方向：多模态与三维内容生成及仿真。<br/>合作者：Weikai Chen、Xin Wang。"),
-        ("2022.07 - 2022.11", "<b>旷视科技（Face++），研究实习生</b>，北京，中国。<br/>研究方向：视觉里程计、NeRF、多视图立体与特征匹配。<br/>合作者：Haotian Zhang。"),
-        ("2021.11 - 2022.05", "<b>微软亚洲研究院（MSRA），研究实习生</b>，北京，中国。<br/>研究方向：视频理解与学习式计算机视觉。<br/>合作者：Xun Guo、Yan Lu。"),
-        ("2021.03 - 2021.09", "<b>华为技术有限公司，人工智能研究员</b>，深圳，中国。<br/>研究方向：三维重建与视觉定位。<br/>合作者：Wensen Feng。"),
+        ("2025.10 - 至今", f"<b>腾讯光子工作室群，研究实习生</b>，深圳，中国。<br/>研究方向：多模态与三维内容生成及仿真。<br/>合作者：{profile_link('Weikai Chen')}、{profile_link('Xin Wang')}。"),
+        ("2022.07 - 2022.11", f"<b>旷视科技（Face++），研究实习生</b>，北京，中国。<br/>研究方向：视觉里程计、NeRF、多视图立体与特征匹配。<br/>合作者：{profile_link('Haotian Zhang')}。"),
+        ("2021.11 - 2022.05", f"<b>微软亚洲研究院（MSRA），研究实习生</b>，北京，中国。<br/>研究方向：视频理解与学习式计算机视觉。<br/>合作者：{profile_link('Xun Guo')}、{profile_link('Yan Lu')}。"),
+        ("2021.03 - 2021.09", f"<b>华为技术有限公司，人工智能研究员</b>，深圳，中国。<br/>研究方向：三维重建与视觉定位。<br/>合作者：{profile_link('Wensen Feng')}。"),
     ],
     "skills": [
-        ("研究方向", "世界模型；3D/4D 场景重建与生成；3D Gaussian Splatting；神经渲染；事件视觉。"),
+        ("研究方向", "世界模型；3D/4D 场景重建；多模态生成；3D Gaussian Splatting；神经渲染；事件视觉。"),
         ("核心方法", "NeRF/3DGS；视频与三维生成；路径追踪；多视图几何；立体/深度估计；视觉-语言-动作模型。"),
         ("应用场景", "动态视觉世界建模；快速运动重建；仿真就绪三维服装；AR/MR 导航；全息成像与显示。"),
     ],
