@@ -239,7 +239,6 @@ EN = {
         "Ph.D. candidate specializing in world models, 3D/4D reconstruction, generation, and simulation.<br/>"
         "Expertise in Gaussian Splatting, neural rendering, event vision, and embodied perception."
     ),
-    "equal": "* indicates equal contribution. Within each area, first/co-first-author works are listed first.",
     "publication_groups": [
         ("reconstruction", "3D/4D Reconstruction & Neural Rendering"),
         ("generation", "Generation & Simulation"),
@@ -264,7 +263,14 @@ EN = {
     ],
     "service": [
         ("PC Member", "<b>AAAI 2027; 34th ACM Multimedia (ACMMM) 2026.</b>"),
-        ("Reviewer", "CVPR 2026, ECCV 2026, NeurIPS 2026, BMVC 2026, 3DV 2026, ISMAR 2026, ACML 2026; SIGGRAPH Asia 2025 (XR Track), ICCV 2025, ISMAR 2025, NeurIPS 2025, ICML 2025, ICLR 2025, ACM MM 2025, AISTATS 2025, ACML 2025, 3DV 2025, NeurIPS 2024."),
+        (
+            "Reviewer",
+            "<b>CVPR</b> 2026 &nbsp;|&nbsp; <b>ECCV</b> 2026 &nbsp;|&nbsp; <b>NeurIPS</b> 2026, 2025, 2024<br/>"
+            "<b>BMVC</b> 2026 &nbsp;|&nbsp; <b>3DV</b> 2027, 2026, 2025 &nbsp;|&nbsp; <b>ISMAR</b> 2026, 2025<br/>"
+            "<b>ACML Conference</b> 2026, 2025 &nbsp;|&nbsp; <b>ACML Journal Track</b> 2026<br/>"
+            "<b>SIGGRAPH Asia</b> 2025 (XR Track) &nbsp;|&nbsp; <b>ICCV</b> 2025 &nbsp;|&nbsp; <b>ICML</b> 2025<br/>"
+            "<b>ICLR</b> 2025 &nbsp;|&nbsp; <b>ACM MM</b> 2025 &nbsp;|&nbsp; <b>AISTATS</b> 2025",
+        ),
         ("Journal", "IEEE Journal of Selected Topics in Signal Processing (J-STSP)."),
         ("Talks", "<b>2025.12 WeLight Workshop</b>, Organizer and Speaker, The University of Hong Kong; <b>2023.05 ELEC4544: AI and Deep Learning</b>, Guest Lecturer, The University of Hong Kong."),
         ("Honors", "<b>2023.12 Champion</b>, Guangdong-Hong Kong-Macao Greater Bay Area International Algorithm Case Competition; <b>2020.04 Top 7/256</b>, High-energy particle collision classification challenge; <b>2019.05 Second Prize</b>, Mathematical Contest in Modeling; <b>2017 TE Connectivity Scholarship</b> (Top 1/600), Beijing SMC Education Foundation Outstanding Scholarship Special Award (Top 1/600), and Second Prize in National Mathematics Competition for College Students."),
@@ -287,7 +293,6 @@ ZH = {
         "香港大学博士研究生，聚焦世界模型、3D/4D 重建、生成与仿真。<br/>"
         "擅长 Gaussian Splatting、神经渲染、事件视觉与具身感知。"
     ),
-    "equal": "* 表示共同一作。每个方向内优先排列一作/共同一作成果。",
     "publication_groups": [
         ("reconstruction", "3D/4D 重建与神经渲染"),
         ("generation", "生成与仿真"),
@@ -312,7 +317,14 @@ ZH = {
     ],
     "service": [
         ("程序委员", "<b>AAAI 2027；第 34 届 ACM Multimedia（ACMMM）2026。</b>"),
-        ("审稿人", "CVPR 2026、ECCV 2026、NeurIPS 2026、BMVC 2026、3DV 2026、ISMAR 2026、ACML 2026；SIGGRAPH Asia 2025（XR Track）、ICCV 2025、ISMAR 2025、NeurIPS 2025、ICML 2025、ICLR 2025、ACM MM 2025、AISTATS 2025、ACML 2025、3DV 2025、NeurIPS 2024。"),
+        (
+            "审稿人",
+            "<b>CVPR</b> 2026 &nbsp;|&nbsp; <b>ECCV</b> 2026 &nbsp;|&nbsp; <b>NeurIPS</b> 2026、2025、2024<br/>"
+            "<b>BMVC</b> 2026 &nbsp;|&nbsp; <b>3DV</b> 2027、2026、2025 &nbsp;|&nbsp; <b>ISMAR</b> 2026、2025<br/>"
+            "<b>ACML Conference</b> 2026、2025 &nbsp;|&nbsp; <b>ACML Journal Track</b> 2026<br/>"
+            "<b>SIGGRAPH Asia</b> 2025（XR Track） &nbsp;|&nbsp; <b>ICCV</b> 2025 &nbsp;|&nbsp; <b>ICML</b> 2025<br/>"
+            "<b>ICLR</b> 2025 &nbsp;|&nbsp; <b>ACM MM</b> 2025 &nbsp;|&nbsp; <b>AISTATS</b> 2025",
+        ),
         ("期刊审稿", "IEEE Journal of Selected Topics in Signal Processing（J-STSP）。"),
         ("报告与教学", "<b>2025.12 WeLight Workshop</b>，组织者与报告人，香港大学；<b>2023.05 ELEC4544: AI and Deep Learning</b>，客座讲师，香港大学。"),
         ("荣誉奖励", "<b>2023.12 冠军</b>，粤港澳大湾区国际算法算例大赛；<b>2020.04 第 7 名 / 256</b>，高能粒子碰撞分类挑战赛；<b>2019.05 二等奖</b>，美国大学生数学建模竞赛；<b>2017 TE Connectivity 奖学金</b>（前 1/600）、北京 SMC 教育基金会优秀奖学金特别奖（前 1/600）及全国大学生数学竞赛二等奖。"),
@@ -379,6 +391,13 @@ def make_styles(lang):
             spaceAfter=2,
         ),
         "body": ParagraphStyle("body", fontName=base_font, fontSize=body_size, leading=10.2, textColor=TEXT),
+        "reviewer": ParagraphStyle(
+            "reviewer",
+            fontName=base_font,
+            fontSize=body_size,
+            leading=11.4,
+            textColor=TEXT,
+        ),
         "date": ParagraphStyle("date", fontName=base_font, fontSize=7.8, leading=10.2, textColor=TEXT),
         "pub_title": ParagraphStyle(
             "pub_title",
@@ -413,8 +432,9 @@ def make_styles(lang):
 def dated_rows(rows, styles):
     story = []
     for date, body in rows:
+        body_style = styles["reviewer"] if date in {"Reviewer", "审稿人"} else styles["body"]
         table = Table(
-            [[Paragraph(date, styles["date"]), Paragraph(body, styles["body"])]],
+            [[Paragraph(date, styles["date"]), Paragraph(body, body_style)]],
             colWidths=[35 * mm, 1],
             hAlign="LEFT",
         )
@@ -526,7 +546,6 @@ def build_pdf(content, output_path):
         Spacer(1, 4),
         SectionHeader(content["sections"]["publications"], section_font),
         Spacer(1, 4),
-        Paragraph(content["equal"], styles["note"]),
         *publication_flowables(styles, PUBLICATIONS, content["publication_groups"]),
         Spacer(1, 5),
         SectionHeader(content["sections"]["skills"], section_font),
