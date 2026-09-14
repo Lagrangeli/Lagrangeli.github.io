@@ -254,14 +254,14 @@ EN = {
         "service": "Academic Service, Talks & Honors",
     },
     "profile": (
-        "Ph.D. candidate specializing in world models, 3D/4D reconstruction, multimodal generation, and simulation.<br/>"
-        "Expertise in Gaussian Splatting, neural rendering, event vision, and embodied perception."
+        "Ph.D. candidate focused on world models, 3D/4D reconstruction, and structured generative models.<br/>"
+        "Expertise in Gaussian Splatting, path tracing, event vision, multimodal generation, and embodied perception."
     ),
     "publication_groups": [
-        ("reconstruction", "3D/4D Reconstruction & Neural Rendering"),
-        ("generation", "Multimodal Generation & Simulation"),
-        ("embodied", "Embodied AI & Scene Understanding"),
-        ("interdisciplinary", "Interdisciplinary Computing & Engineering Applications"),
+        ("reconstruction", "3D/4D Scene Reconstruction, Depth & Correspondence"),
+        ("generation", "Structured Generative Models, Neural Network-driven Rendering & Physical Simulation"),
+        ("embodied", "Video Understanding, Scene Perception & Embodied AI"),
+        ("interdisciplinary", "Computational Imaging, Biomedical AI & Engineering Systems"),
     ],
     "education": [
         ("2023.09 - Present", f"<b>The University of Hong Kong (HKU)</b>, Ph.D. in Electrical and Computer Engineering (formerly EEE).<br/>Advisors: Dr. {profile_link('Yifan (Evan) Peng')} &amp; Prof. {profile_link('Jia Pan')}.<br/>Research areas: computer vision, computer graphics, VR/AR/MR, and computational imaging."),
@@ -275,9 +275,9 @@ EN = {
         ("2021.03 - 2021.09", f"<b>Artificial Intelligence Researcher, Huawei Technologies Co., Ltd.</b>, Shenzhen, China.<br/>Research focus: 3D reconstruction and visual localization.<br/>Collaborator: {profile_link('Wensen Feng')}."),
     ],
     "skills": [
-        ("Research Areas", "World models; 3D/4D scene reconstruction; multimodal generation; 3D Gaussian Splatting; neural rendering; event-based vision."),
+        ("Research Areas", "World models; 3D/4D scene reconstruction; depth and correspondence; structured generative models; neural and path-traced rendering; physical simulation; multimodal and embodied perception."),
         ("Core Methods", "NeRF/3DGS; video and 3D generation; path tracing; multi-view geometry; stereo/depth estimation; vision-language-action models."),
-        ("Applications", "Dynamic visual world modeling; fast motion reconstruction; simulation-ready garments; AR/MR navigation; holographic imaging and display."),
+        ("Applications", "Dynamic world modeling; fast-motion reconstruction; simulation-ready 3D content; video understanding and embodied navigation; computational and biomedical imaging."),
     ],
     "service": [
         ("PC Member", "<b>AAAI 2027; 34th ACM Multimedia (ACMMM) 2026.</b>"),
@@ -308,14 +308,14 @@ ZH = {
         "service": "学术服务、报告与荣誉",
     },
     "profile": (
-        "香港大学博士研究生，聚焦世界模型、3D/4D 重建、多模态生成与仿真。<br/>"
-        "擅长 Gaussian Splatting、神经渲染、事件视觉与具身感知。"
+        "香港大学博士研究生，聚焦世界模型、3D/4D 重建与结构化生成模型。<br/>"
+        "擅长 Gaussian Splatting、路径追踪、事件视觉、多模态生成与具身感知。"
     ),
     "publication_groups": [
-        ("reconstruction", "3D/4D 重建与神经渲染"),
-        ("generation", "多模态生成与仿真"),
-        ("embodied", "具身智能与场景理解"),
-        ("interdisciplinary", "跨领域计算与工程应用"),
+        ("reconstruction", "3D/4D 场景重建、深度估计与图像对应"),
+        ("generation", "结构化生成模型、神经网络驱动的渲染与物理仿真"),
+        ("embodied", "视频理解、场景感知与具身智能"),
+        ("interdisciplinary", "计算成像、生物医学智能与工程系统"),
     ],
     "education": [
         ("2023.09 - 至今", f"<b>香港大学（HKU）</b>，电机与计算机工程博士研究生（原电子电气工程）。<br/>导师：{profile_link('Yifan (Evan) Peng')} 博士 &amp; {profile_link('Jia Pan')} 教授。<br/>研究方向：计算机视觉、计算机图形学、VR/AR/MR、计算成像。"),
@@ -329,9 +329,9 @@ ZH = {
         ("2021.03 - 2021.09", f"<b>华为技术有限公司，人工智能研究员</b>，深圳，中国。<br/>研究方向：三维重建与视觉定位。<br/>合作者：{profile_link('Wensen Feng')}。"),
     ],
     "skills": [
-        ("研究方向", "世界模型；3D/4D 场景重建；多模态生成；3D Gaussian Splatting；神经渲染；事件视觉。"),
+        ("研究方向", "世界模型；3D/4D 场景重建；深度估计与图像对应；结构化生成模型；神经与路径追踪渲染；物理仿真；多模态与具身感知。"),
         ("核心方法", "NeRF/3DGS；视频与三维生成；路径追踪；多视图几何；立体/深度估计；视觉-语言-动作模型。"),
-        ("应用场景", "动态视觉世界建模；快速运动重建；仿真就绪三维服装；AR/MR 导航；全息成像与显示。"),
+        ("应用场景", "动态世界建模；快速运动重建；仿真就绪三维内容；视频理解与具身导航；计算成像与生物医学影像。"),
     ],
     "service": [
         ("程序委员", "<b>AAAI 2027；第 34 届 ACM Multimedia（ACMMM）2026。</b>"),

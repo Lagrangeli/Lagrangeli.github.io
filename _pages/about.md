@@ -68,40 +68,48 @@ redirect_from:
 ## <span class="lang-en lang-inline">🔬 Research Focus</span><span class="lang-zh lang-inline">🔬 研究方向</span>
 
 <div class="lang-en lang-block" markdown="1">
-My research sits at the intersection of **Computer Vision**, **Computer Graphics**, and **Artificial Intelligence**. I study how to reconstruct, render, generate, and reason about dynamic 3D/4D worlds, with an emphasis on scalable scene representations and physically grounded visual intelligence.
+My research sits at the intersection of **Computer Vision**, **Computer Graphics**, and **Artificial Intelligence**. I study how to reconstruct and reason about dynamic 3D/4D worlds, with an emphasis on structured generation, physically grounded rendering, and simulation.
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
-我的研究位于**计算机视觉**、**计算机图形学**与**人工智能**的交叉领域，关注动态 3D/4D 世界的重建、渲染、生成与理解，尤其强调可扩展场景表示与物理一致的视觉智能。
+我的研究位于**计算机视觉**、**计算机图形学**与**人工智能**的交叉领域，关注动态 3D/4D 世界的重建与理解，重点研究结构化生成、物理一致的渲染与仿真。
 </div>
 
 <div class="research-focus-grid lang-en lang-block">
   <section class="research-focus-item">
-    <h3>3D/4D World Modeling</h3>
-    <p>NeRF, 3D Gaussian Splatting, stereo, depth, and correspondence methods for reconstructing geometry, appearance, motion, and view synthesis.</p>
+    <h3>3D/4D Scene Reconstruction, Depth & Correspondence</h3>
+    <p>Event-to-image reconstruction, NeRF, 3D Gaussian Splatting, stereo and multi-view depth estimation, and feature correspondence for recovering appearance, geometry, and motion.</p>
   </section>
   <section class="research-focus-item">
-    <h3>Generative Rendering & Simulation</h3>
-    <p>Physically grounded rendering, event-camera simulation, 3D garment modeling, and visual generation for fast, dynamic, and controllable scenes.</p>
+    <h3>Structured Generative Models, Neural Network-driven Rendering & Physical Simulation</h3>
+    <p>Structured scene and garment generation, path-traced image synthesis, event-camera simulation, and video-based physical system identification for controllable, simulation-ready worlds.</p>
   </section>
   <section class="research-focus-item">
-    <h3>Multimodal Visual Intelligence</h3>
-    <p>Vision-language-action reasoning, embodied navigation, world models, and computational imaging systems that connect perception with interaction.</p>
+    <h3>Video Understanding, Scene Perception & Embodied AI</h3>
+    <p>Action recognition, anomaly detection, panoramic segmentation, vision-language-action reasoning, and embodied navigation for understanding and interacting with dynamic environments.</p>
+  </section>
+  <section class="research-focus-item">
+    <h3>Computational Imaging, Biomedical AI & Engineering Systems</h3>
+    <p>Neural holography, foundation models for biomedical imaging, AR-assisted healthcare, recommender systems, and wireless communication.</p>
   </section>
 </div>
 
 <div class="research-focus-grid lang-zh lang-block">
   <section class="research-focus-item">
-    <h3>3D/4D 世界建模</h3>
-    <p>研究 NeRF、3D Gaussian Splatting、立体匹配、深度估计与图像对应，用于重建几何、外观、运动与新视角合成。</p>
+    <h3>3D/4D 场景重建、深度估计与图像对应</h3>
+    <p>研究事件到图像重建、NeRF、3D Gaussian Splatting、立体与多视图深度估计及特征对应，用于恢复场景外观、几何与运动。</p>
   </section>
   <section class="research-focus-item">
-    <h3>生成式渲染与仿真</h3>
-    <p>面向快速动态场景的物理一致渲染、事件相机仿真、三维服装建模与可控视觉生成。</p>
+    <h3>结构化生成模型、神经网络驱动的渲染与物理仿真</h3>
+    <p>研究结构化场景与三维服装生成、路径追踪图像合成、事件相机仿真，以及基于视频的物理系统辨识，构建可控且可仿真的三维世界。</p>
   </section>
   <section class="research-focus-item">
-    <h3>多模态视觉智能</h3>
-    <p>探索视觉-语言-动作推理、具身导航、世界模型与计算成像系统，连接视觉感知与交互式智能。</p>
+    <h3>视频理解、场景感知与具身智能</h3>
+    <p>研究动作识别、异常检测、全景分割、视觉-语言-动作推理与具身导航，使智能体理解动态环境并与之交互。</p>
+  </section>
+  <section class="research-focus-item">
+    <h3>计算成像、生物医学智能与工程系统</h3>
+    <p>探索神经全息、生物医学影像基础模型、增强现实辅助医疗、推荐系统与无线通信。</p>
   </section>
 </div>
 
@@ -145,13 +153,13 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 ### 2026
 - <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a><br>
-  **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Weikai Chen, Ying-Cong Chen, Xin Wang, Yifan Peng.
+  **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Ying-Cong Chen, Xin Wang, Weikai Chen, Yifan Peng.
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/garment_teaser.png" alt="PatternGSL teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
 
 - <img alt="TVCG" src="https://img.shields.io/badge/TVCG-2026-blue"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW)<br>
-  **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Yifan Peng.<br>
+  **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Edmund Y. Lam, Yifan Peng.<br>
   Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Code](https://github.com/andrewbxy/EventTracer) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
@@ -336,7 +344,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
-- 🎓 **电机与电子工程博士（原 EEE）** | *2023.09 - 至今*  
+- 🎓 **电机与计算机工程博士（原电子电气工程）** | *2023.09 - 至今*<br>
   [香港大学（HKU）](https://www.hku.hk/) <img src="images/hku-32x32.png" style="width: 1em;">  
   *导师：Yifan (Evan) Peng & Jia Pan @ HKU*
   
@@ -402,8 +410,8 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 ## Conference Reviewer
 
-- Vision & Graphics: CVPR 2026; ICCV 2025; ECCV 2026; SIGGRAPH Asia 2025 (XR Track); 3DV 2026, 2025; ISMAR 2026, 2025
-- AI & Machine Learning: NeurIPS 2026, 2025 (Main + Datasets and Benchmarks), 2024; ICML 2025; ICLR 2025; AISTATS 2025; ACML 2026, 2025
+- Vision & Graphics: CVPR 2026; ICCV 2025; ECCV 2026; SIGGRAPH Asia 2025 (XR Track); 3DV 2027, 2026, 2025; ISMAR 2026, 2025
+- AI & Machine Learning: NeurIPS 2026, 2025 (Main + Datasets and Benchmarks), 2024; ICML 2025; ICLR 2025; AISTATS 2025; ACML Conference 2026, 2025; ACML Journal Track 2026
 - Multimedia & Vision: ACM MM 2025; BMVC 2026
 
 ## Journal Reviewer
@@ -419,8 +427,8 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 ## 会议审稿
 
-- 视觉与图形：CVPR 2026；ICCV 2025；ECCV 2026；SIGGRAPH Asia 2025（XR Track）；3DV 2026、2025；ISMAR 2026、2025
-- 人工智能与机器学习：NeurIPS 2026、2025（Main + Datasets and Benchmarks）、2024；ICML 2025；ICLR 2025；AISTATS 2025；ACML 2026、2025
+- 视觉与图形：CVPR 2026；ICCV 2025；ECCV 2026；SIGGRAPH Asia 2025（XR Track）；3DV 2027、2026、2025；ISMAR 2026、2025
+- 人工智能与机器学习：NeurIPS 2026、2025（Main + Datasets and Benchmarks）、2024；ICML 2025；ICLR 2025；AISTATS 2025；ACML Conference 2026、2025；ACML Journal Track 2026
 - 多媒体与视觉：ACM MM 2025；BMVC 2026
 
 ## 期刊审稿
