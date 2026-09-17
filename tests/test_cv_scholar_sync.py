@@ -1,4 +1,3 @@
-import json
 import subprocess
 import sys
 import unittest
@@ -9,13 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class CvScholarSyncTest(unittest.TestCase):
-    def test_generated_pdfs_use_homepage_scholar_metrics(self):
-        scholar = json.loads((ROOT / "_data" / "scholar.json").read_text(encoding="utf-8"))
-        expected = (
-            f"{scholar['citedby']} citations, h-index {scholar['hindex']}, "
-            f"i10-index {scholar['i10index']}"
-        )
-
+    def test_generated_pdfs_link_scholar_without_metrics(self):
         subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "generate_bilingual_cv.py")],
             cwd=ROOT,
@@ -31,7 +24,10 @@ class CvScholarSyncTest(unittest.TestCase):
                 capture_output=True,
                 text=True,
             )
-            self.assertIn(expected, result.stdout, pdf_name)
+            self.assertIn("Google Scholar", result.stdout, pdf_name)
+            self.assertNotIn("citations", result.stdout, pdf_name)
+            self.assertNotIn("h-index", result.stdout, pdf_name)
+            self.assertNotIn("i10-index", result.stdout, pdf_name)
 
 
 if __name__ == "__main__":

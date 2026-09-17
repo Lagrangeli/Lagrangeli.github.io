@@ -1,7 +1,5 @@
-import json
 from pathlib import Path
 import shutil
-from datetime import datetime
 
 from reportlab.lib import colors, fonts
 from reportlab.lib.enums import TA_LEFT
@@ -26,7 +24,6 @@ from reportlab.platypus import (
 
 ROOT = Path(__file__).resolve().parents[1]
 PHOTO = ROOT / "assets" / "images" / "cv-profile.jpg"
-SCHOLAR_DATA = ROOT / "_data" / "scholar.json"
 ZH_FONT_CANDIDATES = [
     Path.home() / "Library/Fonts/LXGWNeoZhiSongScreen.ttf",
     Path("/usr/local/texlive/2026/texmf-dist/fonts/truetype/public/lxgw-fonts/LXGWNeoZhiSongScreen.ttf"),
@@ -43,16 +40,6 @@ SERIF_FONTS = {
 BLUE = colors.HexColor("#527DB8")
 LIGHT_BLUE = colors.HexColor("#DDE7F4")
 TEXT = colors.HexColor("#161616")
-
-
-def scholar_summary():
-    data = json.loads(SCHOLAR_DATA.read_text(encoding="utf-8"))
-    updated = datetime.fromisoformat(data["updated"]).strftime("%b. %Y")
-    return (
-        f'{data["citedby"]} citations, h-index {data["hindex"]}, '
-        f'i10-index {data["i10index"]} ({updated})'
-    )
-
 
 PROFILE_URLS = {
     "Yifan (Evan) Peng": "https://www.eee.hku.hk/~evanpeng/#opennewwindow",
@@ -546,8 +533,7 @@ def build_pdf(content, output_path):
         '<link href="https://lagrangeli.github.io/">lagrangeli.github.io</link>  |  '
         '<link href="https://github.com/Lagrangeli">github.com/Lagrangeli</link><br/>'
         '<link href="https://scholar.google.com/citations?user=r9f4mLMAAAAJ">Google Scholar</link>  |  '
-        '<link href="https://linkedin.com/in/zhenyang-li-875a69181">LinkedIn</link>  |  '
-        f'{scholar_summary()}'
+        '<link href="https://linkedin.com/in/zhenyang-li-875a69181">LinkedIn</link>'
     )
     story = [
         Paragraph(content["name"], styles["name"]),
