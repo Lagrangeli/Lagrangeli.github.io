@@ -19,9 +19,14 @@ class ScholarWorkflowTest(unittest.TestCase):
     def setUpClass(cls):
         cls.workflow = WORKFLOW.read_text(encoding="utf-8")
 
-    def test_uses_twice_daily_serpapi_total_updater(self):
+    def test_uses_three_hour_serpapi_total_updater(self):
         self.assertEqual(1, self.workflow.count("cron:"))
-        self.assertIn("cron: '17 2,14 * * *'", self.workflow)
+        self.assertIn(
+            "cron: '43 1,4,7,10,13,16,19,22 * * *'",
+            self.workflow,
+        )
+        self.assertIn("group: scholar-metrics-update", self.workflow)
+        self.assertIn("cancel-in-progress: false", self.workflow)
         self.assertIn("uses: actions/checkout@v4", self.workflow)
         self.assertIn(
             "SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}",

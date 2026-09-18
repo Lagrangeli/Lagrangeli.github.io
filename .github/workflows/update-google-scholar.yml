@@ -2,9 +2,13 @@ name: Update Google Scholar Metrics
 
 on:
   schedule:
-    # Twice daily at 10:17 and 22:17 Beijing time (02:17 and 14:17 UTC).
-    - cron: '17 2,14 * * *'
+    # Every three hours at :43 Beijing time. UTC hours account for UTC+8.
+    - cron: '43 1,4,7,10,13,16,19,22 * * *'
   workflow_dispatch:
+
+concurrency:
+  group: scholar-metrics-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
