@@ -62,6 +62,10 @@
       try {
         localStorage.setItem(storageKey, language);
       } catch (error) {}
+
+      document.dispatchEvent(new CustomEvent("site-language-change", {
+        detail: { language: language }
+      }));
     }
 
     document.addEventListener("click", function(event) {
@@ -73,6 +77,102 @@
     });
 
     setLanguage(getPreferredLanguage());
+  })();
+</script>
+
+<script>
+  (function() {
+    var storageKey = "preferred-theme";
+    var root = document.documentElement;
+    var systemTheme = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+    function getStoredTheme() {
+      try {
+        var saved = localStorage.getItem(storageKey);
+        return saved === "light" || saved === "dark" ? saved : null;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function getLanguage() {
+      return root.getAttribute("data-site-lang") === "zh" ? "zh" : "en";
+    }
+
+    function updateToggle(theme) {
+      var toggle = document.querySelector("[data-theme-toggle]");
+      if (!toggle) {
+        return;
+      }
+
+      var switchTo = theme === "dark" ? "light" : "dark";
+      var labels = {
+        en: switchTo === "dark" ? "Switch to dark mode" : "Switch to light mode",
+        zh: switchTo === "dark" ? "切换至深色模式" : "切换至浅色模式"
+      };
+      var label = labels[getLanguage()];
+
+      toggle.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+      toggle.setAttribute("aria-label", label);
+      toggle.setAttribute("title", label);
+
+      var hiddenLabel = toggle.querySelector("[data-theme-toggle-label]");
+      if (hiddenLabel) {
+        hiddenLabel.textContent = label;
+      }
+    }
+
+    function applyTheme(theme, persist) {
+      root.setAttribute("data-theme", theme);
+      updateToggle(theme);
+
+      var themeColor = document.querySelector('meta[name="theme-color"]');
+      if (themeColor) {
+        themeColor.setAttribute("content", theme === "dark" ? "#111418" : "#ffffff");
+      }
+
+      if (persist) {
+        try {
+          localStorage.setItem(storageKey, theme);
+        } catch (error) {}
+      }
+    }
+
+    document.addEventListener("click", function(event) {
+      var toggle = event.target.closest("[data-theme-toggle]");
+      if (!toggle) {
+        return;
+      }
+
+      var current = root.getAttribute("data-theme") === "dark" ? "dark" : "light";
+      applyTheme(current === "dark" ? "light" : "dark", true);
+    });
+
+    document.addEventListener("site-language-change", function() {
+      updateToggle(root.getAttribute("data-theme") === "dark" ? "dark" : "light");
+    });
+
+    window.addEventListener("storage", function(event) {
+      if (event.key === storageKey && (event.newValue === "light" || event.newValue === "dark")) {
+        applyTheme(event.newValue, false);
+      }
+    });
+
+    if (systemTheme) {
+      var handleSystemThemeChange = function(event) {
+        if (!getStoredTheme()) {
+          applyTheme(event.matches ? "dark" : "light", false);
+        }
+      };
+
+      if (systemTheme.addEventListener) {
+        systemTheme.addEventListener("change", handleSystemThemeChange);
+      } else if (systemTheme.addListener) {
+        systemTheme.addListener(handleSystemThemeChange);
+      }
+    }
+
+    applyTheme(root.getAttribute("data-theme") === "dark" ? "dark" : "light", false);
   })();
 </script>
 

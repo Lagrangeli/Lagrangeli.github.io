@@ -40,6 +40,48 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+:root {
+    color-scheme: light;
+    --theme-bg: #ffffff;
+    --theme-surface: #ffffff;
+    --theme-surface-muted: #f5f7fa;
+    --theme-panel: #f8fafc;
+    --theme-text: #3d4144;
+    --theme-heading: #22272e;
+    --theme-muted: #667085;
+    --theme-border: #e7e9eb;
+    --theme-link: #224b8d;
+    --theme-link-hover: #173766;
+    --theme-nav-link: #626a70;
+    --theme-accent: #527db8;
+    --theme-focus: #3f7ff0;
+    --theme-control-bg: rgba(0, 54, 159, 0.08);
+    --theme-control-hover: rgba(0, 54, 159, 0.12);
+    --theme-sticky-bg: rgba(255, 255, 255, 0.92);
+    --theme-shadow: rgba(15, 23, 42, 0.10);
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --theme-bg: #111418;
+    --theme-surface: #171b20;
+    --theme-surface-muted: #20262d;
+    --theme-panel: #1b2128;
+    --theme-text: #d5dbe3;
+    --theme-heading: #eef2f6;
+    --theme-muted: #a9b3bf;
+    --theme-border: #313943;
+    --theme-link: #82b4f4;
+    --theme-link-hover: #acd0ff;
+    --theme-nav-link: #c2cad4;
+    --theme-accent: #6d9edc;
+    --theme-focus: #82b4f4;
+    --theme-control-bg: rgba(130, 180, 244, 0.13);
+    --theme-control-hover: rgba(130, 180, 244, 0.20);
+    --theme-sticky-bg: rgba(23, 27, 32, 0.94);
+    --theme-shadow: rgba(0, 0, 0, 0.34);
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
@@ -140,17 +182,17 @@ h1:before, .anchor:before {
     gap: 0.75rem;
     margin-bottom: 1.5rem;
     padding: 0.85rem 1rem;
-    border: 1px solid rgba(0, 54, 159, 0.12);
+    border: 1px solid var(--theme-border);
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.92);
-    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    background: var(--theme-sticky-bg);
+    box-shadow: 0 10px 24px var(--theme-shadow);
     backdrop-filter: blur(12px);
 }
 
 .lang-switcher__label {
     font-size: 0.92rem;
     font-weight: 600;
-    color: #00369f;
+    color: var(--theme-link);
 }
 
 .lang-switcher__buttons {
@@ -159,7 +201,7 @@ h1:before, .anchor:before {
     gap: 0.35rem;
     padding: 0.25rem;
     border-radius: 999px;
-    background: rgba(0, 54, 159, 0.08);
+    background: var(--theme-control-bg);
 }
 
 .lang-switcher__button {
@@ -167,7 +209,7 @@ h1:before, .anchor:before {
     border-radius: 999px;
     padding: 0.45rem 0.9rem;
     background: transparent;
-    color: #35507d;
+    color: var(--theme-nav-link);
     font-weight: 700;
     line-height: 1;
     cursor: pointer;
@@ -175,8 +217,8 @@ h1:before, .anchor:before {
 }
 
 .lang-switcher__button:hover {
-    background: rgba(0, 54, 159, 0.1);
-    color: #00369f;
+    background: var(--theme-control-hover);
+    color: var(--theme-link);
 }
 
 .lang-switcher__button.is-active,
@@ -193,10 +235,10 @@ h1:before, .anchor:before {
     margin-left: 0.35rem;
     vertical-align: middle;
     text-decoration: none;
-    border: 1px solid rgba(66, 133, 244, 0.22);
+    border: 1px solid var(--theme-border);
     border-radius: 999px;
-    background: linear-gradient(180deg, #fdfefe 0%, #f4f8ff 100%);
-    box-shadow: 0 6px 18px rgba(66, 133, 244, 0.10);
+    background: var(--theme-surface-muted);
+    box-shadow: 0 6px 18px var(--theme-shadow);
     padding: 0.22rem;
 }
 
@@ -225,8 +267,8 @@ h1:before, .anchor:before {
 }
 
 .scholar-stat-badge__segment--label {
-    background: linear-gradient(180deg, #f7f9fc 0%, #edf3fb 100%);
-    color: #35507d;
+    background: var(--theme-panel);
+    color: var(--theme-nav-link);
 }
 
 .scholar-stat-badge__segment--value {
@@ -246,7 +288,7 @@ h1:before, .anchor:before {
     align-items: center;
     justify-content: center;
     border-radius: 999px;
-    background: #ffffff;
+    background: var(--theme-surface);
     box-shadow: inset 0 0 0 1px rgba(66, 133, 244, 0.16);
 }
 
@@ -265,21 +307,21 @@ h1:before, .anchor:before {
 }
 
 .research-focus-item {
-    border-left: 3px solid #4f6f9f;
+    border-left: 3px solid var(--theme-accent);
     padding: 0.75rem 0.9rem;
-    background: #f8fafc;
+    background: var(--theme-panel);
 }
 
 .research-focus-item h3 {
     margin: 0 0 0.45rem;
-    color: #1f3f68;
+    color: var(--theme-link);
     font-size: 1rem;
     line-height: 1.25;
 }
 
 .research-focus-item p {
     margin: 0;
-    color: #334155;
+    color: var(--theme-text);
     font-size: 0.92rem;
     line-height: 1.55;
 }
@@ -320,5 +362,133 @@ html[data-site-lang="zh"] .lang-zh.lang-inline {
 
     .research-focus-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+html,
+body {
+    background-color: var(--theme-bg);
+}
+
+body {
+    color: var(--theme-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.author__name {
+    color: var(--theme-heading);
+}
+
+a,
+.page__content a {
+    color: var(--theme-link);
+}
+
+a:hover,
+a:active,
+.page__content a:hover,
+.page__content a:active {
+    color: var(--theme-link-hover);
+}
+
+.masthead,
+.greedy-nav {
+    background-color: var(--theme-surface);
+}
+
+.greedy-nav a {
+    color: var(--theme-nav-link);
+}
+
+.greedy-nav a:hover {
+    color: var(--theme-link-hover);
+}
+
+.greedy-nav .visible-links a::before {
+    background: var(--theme-accent);
+}
+
+.greedy-nav .hidden-links,
+.author__urls,
+.author__wechat-panel {
+    border-color: var(--theme-border);
+    background: var(--theme-surface);
+    box-shadow: 0 10px 22px var(--theme-shadow);
+}
+
+.greedy-nav .hidden-links li,
+.page__content h1,
+td,
+.page__share,
+.author__avatar img,
+.paper-box,
+hr {
+    border-color: var(--theme-border);
+}
+
+.greedy-nav .hidden-links::before,
+.author__urls::before {
+    border-color: var(--theme-border) transparent;
+}
+
+.greedy-nav .hidden-links::after,
+.author__urls::after {
+    border-color: var(--theme-surface) transparent;
+}
+
+.greedy-nav .hidden-links a:hover,
+thead {
+    background: var(--theme-surface-muted);
+}
+
+.author__wechat-caption,
+figcaption,
+.page__meta {
+    color: var(--theme-muted);
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code,
+pre,
+.highlight {
+    border-color: var(--theme-border);
+    background: var(--theme-surface-muted);
+}
+
+u,
+ins,
+abbr[title],
+abbr[data-original-title] {
+    border-color: var(--theme-text);
+}
+
+body,
+.masthead,
+.greedy-nav,
+.lang-switcher,
+.research-focus-item,
+.scholar-stat-badge,
+.author__urls,
+.author__wechat-panel {
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media print {
+    html,
+    body {
+        background: #fff !important;
+        color: #000 !important;
+    }
+
+    .theme-toggle {
+        display: none !important;
     }
 }
