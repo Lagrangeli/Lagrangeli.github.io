@@ -154,6 +154,15 @@ h1:before, .anchor:before {
     margin-bottom: 1.6rem;
 }
 
+.about-lead {
+    max-width: 52rem;
+    margin: 0 0 1rem;
+    color: var(--theme-heading);
+    font-size: 1.02rem;
+    font-weight: 600;
+    line-height: 1.65;
+}
+
 .about-summary > ul {
     margin-top: 0.2rem;
     margin-bottom: 1.2rem;
@@ -324,6 +333,48 @@ h1:before, .anchor:before {
     color: var(--theme-text);
     font-size: 0.92rem;
     line-height: 1.55;
+}
+
+.research-focus-item .research-focus-links {
+    margin-top: 0.6rem;
+    color: var(--theme-muted);
+    font-size: 0.84rem;
+}
+
+.research-focus-links strong {
+    color: var(--theme-heading);
+}
+
+.news-more {
+    margin: 0.5rem 0 1.25rem 1.25rem;
+}
+
+.news-more summary {
+    width: fit-content;
+    color: var(--theme-link);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.news-more[open] summary {
+    margin-bottom: 0.65rem;
+}
+
+.news-more ul {
+    margin-top: 0;
+}
+
+.news-more li {
+    margin-bottom: 0.45rem;
+    line-height: 1.6;
+}
+
+.publication-summary {
+    margin: 0.28rem 0 0.45rem;
+    color: var(--theme-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 1.5;
 }
 
 .lang-block,

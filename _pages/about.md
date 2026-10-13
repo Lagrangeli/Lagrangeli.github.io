@@ -26,6 +26,8 @@ redirect_from:
 # <span class="lang-en lang-inline">About</span><span class="lang-zh lang-inline">关于我</span>
 
 <div class="about-summary lang-en lang-block" markdown="1">
+<p class="about-lead">I study how to reconstruct, generate, render, and simulate dynamic 3D/4D worlds, with current interests in world models, 3D Gaussian Splatting, and multimodal 3D generation.</p>
+
 - a Ph.D. student (since Fall 2023) in the [Department of Electrical and Computer Engineering (ECE, formerly EEE)](https://ece.hku.hk/) at [The University of Hong Kong (HKU)](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">
 
 - previously received an M.S. degree from [Tsinghua University (THU)](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;"> and a B.S. degree from [Nanjing University of Science and Technology (NJUST)](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">
@@ -46,6 +48,8 @@ redirect_from:
 </div>
 
 <div class="about-summary lang-zh lang-block" markdown="1">
+<p class="about-lead">我致力于动态 3D/4D 世界的重建、生成、渲染与仿真，目前重点关注世界模型、3D Gaussian Splatting 与多模态三维生成。</p>
+
 - [香港大学（HKU）](https://www.hku.hk/)<img src="images/hku-32x32.png" style="width: 1em;">[电机与计算机工程系（ECE，原 EEE）](https://ece.hku.hk/)博士研究生，2023 年秋季入学
 
 - 曾获[清华大学（THU）](https://www.tsinghua.edu.cn/)<img src="images/tsinghua-32x32.png" style="width: 1em;">大数据工程硕士学位，以及[南京理工大学（NJUST）](https://eoe.njust.edu.cn/)<img src="images/njust-32x32.png" style="width: 1em;">电子信息工程学士学位
@@ -68,29 +72,33 @@ redirect_from:
 ## <span class="lang-en lang-inline">🔬 Research Focus</span><span class="lang-zh lang-inline">🔬 研究方向</span>
 
 <div class="lang-en lang-block" markdown="1">
-My research sits at the intersection of **Computer Vision**, **Computer Graphics**, and **Artificial Intelligence**. I study how to reconstruct and reason about dynamic 3D/4D worlds, with an emphasis on structured generation, physically grounded rendering, and simulation.
+My work spans four connected directions, from core **3D/4D reconstruction and generation** to **perception**, **embodied intelligence**, and **cross-disciplinary applications**.
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
-我的研究位于**计算机视觉**、**计算机图形学**与**人工智能**的交叉领域，关注动态 3D/4D 世界的重建与理解，重点研究结构化生成、物理一致的渲染与仿真。
+我的研究涵盖四个相互关联的方向，从核心的 **3D/4D 重建与生成**延伸至**场景感知**、**具身智能**及**交叉领域应用**。
 </div>
 
 <div class="research-focus-grid lang-en lang-block">
   <section class="research-focus-item">
     <h3>3D/4D Scene Reconstruction, Depth & Correspondence</h3>
     <p>Event-to-image reconstruction, NeRF, 3D Gaussian Splatting, stereo and multi-view depth estimation, and feature correspondence for recovering appearance, geometry, and motion.</p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://arxiv.org/abs/2608.08531">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Structured Generative Models, Neural Network-driven Rendering & Physical Simulation</h3>
     <p>Structured scene and garment generation, path-traced image synthesis, event-camera simulation, and video-based physical system identification for controllable, simulation-ready worlds.</p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Video Understanding, Scene Perception & Embodied AI</h3>
     <p>Action recognition, anomaly detection, panoramic segmentation, vision-language-action reasoning, and embodied navigation for understanding and interacting with dynamic environments.</p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://arxiv.org/abs/2607.18142">O-VAD</a> · <a href="https://lutao2021.github.io/SAP_Page/">SAP</a> · <a href="https://arxiv.org/abs/2605.09869">ConsistNav</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Computational Imaging, Biomedical AI & Engineering Systems</h3>
     <p>Neural holography, foundation models for biomedical imaging, AR-assisted healthcare, recommender systems, and wireless communication.</p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-4-1188">3D-HoloNet</a> · <a href="https://www.arxiv.org/abs/2407.06833">CryoSAM</a> · <a href="https://doi.org/10.1002/jsid.70061">AR-assisted surgery</a></p>
   </section>
 </div>
 
@@ -98,18 +106,22 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
   <section class="research-focus-item">
     <h3>3D/4D 场景重建、深度估计与图像对应</h3>
     <p>研究事件到图像重建、NeRF、3D Gaussian Splatting、立体与多视图深度估计及特征对应，用于恢复场景外观、几何与运动。</p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://arxiv.org/abs/2608.08531">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
   </section>
   <section class="research-focus-item">
     <h3>结构化生成模型、神经网络驱动的渲染与物理仿真</h3>
     <p>研究结构化场景与三维服装生成、路径追踪图像合成、事件相机仿真，以及基于视频的物理系统辨识，构建可控且可仿真的三维世界。</p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
   </section>
   <section class="research-focus-item">
     <h3>视频理解、场景感知与具身智能</h3>
     <p>研究动作识别、异常检测、全景分割、视觉-语言-动作推理与具身导航，使智能体理解动态环境并与之交互。</p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://arxiv.org/abs/2607.18142">O-VAD</a> · <a href="https://lutao2021.github.io/SAP_Page/">SAP</a> · <a href="https://arxiv.org/abs/2605.09869">ConsistNav</a></p>
   </section>
   <section class="research-focus-item">
     <h3>计算成像、生物医学智能与工程系统</h3>
     <p>探索神经全息、生物医学影像基础模型、增强现实辅助医疗、推荐系统与无线通信。</p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-4-1188">3D-HoloNet</a> · <a href="https://www.arxiv.org/abs/2407.06833">CryoSAM</a> · <a href="https://doi.org/10.1002/jsid.70061">增强现实辅助手术</a></p>
   </section>
 </div>
 
@@ -120,29 +132,41 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 # <span class="lang-en lang-inline">🔥 News</span><span class="lang-zh lang-inline">🔥 新闻动态</span>
 
 <div class="lang-en lang-block" markdown="1">
-- *2026.08*: &nbsp;📄 Our paper on **Sparse-View 3D Scene Reconstruction** (<a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a>) is released on **arXiv**!
-- *2026.08*: &nbsp;📄 Our paper on **Event-to-Panorama Image Reconstruction** (<a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a>) is released on **arXiv**!
-- *2026.07*: &nbsp;🏆 One paper on **Industrial Video Anomaly Detection** (**O-VAD**) is accepted to **ECCV 2026**!
-- *2026.06*: &nbsp;🏆 One paper on **Fast Motion Reconstruction** (<a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a>) is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>!
-- *2026.05*: &nbsp;🏆 One paper on **Event Camera Rendering** (**EventTracer**) is accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>!
-- *2026.04*: &nbsp;🏆 One paper on **3D Garment Modeling** (<a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a>) is accepted to **SIGGRAPH 2026**!
-- *2026.05*: &nbsp;📄 One paper on **Zero-Shot Object Navigation** (**ConsistNav**) is released on **arXiv**! Closing the action consistency gap with semantic executive control.
-- *2026.04*: &nbsp;📄 One paper on **AR-assisted dental implant surgery** is published in **Journal of the Society for Information Display (JSID) 2026**!
-- *2026.03*: &nbsp;🏆 One paper on **Stereo Matching Generalization** is accepted to **3DV 2026**! Structure-grounded training strategies for robust stereo matching.
-- *2026.03*: &nbsp;📄 One paper on **Panoramic Instance Segmentation** (SAP) is released on **arXiv**! Segment Any 4K Panorama for high-resolution 360° scenes.
+- *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a> is released on **arXiv**: sparse-view 3D scene reconstruction via executable scene programs.
+- *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a> is released on **arXiv**: event-to-panorama image reconstruction.
+- *2026.07*: &nbsp;🏆 <a href="https://arxiv.org/abs/2607.18142" target="_blank" rel="noopener"><strong>O-VAD</strong></a> is accepted to **ECCV 2026**: object-centric industrial video anomaly detection.
+- *2026.06*: &nbsp;🏆 <a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a> is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>: fast-motion reconstruction from disjoint Event-RGB viewpoints.
+- *2026.05*: &nbsp;🏆 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>EventTracer</strong></a> is accepted to **IEEE TVCG**: fast path tracing-based event-stream rendering.
+- *2026.05*: &nbsp;📄 <a href="https://arxiv.org/abs/2605.09869" target="_blank" rel="noopener"><strong>ConsistNav</strong></a> is released on **arXiv**: semantic executive control for zero-shot object navigation.
+
+<details class="news-more">
+  <summary>Show earlier news</summary>
+  <ul>
+    <li><em>2026.04</em>: &nbsp;🏆 <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a> is accepted to <strong>SIGGRAPH 2026</strong>: structured, simulation-ready 3D garment modeling.</li>
+    <li><em>2026.04</em>: &nbsp;📄 Our work on <strong>AR-assisted dental implant surgery</strong> is published in <strong>Journal of the Society for Information Display (JSID)</strong>.</li>
+    <li><em>2026.03</em>: &nbsp;🏆 Our work on <strong>stereo matching generalization</strong> is accepted to <strong>3DV 2026</strong>.</li>
+    <li><em>2026.03</em>: &nbsp;📄 <a href="https://arxiv.org/abs/2603.12759" target="_blank" rel="noopener"><strong>SAP</strong></a> is released on <strong>arXiv</strong>: segmenting high-resolution 4K panoramas.</li>
+  </ul>
+</details>
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
-- *2026.08*: &nbsp;📄 我们关于**稀疏视角三维场景重建**的论文（<a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a>）已发布于 **arXiv**！
-- *2026.08*: &nbsp;📄 我们关于**事件到全景图像重建**的论文（<a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a>）已发布于 **arXiv**！
-- *2026.07*: &nbsp;🏆 一篇关于**工业视频异常检测**的论文（**O-VAD**）被 **ECCV 2026** 接收！
-- *2026.06*: &nbsp;🏆 一篇关于**快速运动重建**的论文（<a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a>）被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收！
-- *2026.05*: &nbsp;🏆 一篇关于**事件相机渲染**的论文（**EventTracer**）被 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a> 接收！
-- *2026.04*: &nbsp;🏆 一篇关于**三维服装建模**的论文（<a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a>）被 **SIGGRAPH 2026** 接收！
-- *2026.05*: &nbsp;📄 一篇关于**零样本目标导航**的论文（**ConsistNav**）已发布于 **arXiv**！聚焦通过语义执行控制弥合动作一致性鸿沟。
-- *2026.04*: &nbsp;📄 一篇关于**增强现实辅助牙种植导航**的论文发表于 **Journal of the Society for Information Display (JSID) 2026**！
-- *2026.03*: &nbsp;🏆 一篇关于**立体匹配泛化**的论文被 **3DV 2026** 接收！提出面向稳健立体匹配的结构先验训练策略。
-- *2026.03*: &nbsp;📄 **全景实例分割**论文 **SAP** 已发布于 **arXiv**！工作聚焦高分辨率 360° 场景的 `Segment Any 4K Panorama`。
+- *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a> 已发布于 **arXiv**：通过可执行场景程序实现稀疏视角三维场景重建。
+- *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a> 已发布于 **arXiv**：从事件流重建全景图像。
+- *2026.07*: &nbsp;🏆 <a href="https://arxiv.org/abs/2607.18142" target="_blank" rel="noopener"><strong>O-VAD</strong></a> 被 **ECCV 2026** 接收：基于目标中心跟踪与推理的工业视频异常检测。
+- *2026.06*: &nbsp;🏆 <a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a> 被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收：从非共视事件与 RGB 视角重建快速运动。
+- *2026.05*: &nbsp;🏆 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>EventTracer</strong></a> 被 **IEEE TVCG** 接收：基于快速路径追踪的事件流渲染。
+- *2026.05*: &nbsp;📄 <a href="https://arxiv.org/abs/2605.09869" target="_blank" rel="noopener"><strong>ConsistNav</strong></a> 已发布于 **arXiv**：通过语义执行控制改进零样本目标导航。
+
+<details class="news-more">
+  <summary>展开更早动态</summary>
+  <ul>
+    <li><em>2026.04</em>: &nbsp;🏆 <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL</strong></a> 被 <strong>SIGGRAPH 2026</strong> 接收：面向仿真的结构化三维服装建模。</li>
+    <li><em>2026.04</em>: &nbsp;📄 增强现实辅助牙种植导航工作发表于 <strong>Journal of the Society for Information Display（JSID）</strong>。</li>
+    <li><em>2026.03</em>: &nbsp;🏆 立体匹配泛化工作被 <strong>3DV 2026</strong> 接收。</li>
+    <li><em>2026.03</em>: &nbsp;📄 <a href="https://arxiv.org/abs/2603.12759" target="_blank" rel="noopener"><strong>SAP</strong></a> 已发布于 <strong>arXiv</strong>：面向高分辨率 4K 全景图像的实例分割。</li>
+  </ul>
+</details>
 </div>
 
 <span class='anchor' id='-publications'></span>
@@ -154,12 +178,14 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 ### 2026
 - <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a><br>
   **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Ying-Cong Chen, Xin Wang, Weikai Chen, Yifan Peng.
+  <div class="publication-summary">A structured specification language for generating editable, simulation-ready 3D garments without predefined templates.</div>
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/garment_teaser.png" alt="PatternGSL teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
 
 - <img alt="TVCG" src="https://img.shields.io/badge/TVCG-2026-blue"> [**EventTracer: Fast Path Tracing-based Event Stream Rendering**](https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW)<br>
   **Zhenyang Li\***, Xiaoyang Bai*, Jinfan Lu, Pengfei Shen, Edmund Y. Lam, Yifan Peng.<br>
+  <div class="publication-summary">A fast path-tracing simulator for physically based event-stream rendering and scalable synthetic data generation.</div>
   Accepted to <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong></a>. [Project](https://lagrangeli.github.io/EventTracer-simulator/) / [arXiv](https://arxiv.org/abs/2508.18071) / [Code](https://github.com/andrewbxy/EventTracer) / [Hugging Face](https://huggingface.co/datasets/andrewbxy/ETScenes)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
@@ -167,6 +193,7 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 - <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> [**ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**](https://arxiv.org/abs/2608.08531)<br>
   Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
+  <div class="publication-summary">Fuses disjoint event and RGB viewpoints with Gaussian representations to reconstruct fast real-world motion.</div>
   Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [arXiv](https://arxiv.org/abs/2608.08531) / [Code](https://github.com/andrewbxy/ERF-GS) / Datasets: [Neu3D](https://huggingface.co/datasets/andrewbxy/ERFGS-Neu3D) / [Nvidia](https://huggingface.co/datasets/andrewbxy/ERFGS-Nvidia)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/event-rgb-gaussians.jpg" alt="ERF-GS" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
@@ -198,12 +225,14 @@ My research sits at the intersection of **Computer Vision**, **Computer Graphics
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**Scenix: Sparse-View 3D Scene Reconstruction via Executable Scene Programs**](https://arxiv.org/abs/2608.07012)<br>
   Kai Li, Lutao Jiang, **Zhenyang Li**, Jiayu Dong, Jierui Zhang, Yingda Yin, Runze Zhang, Kai Yan, Xiaoyang Huang, Keyang Luo, Xin Wang, Xiangyu Zhao, Weikai Chen.
+  <div class="publication-summary">Infers editable executable scene programs from sparse, uncalibrated RGB observations.</div>
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/scenix-layout.png" alt="Scenix teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**E2Pano: Learning Event-to-Panorama Image Reconstruction**](https://arxiv.org/abs/2608.00694)<br>
   **Zhenyang Li**, Zongqi He, Jia Pan, Shijie Lin, Yifan Peng.
+  <div class="publication-summary">Reconstructs panoramic imagery from asynchronous event streams for wide-field dynamic scenes.</div>
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/teaser_v5_1.png" alt="E2Pano teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>

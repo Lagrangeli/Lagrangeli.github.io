@@ -253,6 +253,13 @@
   }
 }
 
+.author__tagline {
+  margin-bottom: 1em;
+  color: var(--theme-muted);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
 .author__wechat {
   white-space: normal !important;
 }
