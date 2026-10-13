@@ -17,6 +17,9 @@ class HomepageContentHierarchyTest(unittest.TestCase):
         profile = (ROOT / "_includes" / "author-profile.html").read_text(
             encoding="utf-8"
         )
+        sidebar_styles = (ROOT / "_sass" / "_sidebar.scss").read_text(
+            encoding="utf-8"
+        )
 
         self.assertIn(
             'tagline          : "3D/4D Vision · World Models · Graphics · Multimodal AI"',
@@ -24,6 +27,8 @@ class HomepageContentHierarchyTest(unittest.TestCase):
         )
         self.assertIn("{{ author.tagline }}", profile)
         self.assertNotIn("{{ site.description }}", profile)
+        self.assertIn("white-space: normal", sidebar_styles)
+        self.assertIn("overflow-wrap: anywhere", sidebar_styles)
 
     def test_about_has_bilingual_research_positioning(self):
         self.assertIn("I study how to reconstruct, generate, render, and simulate", self.about)

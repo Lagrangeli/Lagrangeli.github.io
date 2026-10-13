@@ -254,10 +254,13 @@
 }
 
 .author__tagline {
+  max-width: 100%;
   margin-bottom: 1em;
   color: var(--theme-muted);
   font-weight: 600;
   line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .author__wechat {
