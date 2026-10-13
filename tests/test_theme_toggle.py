@@ -17,6 +17,13 @@ class ThemeToggleTest(unittest.TestCase):
             head.index('rel="stylesheet"'),
         )
 
+    def test_main_stylesheet_is_cache_busted_by_build_revision(self):
+        head = (ROOT / "_includes" / "head.html").read_text(encoding="utf-8")
+
+        self.assertIn("site.github.build_revision", head)
+        self.assertIn("main.css' | relative_url", head)
+        self.assertIn("?v={{ asset_version | uri_escape }}", head)
+
     def test_masthead_has_an_accessible_icon_toggle(self):
         masthead = (ROOT / "_includes" / "masthead.html").read_text(
             encoding="utf-8"
@@ -58,10 +65,12 @@ class ThemeToggleTest(unittest.TestCase):
 
         self.assertIn(
             """@include breakpoint($large) {
-    .author__urls {
-        border: 0;
-        background: transparent;
-        box-shadow: none;
+    .sidebar .author__urls {
+        border: 0 !important;
+        border-radius: 0;
+        background: transparent !important;
+        box-shadow: none !important;
+        filter: none;
     }
 }""",
             styles,

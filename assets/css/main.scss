@@ -422,10 +422,12 @@ a:active,
 }
 
 @include breakpoint($large) {
-    .author__urls {
-        border: 0;
-        background: transparent;
-        box-shadow: none;
+    .sidebar .author__urls {
+        border: 0 !important;
+        border-radius: 0;
+        background: transparent !important;
+        box-shadow: none !important;
+        filter: none;
     }
 }
 
