@@ -51,6 +51,22 @@ class ThemeToggleTest(unittest.TestCase):
         self.assertIn(".author__wechat-panel", styles)
         self.assertIn(".greedy-nav .hidden-links", styles)
 
+    def test_desktop_sidebar_links_remain_unframed(self):
+        styles = (ROOT / "assets" / "css" / "main.scss").read_text(
+            encoding="utf-8"
+        )
+
+        self.assertIn(
+            """@include breakpoint($large) {
+    .author__urls {
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+}""",
+            styles,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
