@@ -83,7 +83,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
   <section class="research-focus-item">
     <h3>3D/4D Scene Reconstruction, Depth & Correspondence</h3>
     <p>Event-to-image reconstruction, NeRF, 3D Gaussian Splatting, stereo and multi-view depth estimation, and feature correspondence for recovering appearance, geometry, and motion.</p>
-    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://arxiv.org/abs/2608.08531">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Structured Generative Models, Neural Network-driven Rendering & Physical Simulation</h3>
@@ -106,7 +106,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
   <section class="research-focus-item">
     <h3>3D/4D 场景重建、深度估计与图像对应</h3>
     <p>研究事件到图像重建、NeRF、3D Gaussian Splatting、立体与多视图深度估计及特征对应，用于恢复场景外观、几何与运动。</p>
-    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://arxiv.org/abs/2608.08531">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
   </section>
   <section class="research-focus-item">
     <h3>结构化生成模型、神经网络驱动的渲染与物理仿真</h3>
@@ -135,7 +135,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a> is released on **arXiv**: sparse-view 3D scene reconstruction via executable scene programs.
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a> is released on **arXiv**: event-to-panorama image reconstruction.
 - *2026.07*: &nbsp;🏆 <a href="https://arxiv.org/abs/2607.18142" target="_blank" rel="noopener"><strong>O-VAD</strong></a> is accepted to **ECCV 2026**: object-centric industrial video anomaly detection.
-- *2026.06*: &nbsp;🏆 <a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a> is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>: fast-motion reconstruction from disjoint Event-RGB viewpoints.
+- *2026.06*: &nbsp;🏆 <a href="https://ieeexplore.ieee.org/document/11733892" target="_blank" rel="noopener"><strong>ERF-GS</strong></a> is accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>: fast-motion reconstruction from disjoint Event-RGB viewpoints.
 - *2026.05*: &nbsp;🏆 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>EventTracer</strong></a> is accepted to **IEEE TVCG**: fast path tracing-based event-stream rendering.
 - *2026.05*: &nbsp;📄 <a href="https://arxiv.org/abs/2605.09869" target="_blank" rel="noopener"><strong>ConsistNav</strong></a> is released on **arXiv**: semantic executive control for zero-shot object navigation.
 
@@ -154,7 +154,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a> 已发布于 **arXiv**：通过可执行场景程序实现稀疏视角三维场景重建。
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a> 已发布于 **arXiv**：从事件流重建全景图像。
 - *2026.07*: &nbsp;🏆 <a href="https://arxiv.org/abs/2607.18142" target="_blank" rel="noopener"><strong>O-VAD</strong></a> 被 **ECCV 2026** 接收：基于目标中心跟踪与推理的工业视频异常检测。
-- *2026.06*: &nbsp;🏆 <a href="https://arxiv.org/abs/2608.08531" target="_blank" rel="noopener"><strong>ERF-GS</strong></a> 被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收：从非共视事件与 RGB 视角重建快速运动。
+- *2026.06*: &nbsp;🏆 <a href="https://ieeexplore.ieee.org/document/11733892" target="_blank" rel="noopener"><strong>ERF-GS</strong></a> 被 <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a> 接收：从非共视事件与 RGB 视角重建快速运动。
 - *2026.05*: &nbsp;🏆 <a href="https://www.computer.org/csdl/journal/tg/5555/01/11553408/2h9GzibPmRW" target="_blank" rel="noopener"><strong>EventTracer</strong></a> 被 **IEEE TVCG** 接收：基于快速路径追踪的事件流渲染。
 - *2026.05*: &nbsp;📄 <a href="https://arxiv.org/abs/2605.09869" target="_blank" rel="noopener"><strong>ConsistNav</strong></a> 已发布于 **arXiv**：通过语义执行控制改进零样本目标导航。
 
@@ -191,10 +191,10 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/eventtracer.jpg" alt="EventTracer" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
 
-- <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> [**ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**](https://arxiv.org/abs/2608.08531)<br>
+- <img alt="CVMJ" src="https://img.shields.io/badge/CVMJ-2026-blue"> [**ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints**](https://ieeexplore.ieee.org/document/11733892)<br>
   Xiaoyang Bai*, **Zhenyang Li\***, Weiwei Xu, Edmund Y. Lam, Yifan Peng.<br>
   <div class="publication-summary">Fuses disjoint event and RGB viewpoints with Gaussian representations to reconstruct fast real-world motion.</div>
-  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [arXiv](https://arxiv.org/abs/2608.08531) / [Code](https://github.com/andrewbxy/ERF-GS) / Datasets: [Neu3D](https://huggingface.co/datasets/andrewbxy/ERFGS-Neu3D) / [Nvidia](https://huggingface.co/datasets/andrewbxy/ERFGS-Nvidia)
+  Accepted to <a href="https://cg.cs.tsinghua.edu.cn/cvmj/" target="_blank" rel="noopener"><strong>Computational Visual Media (CVMJ)</strong></a>. [IEEE Xplore](https://ieeexplore.ieee.org/document/11733892) / [arXiv](https://arxiv.org/abs/2608.08531) / [Code](https://github.com/andrewbxy/ERF-GS) / Datasets: [Neu3D](https://huggingface.co/datasets/andrewbxy/ERFGS-Neu3D) / [Nvidia](https://huggingface.co/datasets/andrewbxy/ERFGS-Nvidia)
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.accelerate.myqcloud.com/publications/event-rgb-gaussians.jpg" alt="ERF-GS" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>

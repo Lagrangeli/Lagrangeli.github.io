@@ -53,6 +53,13 @@ class HomepageContentHierarchyTest(unittest.TestCase):
         self.assertIn(".publication-summary", self.styles)
         self.assertIn(".news-more summary", self.styles)
 
+    def test_erf_gs_uses_official_ieee_xplore_page(self):
+        ieee_url = "https://ieeexplore.ieee.org/document/11733892"
+
+        self.assertEqual(self.about.count(ieee_url), 6)
+        self.assertIn(f"[IEEE Xplore]({ieee_url})", self.about)
+        self.assertIn("[arXiv](https://arxiv.org/abs/2608.08531)", self.about)
+
 
 if __name__ == "__main__":
     unittest.main()
