@@ -60,6 +60,18 @@ class HomepageContentHierarchyTest(unittest.TestCase):
         self.assertIn(f"[IEEE Xplore]({ieee_url})", self.about)
         self.assertIn("[arXiv](https://arxiv.org/abs/2608.08531)", self.about)
 
+    def test_research_focus_includes_requested_representative_works(self):
+        representative_urls = {
+            "MASIV": "https://arxiv.org/abs/2508.01112",
+            "Editable NeRF": "https://arxiv.org/abs/2405.07306",
+            "Temporal Attention": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf",
+        }
+
+        for label, url in representative_urls.items():
+            with self.subTest(work=label):
+                self.assertEqual(self.about.count(url), 3)
+                self.assertEqual(self.about.count(f">{label}</a>"), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

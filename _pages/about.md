@@ -86,14 +86,14 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
     <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
   </section>
   <section class="research-focus-item">
-    <h3>Structured Generative Models, Neural Network-driven Rendering & Physical Simulation</h3>
-    <p>Structured scene and garment generation, path-traced image synthesis, event-camera simulation, and video-based physical system identification for controllable, simulation-ready worlds.</p>
-    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
+    <h3>Structured Generation, Scene Editing, Neural Network-driven Rendering & Physical Simulation</h3>
+    <p>Structured scene and garment generation, editable neural scene representations, path-traced image synthesis, event-camera simulation, and video-based physical system identification for controllable, simulation-ready worlds.</p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://arxiv.org/abs/2405.07306">Editable NeRF</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a> · <a href="https://arxiv.org/abs/2508.01112">MASIV</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Video Understanding, Scene Perception & Embodied AI</h3>
     <p>Action recognition, anomaly detection, panoramic segmentation, vision-language-action reasoning, and embodied navigation for understanding and interacting with dynamic environments.</p>
-    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://arxiv.org/abs/2607.18142">O-VAD</a> · <a href="https://lutao2021.github.io/SAP_Page/">SAP</a> · <a href="https://arxiv.org/abs/2605.09869">ConsistNav</a></p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf">Temporal Attention</a> · <a href="https://arxiv.org/abs/2607.18142">O-VAD</a> · <a href="https://lutao2021.github.io/SAP_Page/">SAP</a> · <a href="https://arxiv.org/abs/2605.09869">ConsistNav</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Computational Imaging, Biomedical AI & Engineering Systems</h3>
@@ -109,14 +109,14 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
     <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
   </section>
   <section class="research-focus-item">
-    <h3>结构化生成模型、神经网络驱动的渲染与物理仿真</h3>
-    <p>研究结构化场景与三维服装生成、路径追踪图像合成、事件相机仿真，以及基于视频的物理系统辨识，构建可控且可仿真的三维世界。</p>
-    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
+    <h3>结构化生成、场景编辑、神经网络驱动的渲染与物理仿真</h3>
+    <p>研究结构化场景与三维服装生成、可编辑神经场景表示、路径追踪图像合成、事件相机仿真，以及基于视频的物理系统辨识，构建可控且可仿真的三维世界。</p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://arxiv.org/abs/2405.07306">Editable NeRF</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a> · <a href="https://arxiv.org/abs/2508.01112">MASIV</a></p>
   </section>
   <section class="research-focus-item">
     <h3>视频理解、场景感知与具身智能</h3>
     <p>研究动作识别、异常检测、全景分割、视觉-语言-动作推理与具身导航，使智能体理解动态环境并与之交互。</p>
-    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://arxiv.org/abs/2607.18142">O-VAD</a> · <a href="https://lutao2021.github.io/SAP_Page/">SAP</a> · <a href="https://arxiv.org/abs/2605.09869">ConsistNav</a></p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/5820ad65b1c27411417ae8b59433e580-Paper-Conference.pdf">Temporal Attention</a> · <a href="https://arxiv.org/abs/2607.18142">O-VAD</a> · <a href="https://lutao2021.github.io/SAP_Page/">SAP</a> · <a href="https://arxiv.org/abs/2605.09869">ConsistNav</a></p>
   </section>
   <section class="research-focus-item">
     <h3>计算成像、生物医学智能与工程系统</h3>
