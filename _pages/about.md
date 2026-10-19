@@ -81,14 +81,14 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 
 <div class="research-focus-grid lang-en lang-block">
   <section class="research-focus-item">
-    <h3>3D/4D Scene Reconstruction, Depth & Correspondence</h3>
-    <p>Event-to-image reconstruction, NeRF, 3D Gaussian Splatting, stereo and multi-view depth estimation, and feature correspondence for recovering appearance, geometry, and motion.</p>
-    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
+    <h3>3D/4D Scene Reconstruction, Editing & Physical Simulation</h3>
+    <p>Event-to-image reconstruction, NeRF, 3D Gaussian Splatting, editable neural scene representations, and video-based physical system identification for recovering and manipulating appearance, geometry, motion, and dynamics.</p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a> · <a href="https://arxiv.org/abs/2405.07306">Editable NeRF</a> · <a href="https://arxiv.org/abs/2508.01112">MASIV</a></p>
   </section>
   <section class="research-focus-item">
-    <h3>Structured Generation, Scene Editing, Neural Network-driven Rendering & Physical Simulation</h3>
-    <p>Structured scene and garment generation, editable neural scene representations, path-traced image synthesis, event-camera simulation, and video-based physical system identification for controllable, simulation-ready worlds.</p>
-    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://arxiv.org/abs/2405.07306">Editable NeRF</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a> · <a href="https://arxiv.org/abs/2508.01112">MASIV</a></p>
+    <h3>Structured Generation & Neural Network-driven Rendering</h3>
+    <p>Structured scene and garment generation, path-traced image synthesis, and event-camera simulation for controllable, simulation-ready worlds.</p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Video Understanding, Scene Perception & Embodied AI</h3>
@@ -104,14 +104,14 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 
 <div class="research-focus-grid lang-zh lang-block">
   <section class="research-focus-item">
-    <h3>3D/4D 场景重建、深度估计与图像对应</h3>
-    <p>研究事件到图像重建、NeRF、3D Gaussian Splatting、立体与多视图深度估计及特征对应，用于恢复场景外观、几何与运动。</p>
-    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a></p>
+    <h3>3D/4D 场景重建、编辑和物理仿真</h3>
+    <p>研究事件到图像重建、NeRF、3D Gaussian Splatting、可编辑神经场景表示及基于视频的物理系统辨识，用于恢复与操控场景外观、几何、运动和动力学属性。</p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://ieeexplore.ieee.org/document/11733892">ERF-GS</a> · <a href="https://arxiv.org/abs/2608.00694">E2Pano</a> · <a href="https://arxiv.org/abs/2507.23704">4DGS</a> · <a href="https://arxiv.org/abs/2405.07306">Editable NeRF</a> · <a href="https://arxiv.org/abs/2508.01112">MASIV</a></p>
   </section>
   <section class="research-focus-item">
-    <h3>结构化生成、场景编辑、神经网络驱动的渲染与物理仿真</h3>
-    <p>研究结构化场景与三维服装生成、可编辑神经场景表示、路径追踪图像合成、事件相机仿真，以及基于视频的物理系统辨识，构建可控且可仿真的三维世界。</p>
-    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://arxiv.org/abs/2405.07306">Editable NeRF</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a> · <a href="https://arxiv.org/abs/2508.01112">MASIV</a></p>
+    <h3>结构化生成与神经网络驱动的渲染</h3>
+    <p>研究结构化场景与三维服装生成、路径追踪图像合成及事件相机仿真，构建可控且可仿真的三维世界。</p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
   </section>
   <section class="research-focus-item">
     <h3>视频理解、场景感知与具身智能</h3>

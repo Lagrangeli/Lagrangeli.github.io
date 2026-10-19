@@ -72,6 +72,11 @@ class HomepageContentHierarchyTest(unittest.TestCase):
                 self.assertEqual(self.about.count(url), 3)
                 self.assertEqual(self.about.count(f">{label}</a>"), 2)
 
+        self.assertIn("3D/4D Scene Reconstruction, Editing & Physical Simulation", self.about)
+        self.assertIn("3D/4D 场景重建、编辑和物理仿真", self.about)
+        self.assertIn("Structured Generation & Neural Network-driven Rendering", self.about)
+        self.assertIn("结构化生成与神经网络驱动的渲染", self.about)
+
 
 if __name__ == "__main__":
     unittest.main()
