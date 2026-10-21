@@ -68,6 +68,11 @@ class HomepageContentHierarchyTest(unittest.TestCase):
             self.about,
         )
 
+        publications_2026 = self.about.split("### 2026", 1)[1].split("### 2025", 1)[0]
+        self.assertLess(publications_2026.index("PatternGSL:"), publications_2026.index("Unravel:"))
+        self.assertLess(publications_2026.index("JSID-2026"), publications_2026.index("Unravel:"))
+        self.assertLess(publications_2026.index("Unravel:"), publications_2026.index("Scenix:"))
+
     def test_erf_gs_uses_official_ieee_xplore_page(self):
         ieee_url = "https://ieeexplore.ieee.org/document/11733892"
 

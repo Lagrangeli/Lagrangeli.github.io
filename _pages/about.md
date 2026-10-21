@@ -178,13 +178,6 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 ## <span class="lang-en lang-inline">🎯 Selected Publications (* indicates equal contribution)</span><span class="lang-zh lang-inline">🎯 代表性论文（* 表示共同一作）</span>
 
 ### 2026
-- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**Unravel: Recovering an Interactive 3D Scene from a Single Image**](https://arxiv.org/abs/2610.16146)<br>
-  Hui Shan, Keyang Luo, Binjia Zhou, Ming Li, Kai Li, Xin Wang, **Zhenyang Li**, Zesong Yang, Weikai Chen, Runze Zhang, Xin Wang, Yanwei Fu, Zhen Chen, Xiangru Huang.
-  <div class="publication-summary">A training-free agentic framework that decomposes a single image into movable 3D assets and reconstructs a physically plausible interactive scene.</div>
-  <div style="text-align: center; margin: 10px 0;">
-    <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/unravel.png" alt="Unravel interactive 3D scene reconstruction teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
-  </div>
-
 - <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a><br>
   **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Ying-Cong Chen, Xin Wang, Weikai Chen, Yifan Peng.
   <div class="publication-summary">A structured specification language for generating editable, simulation-ready 3D garments without predefined templates.</div>
@@ -231,6 +224,13 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 
 - <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://doi.org/10.1002/jsid.70061)<br>
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
+
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**Unravel: Recovering an Interactive 3D Scene from a Single Image**](https://arxiv.org/abs/2610.16146)<br>
+  Hui Shan, Keyang Luo, Binjia Zhou, Ming Li, Kai Li, Xin Wang, **Zhenyang Li**, Zesong Yang, Weikai Chen, Runze Zhang, Xin Wang, Yanwei Fu, Zhen Chen, Xiangru Huang.
+  <div class="publication-summary">A training-free agentic framework that decomposes a single image into movable 3D assets and reconstructs a physically plausible interactive scene.</div>
+  <div style="text-align: center; margin: 10px 0;">
+    <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/unravel.png" alt="Unravel interactive 3D scene reconstruction teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**Scenix: Sparse-View 3D Scene Reconstruction via Executable Scene Programs**](https://arxiv.org/abs/2608.07012)<br>
   Kai Li, Lutao Jiang, **Zhenyang Li**, Jiayu Dong, Jierui Zhang, Yingda Yin, Runze Zhang, Kai Yan, Xiaoyang Huang, Keyang Luo, Xin Wang, Xiangyu Zhao, Weikai Chen.
