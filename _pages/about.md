@@ -225,6 +225,13 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 - <img alt="JSID" src="https://img.shields.io/badge/JSID-2026-blue"> [**Augmented Reality Integration Improves Ergonomics in Dynamic Navigation for Dental Implant Surgery**](https://doi.org/10.1002/jsid.70061)<br>
   Pui Hang Leung, Feng Wang, **Zhenyang Li**, Zongqi He, Yifan Peng, Wei-fa Yang.
 
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**E2Pano: Learning Event-to-Panorama Image Reconstruction**](https://arxiv.org/abs/2608.00694)<br>
+  **Zhenyang Li**, Zongqi He, Jia Pan, Shijie Lin, Yifan Peng.
+  <div class="publication-summary">Reconstructs panoramic imagery from asynchronous event streams for wide-field dynamic scenes.</div>
+  <div style="text-align: center; margin: 10px 0;">
+    <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/teaser_v5_1.png" alt="E2Pano teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
+
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**Unravel: Recovering an Interactive 3D Scene from a Single Image**](https://arxiv.org/abs/2610.16146)<br>
   Hui Shan, Keyang Luo, Binjia Zhou, Ming Li, Kai Li, Xin Wang, **Zhenyang Li**, Zesong Yang, Weikai Chen, Runze Zhang, Xin Wang, Yanwei Fu, Zhen Chen, Xiangru Huang.
   <div class="publication-summary">A training-free agentic framework that decomposes a single image into movable 3D assets and reconstructs a physically plausible interactive scene.</div>
@@ -237,13 +244,6 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
   <div class="publication-summary">Infers editable executable scene programs from sparse, uncalibrated RGB observations.</div>
   <div style="text-align: center; margin: 10px 0;">
     <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/scenix-layout.png" alt="Scenix teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
-  </div>
-
-- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**E2Pano: Learning Event-to-Panorama Image Reconstruction**](https://arxiv.org/abs/2608.00694)<br>
-  **Zhenyang Li**, Zongqi He, Jia Pan, Shijie Lin, Yifan Peng.
-  <div class="publication-summary">Reconstructs panoramic imagery from asynchronous event streams for wide-field dynamic scenes.</div>
-  <div style="text-align: center; margin: 10px 0;">
-    <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/publications/teaser_v5_1.png" alt="E2Pano teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
 
 - <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**ConsistNav: Closing the Action Consistency Gap in Zero-Shot Object Navigation with Semantic Executive Control**](https://arxiv.org/abs/2605.09869)<br>
