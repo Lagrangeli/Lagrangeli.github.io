@@ -63,7 +63,10 @@ class HomepageContentHierarchyTest(unittest.TestCase):
         )
         self.assertIn("Hui Shan, Keyang Luo, Binjia Zhou", self.about)
         self.assertIn("从单张图像恢复物理合理、对象可独立移动的交互式三维场景", self.about)
-        self.assertIn('src="/images/publications/unravel.jpg"', self.about)
+        self.assertIn(
+            'src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/unravel.png"',
+            self.about,
+        )
 
     def test_erf_gs_uses_official_ieee_xplore_page(self):
         ieee_url = "https://ieeexplore.ieee.org/document/11733892"

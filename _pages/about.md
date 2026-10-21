@@ -182,7 +182,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
   Hui Shan, Keyang Luo, Binjia Zhou, Ming Li, Kai Li, Xin Wang, **Zhenyang Li**, Zesong Yang, Weikai Chen, Runze Zhang, Xin Wang, Yanwei Fu, Zhen Chen, Xiangru Huang.
   <div class="publication-summary">A training-free agentic framework that decomposes a single image into movable 3D assets and reconstructs a physically plausible interactive scene.</div>
   <div style="text-align: center; margin: 10px 0;">
-    <img loading="lazy" decoding="async" src="/images/publications/unravel.jpg" alt="Unravel interactive 3D scene reconstruction teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+    <img loading="lazy" decoding="async" src="https://homepage-1301698759.cos.ap-guangzhou.myqcloud.com/unravel.png" alt="Unravel interactive 3D scene reconstruction teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
   </div>
 
 - <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a><br>
