@@ -63,6 +63,14 @@ PUBLICATIONS = [
     {
         "category": "generation",
         "lead": False,
+        "title": "Unravel: Recovering an Interactive 3D Scene from a Single Image",
+        "venue": "arXiv preprint, 2026",
+        "authors": "Hui Shan, Keyang Luo, Binjia Zhou, Ming Li, Kai Li, Xin Wang, Zhenyang Li, Zesong Yang, Weikai Chen, Runze Zhang, Xin Wang, Yanwei Fu, Zhen Chen, and Xiangru Huang.",
+        "url": "https://arxiv.org/abs/2610.16146",
+    },
+    {
+        "category": "generation",
+        "lead": False,
         "title": "Scenix: Sparse-View 3D Scene Reconstruction via Executable Scene Programs",
         "venue": "arXiv preprint, 2026",
         "authors": "Kai Li, Lutao Jiang, Zhenyang Li, Jiayu Dong, Jierui Zhang, Yingda Yin, Runze Zhang, Kai Yan, Xiaoyang Huang, Keyang Luo, Xin Wang, Xiangyu Zhao, and Weikai Chen.",

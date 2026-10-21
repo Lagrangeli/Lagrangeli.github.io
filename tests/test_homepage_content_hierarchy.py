@@ -49,9 +49,21 @@ class HomepageContentHierarchyTest(unittest.TestCase):
         )
 
     def test_core_publications_have_short_takeaways(self):
-        self.assertEqual(self.about.count('class="publication-summary"'), 5)
+        self.assertEqual(self.about.count('class="publication-summary"'), 6)
         self.assertIn(".publication-summary", self.styles)
         self.assertIn(".news-more summary", self.styles)
+
+    def test_unravel_is_synced_across_bilingual_homepage_sections(self):
+        arxiv_url = "https://arxiv.org/abs/2610.16146"
+
+        self.assertEqual(self.about.count(arxiv_url), 5)
+        self.assertIn(
+            "Unravel: Recovering an Interactive 3D Scene from a Single Image",
+            self.about,
+        )
+        self.assertIn("Hui Shan, Keyang Luo, Binjia Zhou", self.about)
+        self.assertIn("从单张图像恢复物理合理、对象可独立移动的交互式三维场景", self.about)
+        self.assertIn('src="/images/publications/unravel.jpg"', self.about)
 
     def test_erf_gs_uses_official_ieee_xplore_page(self):
         ieee_url = "https://ieeexplore.ieee.org/document/11733892"

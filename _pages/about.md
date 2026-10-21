@@ -88,7 +88,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
   <section class="research-focus-item">
     <h3>Structured Generation & Neural Network-driven Rendering</h3>
     <p>Structured scene and garment generation, path-traced image synthesis, and event-camera simulation for controllable, simulation-ready worlds.</p>
-    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
+    <p class="research-focus-links"><strong>Representative works:</strong> <a href="https://arxiv.org/abs/2610.16146">Unravel</a> · <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
   </section>
   <section class="research-focus-item">
     <h3>Video Understanding, Scene Perception & Embodied AI</h3>
@@ -111,7 +111,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
   <section class="research-focus-item">
     <h3>结构化生成与神经网络驱动的渲染</h3>
     <p>研究结构化场景与三维服装生成、路径追踪图像合成及事件相机仿真，构建可控且可仿真的三维世界。</p>
-    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
+    <p class="research-focus-links"><strong>代表性工作：</strong><a href="https://arxiv.org/abs/2610.16146">Unravel</a> · <a href="https://lagrangeli.github.io/PatternGSL/">PatternGSL</a> · <a href="https://arxiv.org/abs/2608.07012">Scenix</a> · <a href="https://lagrangeli.github.io/EventTracer-simulator/">EventTracer</a></p>
   </section>
   <section class="research-focus-item">
     <h3>视频理解、场景感知与具身智能</h3>
@@ -132,6 +132,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 # <span class="lang-en lang-inline">🔥 News</span><span class="lang-zh lang-inline">🔥 新闻动态</span>
 
 <div class="lang-en lang-block" markdown="1">
+- *2026.10*: &nbsp;📄 <a href="https://arxiv.org/abs/2610.16146" target="_blank" rel="noopener"><strong>Unravel</strong></a> is released on **arXiv**: recovering physically plausible, interactive 3D scenes from a single image.
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a> is released on **arXiv**: sparse-view 3D scene reconstruction via executable scene programs.
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a> is released on **arXiv**: event-to-panorama image reconstruction.
 - *2026.07*: &nbsp;🏆 <a href="https://arxiv.org/abs/2607.18142" target="_blank" rel="noopener"><strong>O-VAD</strong></a> is accepted to **ECCV 2026**: object-centric industrial video anomaly detection.
@@ -151,6 +152,7 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 </div>
 
 <div class="lang-zh lang-block" markdown="1">
+- *2026.10*: &nbsp;📄 <a href="https://arxiv.org/abs/2610.16146" target="_blank" rel="noopener"><strong>Unravel</strong></a> 已发布于 **arXiv**：从单张图像恢复物理合理、对象可独立移动的交互式三维场景。
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.07012" target="_blank" rel="noopener"><strong>Scenix</strong></a> 已发布于 **arXiv**：通过可执行场景程序实现稀疏视角三维场景重建。
 - *2026.08*: &nbsp;📄 <a href="https://arxiv.org/abs/2608.00694" target="_blank" rel="noopener"><strong>E2Pano</strong></a> 已发布于 **arXiv**：从事件流重建全景图像。
 - *2026.07*: &nbsp;🏆 <a href="https://arxiv.org/abs/2607.18142" target="_blank" rel="noopener"><strong>O-VAD</strong></a> 被 **ECCV 2026** 接收：基于目标中心跟踪与推理的工业视频异常检测。
@@ -176,6 +178,13 @@ My work spans four connected directions, from core **3D/4D reconstruction and ge
 ## <span class="lang-en lang-inline">🎯 Selected Publications (* indicates equal contribution)</span><span class="lang-zh lang-inline">🎯 代表性论文（* 表示共同一作）</span>
 
 ### 2026
+- <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2026-b31b1b"> [**Unravel: Recovering an Interactive 3D Scene from a Single Image**](https://arxiv.org/abs/2610.16146)<br>
+  Hui Shan, Keyang Luo, Binjia Zhou, Ming Li, Kai Li, Xin Wang, **Zhenyang Li**, Zesong Yang, Weikai Chen, Runze Zhang, Xin Wang, Yanwei Fu, Zhen Chen, Xiangru Huang.
+  <div class="publication-summary">A training-free agentic framework that decomposes a single image into movable 3D assets and reconstructs a physically plausible interactive scene.</div>
+  <div style="text-align: center; margin: 10px 0;">
+    <img loading="lazy" decoding="async" src="/images/publications/unravel.jpg" alt="Unravel interactive 3D scene reconstruction teaser" style="width: 90%; max-width: 700px; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.12);">
+  </div>
+
 - <img alt="SIGGRAPH" src="https://img.shields.io/badge/SIGGRAPH-2026-red"> <a href="https://lagrangeli.github.io/PatternGSL/" target="_blank" rel="noopener"><strong>PatternGSL: A Structured Specification Language for Template-Free and Simulation-Ready 3D Garments</strong></a><br>
   **Zhenyang Li\***, Lutao Jiang*, Yizhou Zhao, Ying-Cong Chen, Xin Wang, Weikai Chen, Yifan Peng.
   <div class="publication-summary">A structured specification language for generating editable, simulation-ready 3D garments without predefined templates.</div>
